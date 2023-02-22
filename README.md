@@ -1,38 +1,14 @@
-# create-svelte
+# The Official SDH Website
+This is the repository for the source code of [the SDH website](https://sdh-mtg.net).
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+The site is built using Vite and Sveltekit.
 
-## Creating a project
+It has most of the NPM scripts that frontend developers have come to expect:
+- `npm run dev` starts the Vite dev server
+- `npm run build` builds the website.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Eventually, the (fairly ambitious) goals of this project are the following:
+1. A directory of Markdown files containing the essential documents (the ban list, the rules, the constitution, etc). The intention is that rules changes can be proposed directly through the website's source code, limiting the possibility for desynchronization between the intended rules of the game and the actual rules. (The website's rules pages are authoritative; if they are not updated, the rules have not changed.)
+2. A Markdown dialect that supports a variant of the `[[ Cardname ]]` convention for referencing Magic cards. That syntax will be supported, but so will `(text)[[ Cardname ]]` so that cards don't need to be referenced by their full names. This is probably the most daunting challenge of this project, as the modified Markdown parser will ideally have its output specified in Svelte components (so the card can appear as a nice looking popover instead of just being a link).
+3. Implement a spouse search using Scryfall's database, but without being a bad citizen of Scryfall's API. This will probably be accomplished by having a REST service in another repo that uses a cached database of legal SDH commanders. Unfortunately, as far as I can tell, there's no built-in affordance for using Scryfall's query syntax on a subset of Magic cards, but, given the restricted scope of these searches (often *very* restricted if you're finding an uncommon spouse for a multicolor commander), a color selector and naive text match may be sufficient. Many Magic players don't know the Scryfall search syntax anyway.
+4. The deck database will eventually be dynamicized instead of using a hardcoded JSON dataset. This would enable clean interfaces to exist for decklist submission (probably using a Discord bot combined with a special "Deck DB Curator" role in the Discord)
