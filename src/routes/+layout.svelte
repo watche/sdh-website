@@ -10,7 +10,7 @@
   // This is the "blurple" specified by Discord at https://discord.com/branding
   const DISCORD_BLURPLE = "#5865f2"
   const DISCORD_LINK = "https://discord.gg/xqM4sERgv9";
-  const CONSTITUTION_ROUTE = "/";
+  const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
   let route;
   $: route = $page.route.id;
