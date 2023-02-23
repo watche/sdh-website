@@ -18,5 +18,15 @@
 	</head>
 	<body data-sveltekit-preload-data class="bg-white dark:bg-gray-900">
 		<div style="display: contents">%sveltekit.body%</div>
+    <style>
+      /* These rules are added to position the footer in routes/+layout.svelte */
+      html, body {
+        height: 100%
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
 	</body>
 </html>
