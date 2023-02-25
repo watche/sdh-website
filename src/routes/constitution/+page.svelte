@@ -2,31 +2,16 @@
   import SDHWriting from '$components/sdh-writing.svelte'
   import SDHParagraph from '$components/sdh-paragraph.svelte'
   import Clarification from '$components/clarification.svelte'
+  import MtgCard from '$components/mtg-card.svelte'
   import { Card } from 'flowbite-svelte'
-
-  import { createPopperActions } from 'svelte-popperjs';
-  const [popperRef, popperContent] = createPopperActions({
-    placement: 'right',
-    strategy: 'fixed',
-  });
-  const extraOpts = {
-    modifiers: [
-      { name: 'offset', options: { offset: [0, 8] } }
-    ]
-  };
-
-  let showTooltip = false;
 </script>
-  <button
-  use:popperRef
-  on:mouseenter={() => showTooltip = true}
-  on:mouseleave={() => showTooltip = false}
->
-  My button
-</button>
 
 <SDHWriting>
   <span slot="title">Spousal Dragon Highlanders</span>
+  <Clarification>
+    Hover me for clarification
+    <MtgCard slot="clarification" name="Nissa Revane" multiverseId="190411" imageUrl="https://cards.scryfall.io/large/front/1/b/1b4c26ab-0f7b-4163-b9e4-a415b91352a6.jpg?1562610283" />
+  </Clarification> dfasdf asdf asdf asdf asdf asdf sadf :wq
   <p>Elder Dragon Highlander is getting awfully elder, and after guilt-tripping it every Thanksgiving for many years, it’s finally decided to get married. That’s right: TWO commanders!</p>
 
   <SDHParagraph>
@@ -50,20 +35,16 @@ Nulla dignissim sapien vitae gravida fringilla. Phasellus luctus odio sed metus 
 
 <br />
 <br />
-asdfasdfasdfasdfasdfasdfasdfas dfasdf asdf asdf asdf asdf asdf sadf :wq
+asdfasdfasdfasdfasdfasdfasdfas
   <Clarification>
     Hover me for clarification
-    <svelte:fragment slot="clarification">
-        <img style="border-radius: 20px" src="https://cards.scryfall.io/large/front/2/9/2923c85a-4022-4cda-bcbb-bb000137f64f.jpg?1562793463" />
-    </svelte:fragment>
-  </Clarification>
+    <MtgCard slot="clarification" name="Nissa Revane" multiverseId="190411" imageUrl="https://cards.scryfall.io/large/front/1/b/1b4c26ab-0f7b-4163-b9e4-a415b91352a6.jpg?1562610283" />
+  </Clarification> dfasdf asdf asdf asdf asdf asdf sadf :wq
 <br />
 <br />
   <Clarification>
     check me out
-    <svelte:fragment slot="clarification">
-        <img style="border-radius: 20px" src="https://cards.scryfall.io/large/front/2/9/2923c85a-4022-4cda-bcbb-bb000137f64f.jpg?1562793463" />
-    </svelte:fragment>
+    <MtgCard slot="clarification" name="Kiki-Jiki, Mirror Breaker" multiverseId="597062" imageUrl="https://cards.scryfall.io/large/front/a/2/a2ff0ee3-9600-4c7d-acec-6ec90595384e.jpg?1562852476" />
   </Clarification>
 Duis aliquet laoreet bibendum. Duis sit amet urna eu erat varius ornare ut sed purus. Donec rutrum tortor et suscipit ultricies. Ut ante dui, pulvinar id lorem et, tristique hendrerit orci. Vivamus odio elit, finibus sit amet finibus et, sagittis at turpis. Pellentesque venenatis finibus gravida. Praesent dui lacus, euismod at mattis a, fringilla sit amet ex.
 
