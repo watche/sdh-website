@@ -1,15 +1,12 @@
 <script>
-  import { Navbar, NavUl, NavBrand, Button } from 'flowbite-svelte';
+  import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
   import { page } from '$app/stores';
-  import { DISCORD_URL } from '$constants/discord-url.mjs';
 
   import '../app.postcss';
-  import DiscordLogo from '$components/discord-logo.svelte'
   import NavLink from '$routes/nav-link.svelte'
   import Footer from '$routes/footer.svelte'
+  import DiscordButton from '$routes/discord-button.svelte'
 
-  // This is the "blurple" specified by Discord at https://discord.com/branding
-  const DISCORD_BLURPLE = "#5865f2"
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
   const DECKS_ROUTE = "/decks";
@@ -27,20 +24,7 @@
     <NavLink route={RULES_ROUTE}>Rules</NavLink>
     <NavLink route={DECKS_ROUTE}>Decks</NavLink>
   </NavUl>
-  <a href={DISCORD_URL} rel="noopener noreferrer nofollow" target="_blank">
-    <div class="flex">
-      <span class="hidden md:inline">
-        <Button pill size="sm" style="background-color: {DISCORD_BLURPLE};">
-          <div class="flex content-center justify-items-center items-center">
-            <span class="text-xl">SDH Discord</span><span class="pl-2"><DiscordLogo /></span>
-          </div>
-        </Button>
-      </span>
-      <span class="inline md:hidden">
-        <Button pill class="!p-3" style="background-color: {DISCORD_BLURPLE};"><DiscordLogo /></Button>
-      </span>
-    </div>
-  </a>
+  <DiscordButton />
 </Navbar>
 
 <!--

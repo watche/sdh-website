@@ -37,6 +37,7 @@
       <Li>The Color Rule: Commander couples may not exceed three colors.</Li>
       <Li>The Rarity Rule: At least one of the spouses must be an Uncommon.</Li>
     </List>
+    <div>And, of course, no banned commanders.</div>
     <br />
     <p>
       Abilities that make it possible to have more than one commander in EDH are ignored:
@@ -54,39 +55,40 @@
         <Li>
           <Clarification>
             Companion
-            <p slot="clarification">Companion doesn't give you access to an extra commander, but it has the "throuple" problem that "Partner With" does. <br /><br />It also has the "confusing new zones" problem that Attractions have.</p>
+            <p slot="clarification">Companion doesn't give you access to an extra commander, but it has the "throuple" problem that "Partner With" does. <br /><br />It also has the "confusing new zone" problem that Stickers and Attractions have.</p>
           </Clarification>*
         </Li>
       </List>
-      <em>However:</em> Commanders made legal by these abilities in EDH are still eligible in SDH. This means that you are allowed Background enchantments as commander, despite their not being legal commanders 
+      <em>However:</em> Commanders made legal by these abilities in EDH are still eligible in SDH. This means that you are allowed to run Background enchantments as commander, despite not being legal commanders without the "Choose a Background" mechanic.
     </p>
   </SDHParagraph>
   <SDHParagraph>
     <svelte:fragment slot="heading">Card Legality</svelte:fragment>
       <p>SDH has all of the restrictions from EDH with two new restrictions.</p>
       <!-- Clean up this section a bit. -->
-      <p class="indented">
+      <p>
         The first new restriction is cards from Unfinity that use one of Unfinity's three new mechanics: Attractions, Stickers, and Tickets.
-        These cards were restricted simply because the overwhelming majority of players seem to prefer the game without them.
-        The only card in this category that saw much play was <CardClarification {...blankGoblin}>____ Goblin</CardClarification>. To be clear: Unfinity cards that 
-        <em>didn't</em> use these three mechanics are still legal, so <CardClarification {...sawInHalf}>Saw in Half</CardClarification>, <CardClarification {...exchangeOfWords}>Exchange of Words</CardClarification>,
-        and the d6-themed cards are all still legal. Here's an (<Clarification>accurate<svelte:fragment slot="clarification">
-        <p>This query is only captures the whole list because there were no legal cards that coincidentally contained the names of any of the illegal mechanics.</p>
-        <p class="indented">Unfortunately, this search will be invalidated if WotC releases more Eternal-legal cards with these mechanics, but this doesn't seem likely.</p>
-        </svelte:fragment></Clarification>)
-        <a href={uncardsScryfallUrl} class="underline" rel="noopener nofollow noreferrer">Scryfall Query</a> for the illegalized cards.
+        <Clarification>These cards<span slot="clarification">
+          Unfinity cards that <em>didn't</em> use these three mechanics are still legal, so <a class="underline" href={sawInHalf.cardUrl} rel="noopener noreferrer" target="_blank">Saw in Half</a>, <a class="underline" href={exchangeOfWords.cardUrl} rel="noopener noreferrer" target="_blank">Exchange of Words</a>, and the d6-themed cards are all still legal.</span></Clarification> were restricted simply because the overwhelming majority of players seem to prefer the game without them.
+        The only card in this category that saw much play was <CardClarification {...blankGoblin}>____ Goblin</CardClarification>. (<Clarification>accurate<svelte:fragment slot="clarification">
+        <p>This query is only accurate because there were no EDH-legal cards that coincidentally contained the names of any of the illegal mechanics.</p>
+        <br />
+        <p>Unfortunately, this search may be invalidated if WotC ever releases more Eternal-legal cards with these mechanics, but that seems unlikely given their reception.</p>
+        </svelte:fragment></Clarification> <a href={uncardsScryfallUrl} class="underline" rel="noopener nofollow noreferrer">Scryfall Query</a>)
       </p>
-      <p class="indented">
+      <br />
+      <p>
         The second category of card you can't play in SDH is cards whose color identities contain more than 3 colors. (<a href={tooManyColorsScryfallUrl} class="underline" rel="noopener nofollow noreferrer">Scryfall Query</a>)
       </p>
   </SDHParagraph>
   <SDHParagraph>
     <span slot="heading">Bans</span>
-    SDH largely inherits EDH's ban list. 
+    SDH largely inherits EDH's ban list. So far, none of the usual suspects (Thassa's Oracle, Underworld Breach, Ad Nauseam, et cetera) have been banned. This is because the format is very young, and we want it to be as easy as possible for cEDH players to give SDH a try. The comprehensive (and authoritative) ban list can be found <a href="/ban-list" class="underline">here</a>.
+
   </SDHParagraph>
   <SDHParagraph>
     <span slot="heading">Social Contract</span>
-    asdf
+    For information about what players are expected to expect from other players, see the <a href="/constitution" class="underline">SDH Constitution</a>.
   </SDHParagraph>
 </SDHWriting>
 <style>

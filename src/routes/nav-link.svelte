@@ -8,6 +8,6 @@
   let currentRoute;
   let routeActive;
   $: currentRoute = $page.route.id;
-  $: routeActive = (currentRoute === route) || (currentRoute === "/" && route === HOMEPAGE);
+  $: routeActive = (currentRoute === route);
 </script>
 <NavLi href={route} active={routeActive}><slot /></NavLi>

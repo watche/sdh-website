@@ -5,24 +5,36 @@
   import MtgCard from '$components/mtg-card.svelte'
   import CardClarification from '$components/card-clarification.svelte'
   import { Card } from 'flowbite-svelte'
+
+  const armageddon = {
+    cardUrl: "https://scryfall.com/card/a25/5/armageddon",
+    imageUrl: "https://cards.scryfall.io/large/front/7/7/77f1f6ac-983f-4f3e-8906-47f774e8367b.jpg?1582021719",
+    name: "Armageddon"
+  };
 </script>
 <svelte:head>
   <title>SDH Constitution</title>
   <meta name="description" content="The founding and guiding document for the Spousal Dragon Highlanders format in Magic: the Gathering." />
 </svelte:head>
 <SDHWriting>
-  <span slot="title">Spousal Dragon Highlanders</span>
-  <p>Elder Dragon Highlander is getting awfully elder, and after guilt-tripping it every Thanksgiving for many years, it’s finally decided to get married. That’s right: TWO commanders!</p>
-
+  <span slot="title">The SDH Constitution</span>
   <SDHParagraph>
-    <span slot="heading">State of EDH</span>
-    EDH is an eternal format with a largely inactive banlist, and this inevitably means a lot of power creep. This is not to complain about decks being too powerful: The issue isn’t that commanders have gotten too powerful, the issue is that the release of so many “superstaple” cards has a homogenizing effect on the format as a whole.
-  The abundance of these staples homogenizes the format because every time a Dockside Extortionist is released, every deck in red loses a slot that used to go to some deck-specific card. And when enough staples have been created that whole decks can be composed solely of them, the commander becomes less important, and there’s more reason to play a “good stuff” deck where the commander(s) play only a bit part, if any.
-  Compounding this issue is that mana bases can easily accommodate any number of colors. Compounding further, there are many good five-color commanders, and many two-color partners, some of which are pretty good. And the rest don’t have to be good because they provide colors.
+    <svelte:fragment slot="heading">You're allowed to win.</svelte:fragment>
+      The social contract of Commander has a fatal flaw: Players are supposed to regulate each other's power levels, and this is overwhelmingly done moralistically: If you play <CardClarification {...armageddon}>Armageddon</CardClarification>, than you've done something <em>wrong</em>. The end result is that everyone feels entitled to win, and nobody can articulate their deck's power level, so a queasy, political kind of uncertainty looms over every game of casual Commander.
+      <br /><br /><strong>Fuck that.</strong> In SDH, players are expected to play to win, and only to win. No kingmaking, no stalling, and no spite plays. There are still foggy situations, but they're the exception, not the rule.
   </SDHParagraph>
-
   <SDHParagraph>
-    <span slot="heading">Goals of SDH </span>
-    The goal of SDH is to de-homogenize cEDH by bringing more emphasis back to the commanders. This is achieved by effectively giving all commanders Partner (with some restrictions explained below), and limiting the number of colors a deck can have (3 colors is the limit). The hope is to encourage interesting commander-centric play at a similar power level to existing cEDH decks. The format is structured so that many 3-and-lower color cEDH decks can easily move a card from the 99 into the command zone to participate, thereby lowering the barrier to experimentation for existing cEDH players, and helping the first few SDH players find games.
+    <svelte:fragment slot="heading">Every Deck is a Puzzle.</svelte:fragment>
+      SDH inherently has a lot of emergent complexity. There are over 400 <em>thousand</em> legal spouse pairs, and every one of those pairs probably has 2 or 3 ways to build the library. (Just like every singleton commander from EDH does.) This ultimately means that nobody can anticipate or control what decks get made, at least not pre-emptively. This is something to be embraced. SDH is not a solved format, and probably never will be, so don't be so quick to dismiss a deck concept — or so quick to give up on your own.
+      <br /><br />And that analysis is frankly the tip of the iceberg; enabling so many commanders to be in unintended colors means that every new card has probably 3 or 4 times more decks that it could be run in (as a percentage of the already enormously higher number of decks possible). Each new set expands SDH exponentially, both in terms of what's possible in the library through colorbending, and what pairs are possible in the command zone, so there will probably always be new territory to discover.
+      <br /><br />And if it turns out that one strategy or pair dominates the meta <em>despite</em> this for a long enough time, the banhammer will be used prudently and judiciously to solve the issue.
+  </SDHParagraph>
+  <SDHParagraph>
+    <svelte:fragment slot="heading">Proxies</svelte:fragment>
+    SDH follows Wizards' policy on proxies: Completely fair game unless you're using them at an event sanctioned by Wizards themselves. Like cEDH, we want to play against our opponents' ideas, not their wallets. That said, proxies (and cards in general) should be as legible as possible, and should not be easy to distinguish from the back inside of a sleeve (so that players can't use proxies as marked cards.)
+  </SDHParagraph>
+  <SDHParagraph>
+    <svelte:fragment slot="heading">Rule Zero</svelte:fragment>
+    Just like in Commander, you're welcome to ignore any and all of these rules in a consenting playgroup. You don't need a formal document to tell you this, of course, but this is included simply to maintain the precedent from Commander that mixing things up with friends is not "playing the game wrong".
   </SDHParagraph>
 </SDHWriting>

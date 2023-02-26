@@ -1,0 +1,317 @@
+[
+  {
+    "card": {
+      "name": "Rofellos, Llanowar Emissary",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/d/6d63a085-101c-4749-a3a4-1d335c25b10e.jpg?1562916904",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383074"
+    },
+    "banType": "spouse",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Leovold, Emissary of Trest",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1559959275",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456798"
+    },
+    "banType": "spouse",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated. The majority opinion so far is to keep it banned."
+  },
+  {
+    "card": {
+      "name": "Griselbrand",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/f/cf2a5c2e-7fe1-45eb-b01c-891ab961186f.jpg?1593813293",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425897"
+    },
+    "banType": "spouse",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated. (As Spouse)"
+  },
+  {
+    "card": {
+      "name": "Erayo, Soratami Ascendant // Erayo's Essence",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/b/0b61d772-2d8b-4acf-9dd2-b2e8b03538c8.jpg?1610664131",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=87599"
+    },
+    "banType": "spouse",
+    "rationale": "Considering that Erayo can be your third spell, and it counts opponents' spells, and that it counters EACH opponent's spells, and that it becomes less removeable once flipped, this EDH ban is likely to stick."
+  },
+  {
+    "card": {
+      "name": "Emrakul, the Aeons Torn",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1673146896",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571334"
+    },
+    "banType": "spouse",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated. (Has not been evaluated as Spouse *or* as card in library.)"
+  },
+  {
+    "card": {
+      "name": "Gifts Ungiven",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cc950b6c-0346-4939-b36b-9f10a75f7a32.jpg?1673147306",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571384"
+    },
+    "banType": "library",
+    "rationale": "This card is mostly still banned because we haven't gotten the chance to experiment with it yet. It doesn't seem significantly better than Intuition."
+  },
+  {
+    "card": {
+      "name": "Limited Resources",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/0/20ae3609-a3cc-486c-94f6-b8f647adfb47.jpg?1562087362",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=6049"
+    },
+    "banType": "library",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Panoptic Mirror",
+      "imageUrl": "https://cards.scryfall.io/normal/front/5/0/50e945b0-e919-41bb-9bc5-f71ad531e8f1.jpg?1562636846",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=47930"
+    },
+    "banType": "library",
+    "rationale": "This card is controversial. If you want it unbanned, argue for it in the Discord."
+  },
+  {
+    "card": {
+      "name": "Recurring Nightmare",
+      "imageUrl": "https://cards.scryfall.io/normal/front/b/5/b50e1800-a45c-43bd-8886-8a06145d9346.jpg?1562431270",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=397441"
+    },
+    "banType": "library",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Rofellos, Llanowar Emissary",
+      "imageUrl": "https://cards.scryfall.io/normal/front/6/d/6d63a085-101c-4749-a3a4-1d335c25b10e.jpg?1562916904",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383074"
+    },
+    "banType": "library",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Leovold, Emissary of Trest",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1559959275",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456798"
+    },
+    "banType": "library",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Tinker",
+      "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7da23b15-dfb8-4267-9b33-d7a4c035c434.jpg?1562863289",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=12383"
+    },
+    "banType": "library",
+    "rationale": "This card is incredibly good, but hasn't been evaluated for play in SDH"
+  },
+  {
+    "card": {
+      "name": "Emrakul, the Aeons Torn",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1673146896",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571334"
+    },
+    "banType": "library",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Tolarian Academy",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/d/fd99bce1-ce39-464b-8e61-2631eb3ed6f6.jpg?1610147079",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383133"
+    },
+    "banType": "library",
+    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Griselbrand",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/f/cf2a5c2e-7fe1-45eb-b01c-891ab961186f.jpg?1593813293",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425897"
+    },
+    "banType": "library",
+    "rationale": "This hand-me-down ban from EDH is probably going to stick because it makes reanimator strategies much less interesting: It's always either Griselbrand or Thassa's Oracle."
+  },
+  {
+    "card": {
+      "name": "Yawgmoth's Bargain",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/e/eef31b59-45bb-4208-8957-1564902c8507.jpg?1562943000",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383157"
+    },
+    "banType": "library",
+    "rationale": "This EDH ban, like Griselbrand, will almost certainly stick. A very important subtlety of this card is that you can activate its ability at instant speed, so if it doesn't get countered, you can always get your cards from it, and unlike Ad Nauseam, it imposes no deckbuilding restrictions."
+  },
+  {
+    "card": {
+      "name": "Prophet of Kruphix",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/5/45de923f-fdab-460c-96f4-f62aefa9ad73.jpg?1562817436",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=373635"
+    },
+    "banType": "library",
+    "rationale": "Prophet's abilities are greater than the sum of their parts: Unlike Seedborn Muse, you aren't limited to instant-speed spells and abilities, and unlike Vedalken Orrery, you have mana to cast those Flash-speed spells. This is made significantly worse when you remember that everything having Flash speed means that you can sandbag many win-cons like people did with Flash."
+  },
+  {
+    "card": {
+      "name": "Braids, Cabal Minion",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/7/27691efa-052d-4afe-b9ef-159858ca660f.jpg?1626100340",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=526244"
+    },
+    "banType": "library",
+    "rationale": "Hand-me-down ban from EDH. Very likely to be unbanned in the library."
+  },
+  {
+    "card": {
+      "name": "Ancestral Recall",
+      "imageUrl": "https://cards.scryfall.io/normal/front/2/3/2398892d-28e9-4009-81ec-0d544af79d2b.jpg?1614638829",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=382841"
+    },
+    "banType": "library",
+    "rationale": "Hand-me-down ban from EDH. Has not yet been evaluated."
+  },
+  {
+    "card": {
+      "name": "Erayo, Soratami Ascendant // Erayo's Essence",
+      "imageUrl": "https://cards.scryfall.io/normal/front/0/b/0b61d772-2d8b-4acf-9dd2-b2e8b03538c8.jpg?1610664131",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=87599"
+    },
+    "banType": "library",
+    "rationale": "Considering that Erayo can be your third spell, and it counts opponents' spells, and that it counters EACH opponent's spells, and that it becomes less removeable once flipped, this EDH ban is likely to stick."
+  },
+  {
+    "card": {
+      "name": "Hullbreacher",
+      "imageUrl": "https://cards.scryfall.io/normal/front/4/d/4df8aabc-7fcb-4b7b-980b-18f499e6c170.jpg?1626088514",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497594"
+    },
+    "banType": "library",
+    "rationale": "Hand-me-down ban from EDH. Has not yet been re-evaluated."
+  },
+  {
+    "card": {
+      "name": "Paradox Engine",
+      "imageUrl": "https://cards.scryfall.io/normal/front/f/d/fd8ccd81-9e11-47fa-8e16-064c52c24506.jpg?1576382376",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=423836"
+    },
+    "banType": "library",
+    "rationale": "Hand-me-down ban from EDH, but has a good chance of sticking."
+  },
+  {
+    "card": {
+      "name": "Time Walk",
+      "imageUrl": "https://cards.scryfall.io/large/front/7/0/70901356-3266-4bd9-aacc-f06c27271de5.jpg?1614638832",
+      "cardUrl": "https://scryfall.com/card/vma/2/time-walk"
+    },
+    "banType": "library",
+    "rationale": "Ideally there would be a more nuanced reason that just \"it's too good\", but that's the consensus at the moment. While it goes infinite very elegantly with Scepter, that's not a significantly better combo than Thoracle/Consultation outside of its pieces being more versatile."
+  },
+  {
+    "card": {
+      "name": "Trade Secrets",
+      "imageUrl": "https://cards.scryfall.io/large/front/5/8/58dadc78-fe87-40ac-94cb-128716d89d74.jpg?1592713134",
+      "cardUrl": "https://scryfall.com/card/cmd/64/trade-secrets"
+    },
+    "banType": "library",
+    "rationale": "This card is contentious because of the SDH social contract. See, if people follow what's written there, then they'll never make a deal to allow the caster to draw cards: If possible, they'll simply deck whoever casts it. But that begs the question: Is dealmaking formally part of 'playing to win'? At the moment, the consensus seems to be yes, so this card is staying banned."
+  },
+  {
+    "card": {
+      "name": "Balance",
+      "imageUrl": "https://cards.scryfall.io/large/front/c/e/ce648aa3-098b-4af0-a433-fd290bc85904.jpg?1580013606",
+      "cardUrl": "https://scryfall.com/card/ema/2/balance"
+    },
+    "banType": "library",
+    "rationale": "This card is as a candidate for to stay banned because you can blow out your hand or sacrifice your lands for some benefit, then wipe your opponents out without actually winning."
+  },
+  {
+    "card": {
+      "name": "Black Lotus",
+      "imageUrl": "https://cards.scryfall.io/large/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1614638838",
+      "cardUrl": "https://scryfall.com/card/vma/4/black-lotus"
+    },
+    "banType": "library",
+    "rationale": "Black Lotus is staying banned primarily because it's the best fast mana in the game, and it's one of the few fast mana sources that players are okay with not playing."
+  },
+  {
+    "card": {
+      "name": "Mox Sapphire",
+      "imageUrl": "https://cards.scryfall.io/large/front/e/a/ea1feac0-d3a7-45eb-9719-1cdaf51ea0b6.jpg?1614638862",
+      "cardUrl": "https://scryfall.com/card/vma/9/mox-sapphire"
+    },
+    "banType": "library",
+    "rationale": "The Moxen are banned over cards like Mana Crypt and Jeweled Lotus because they give an (extra) advantage to players using more colors."
+  },
+  {
+    "card": {
+      "name": "Mox Ruby",
+      "imageUrl": "https://cards.scryfall.io/large/front/4/5/45fd6e91-df76-497f-b642-33dc3d5f6a5a.jpg?1614638852",
+      "cardUrl": "https://scryfall.com/card/vma/8/mox-ruby"
+    },
+    "banType": "library",
+    "rationale": "The Moxen are banned over cards like Mana Crypt and Jeweled Lotus because they give an (extra) advantage to players using more colors."
+  },
+  {
+    "card": {
+      "name": "Mox Emerald",
+      "imageUrl": "https://cards.scryfall.io/large/front/a/c/aced2c55-7543-4076-bcdd-36c4d649b8ae.jpg?1614638841",
+      "cardUrl": "https://scryfall.com/card/vma/5/mox-emerald"
+    },
+    "banType": "library",
+    "rationale": "The Moxen are banned over cards like Mana Crypt and Jeweled Lotus because they give an (extra) advantage to players using more colors."
+  },
+  {
+    "card": {
+      "name": "Mox Jet",
+      "imageUrl": "https://cards.scryfall.io/large/front/5/f/5f6927e1-c580-483a-8e2a-6e2deb74800e.jpg?1614638844",
+      "cardUrl": "https://scryfall.com/card/vma/6/mox-jet"
+    },
+    "banType": "library",
+    "rationale": "The Moxen are banned over cards like Mana Crypt and Jeweled Lotus because they give an (extra) advantage to players using more colors."
+  },
+  {
+    "card": {
+      "name": "Mox Pearl",
+      "imageUrl": "https://cards.scryfall.io/large/front/e/d/ed0216a0-c5c9-4a99-b869-53e4d0256326.jpg?1614638847",
+      "cardUrl": "https://scryfall.com/card/vma/7/mox-pearl"
+    },
+    "banType": "library",
+    "rationale": "The Moxen are banned over cards like Mana Crypt and Jeweled Lotus because they give an (extra) advantage to players using more colors."
+  },
+  {
+    "card": {
+      "name": "Fastbond",
+      "imageUrl": "https://cards.scryfall.io/large/front/d/a/daf43523-558c-4701-9fa3-5d1ceb82a006.jpg?1566819914",
+      "cardUrl": "https://scryfall.com/card/vma/209/fastbond"
+    },
+    "banType": "library",
+    "rationale": "Fastbond has not been subject to much experimentation within the SDH community, but turning fast cards into fast mana is one of the dominant patterns in cEDH, and this would essentially turn your lands into moxen, so this should probably stay banned."
+  },
+  {
+    "card": {
+      "name": "Flash",
+      "imageUrl": "https://cards.scryfall.io/large/front/d/3/d31459c2-9656-4e9a-bb72-71a910e8570b.jpg?1587347037",
+      "cardUrl": "https://scryfall.com/card/a25/57/flash"
+    },
+    "banType": "library",
+    "rationale": "Its combo with Protean Hulk is simply too dominant. The fact that it's not only 2-mana (with easy) pips and *instant-speed* puts it on a level above Thoracle/Consult. It also encourages a play pattern of everyone sandbagging because the last player to \"go for it\" wins."
+  },
+  {
+    "card": {
+      "name": "Karakas",
+      "imageUrl": "https://cards.scryfall.io/normal/front/e/5/e52214e1-404a-405a-b08e-20e13c087338.jpg?1559959289",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456840"
+    },
+    "banType": "library",
+    "rationale": "It's rare that you can reasonably call a card \"too oppressive\", but Karakas is just that."
+  },
+  {
+    "card": {
+      "name": "Time Vault",
+      "imageUrl": "https://cards.scryfall.io/normal/front/c/3/c367ffc1-8084-45a1-87d5-22183604d1cb.jpg?1562934224",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383130"
+    },
+    "banType": "library",
+    "rationale": "If Flash is the card that ruined cEDH (for a time), then Time Vault is the card that ruined No Banlist cEDH. Especially given that it's colorless, it's an extremely dominant strategy that would eat up 4 or 5 slots in every deck and cause a lot of stale wins."
+  }
+]

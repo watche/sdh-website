@@ -3,7 +3,7 @@
   import GitHubLogo from '$components/github-logo.svelte'
   import { GITHUB_URL } from '$constants/github-url.mjs'
 </script>
-<footer class="mt-3 pt-1 pb-25 px-3 border-t dark:border-slate-200/5 text-slate-700 text-xs">
+<footer class="mt-5 pt-1 px-3 border-t dark:border-slate-200/5 text-slate-700 text-xs">
   <div class="flex">
     <span>
       <p>The SDH Website is unofficial Fan Content permitted under the <a href="https://company.wizards.com/en/legal/fancontentpolicy" class="underline">Fan Content Policy</a>. This site is not approved and/or endorsed by Wizards of the Coast.</p>
