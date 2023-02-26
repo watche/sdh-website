@@ -12,6 +12,7 @@
   const DISCORD_LINK = "https://discord.gg/xqM4sERgv9";
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
+  const DECKS_ROUTE = "/decks";
   let route;
   $: route = $page.route.id;
 </script>
@@ -23,7 +24,8 @@
   </NavBrand>
   <NavUl>
     <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
-      <NavLink route={RULES_ROUTE}>Rules</NavLink>
+    <NavLink route={RULES_ROUTE}>Rules</NavLink>
+    <NavLink route={DECKS_ROUTE}>Decks</NavLink>
   </NavUl>
   <a href={DISCORD_LINK} rel="noopener noreferrer" target="_blank">
     <div class="flex">

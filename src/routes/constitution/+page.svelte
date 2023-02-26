@@ -3,15 +3,17 @@
   import SDHParagraph from '$components/sdh-paragraph.svelte'
   import Clarification from '$components/clarification.svelte'
   import MtgCard from '$components/mtg-card.svelte'
+  import CardClarification from '$components/card-clarification.svelte'
   import { Card } from 'flowbite-svelte'
 </script>
-
+<svelte:head>
+  <title>SDH Constitution</title>
+</svelte:head>
 <SDHWriting>
   <span slot="title">Spousal Dragon Highlanders</span>
-  <Clarification>
-    Hover me for clarification
-    <MtgCard slot="clarification" name="Nissa Revane" multiverseId="190411" imageUrl="https://cards.scryfall.io/large/front/1/b/1b4c26ab-0f7b-4163-b9e4-a415b91352a6.jpg?1562610283" />
-  </Clarification> dfasdf asdf asdf asdf asdf asdf sadf :wq
+  <CardClarification name="Nissa Revane" imageUrl="https://cards.scryfall.io/large/front/1/b/1b4c26ab-0f7b-4163-b9e4-a415b91352a6.jpg?1562610283" cardUrl="https://cards.scryfall.io/large/front/1/b/1b4c26ab-0f7b-4163-b9e4-a415b91352a6.jpg?1562610283">
+    Card Clarification
+  </CardClarification>
   <p>Elder Dragon Highlander is getting awfully elder, and after guilt-tripping it every Thanksgiving for many years, it’s finally decided to get married. That’s right: TWO commanders!</p>
 
   <SDHParagraph>

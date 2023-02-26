@@ -2,6 +2,9 @@
   import SDHWriting from '$components/sdh-writing.svelte'
   import SDHParagraph from '$components/sdh-paragraph.svelte'
 </script>
+<svelte:head>
+  <title>SDH Rules</title>
+</svelte:head>
 <SDHWriting>
   <span slot="title">Rules</span>
   <SDHParagraph>
