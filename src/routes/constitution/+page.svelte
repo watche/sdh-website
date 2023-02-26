@@ -8,6 +8,7 @@
 </script>
 <svelte:head>
   <title>SDH Constitution</title>
+  <meta name="description" content="The founding and guiding document for the Spousal Dragon Highlanders format in Magic: the Gathering." />
 </svelte:head>
 <SDHWriting>
   <span slot="title">Spousal Dragon Highlanders</span>

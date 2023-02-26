@@ -4,6 +4,7 @@
 </script>
 <svelte:head>
   <title>SDH Rules</title>
+  <meta name="description" content="The binding rules document for the SDH format of Magic: the Gathering." />
 </svelte:head>
 <SDHWriting>
   <span slot="title">Rules</span>
