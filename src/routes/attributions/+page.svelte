@@ -1,5 +1,4 @@
 <script>
-  import SDHWriting from '$components/sdh-writing.svelte'
   import { List, Li } from 'flowbite-svelte';
 
   import WhiteManaSymbol from '$components/white-mana-symbol.svelte'
@@ -8,6 +7,9 @@
   import RedManaSymbol from '$components/red-mana-symbol.svelte'
   import GreenManaSymbol from '$components/green-mana-symbol.svelte'
   import ColorlessManaSymbol from '$components/colorless-mana-symbol.svelte'
+  import Clarification from '$components/clarification.svelte'
+  import SDHWriting from '$components/sdh-writing.svelte'
+  import SDHParagraph from '$components/sdh-paragraph.svelte'
 </script>
 <svelte:head>
   <title>SDH Website Attributions</title>
@@ -15,9 +17,16 @@
 </svelte:head>
 <SDHWriting>
   <span slot="title">Attributions</span>
-  <List class="inline">
-    <Li>The icons for the White, Red, Blue, and Colorless mana symbols (<WhiteManaSymbol /><BlueManaSymbol /><RedManaSymbol /><ColorlessManaSymbol />) were taken from <a href="https://nagoshiashumari.github.io/Rpg-Awesome/" target="_blank" rel="noopener noreferrer" class="underline">RPG Awesome</a>.</Li>
-    <Li>The skull icon for the black mana symbol (<BlackManaSymbol />) is the free <a href="https://fontawesome.com/icons/skull?s=solid&f=classic" class="underline" target="_blank">fa-skull</a> from <a href="https://fontawesome.com/" class="underline" target="_blank">Font Awesome</a></Li>
-    <Li>I did the icon for the Green mana symbol (<GreenManaSymbol />. As it turns out, when icon designers think of trees, they seem to think of coniferous trees.</Li>
-  </List>
+  <SDHParagraph>
+    <svelte:fragment slot="heading">Icon attributions</svelte:fragment>
+      Because it's uncommon for developers to make their own icons, I have noted the original icons here as well, so that it's not assumed that they were taken without proper attribution.
+    <List class="inline" list="none">
+      <Li><WhiteManaSymbol /> The sun icon for the White mana symbol was taken from <a href="https://lorcblog.blogspot.com/" class="underline">Lorc</a> via <a href="https://game-icons.net/1x1/lorc/sun.html" class="underline">game-icons.net</a>. <Clarification>It has been modified<span slot="clarification">Mostly just making center solid, and narrowing the ring between the center and the sunbeams. Also some reformatting to reduce file size.</span></Clarification>.</Li>
+      <Li><BlueManaSymbol /> The raindrop icon for the Blue mana symbol was <em>also</em> taken from <a href="https://lorcblog.blogspot.com/" class="underline">Lorc</a> via <a href="https://game-icons.net/1x1/lorc/drop.html" class="underline">game-icons.net</a>. <Clarification>It has also been modified<span slot="clarification">Mostly just flipped horizontally, and scaled up a bit. Notably, MtG's blue mana symbol is actually very unusual for having its "shine" on the right side instead of the left.</span></Clarification>.</Li>
+      <Li><BlackManaSymbol /> The skull icon for the Black mana symbol is the free <a href="https://fontawesome.com/icons/skull?s=solid&f=classic" class="underline" target="_blank">fa-skull</a> from <a href="https://fontawesome.com/" class="underline" target="_blank">Font Awesome</a></Li>
+      <Li><RedManaSymbol /> The fireball icon for the Red mana symbol is <Clarification>original<span slot="clarification">The coiled fireball look of the Red mana symbol is actually a pretty uncommon way to represent fire iconographically. Other than Firefox logos, I didn't really find anything like it.</span></Clarification></Li>
+      <Li><GreenManaSymbol /> The deciduous tree icon for Green mana symbol is also <Clarification>original<span slot="clarification">As it turns out, when icon designers think of trees, they seem to think of coniferous trees. I looked for deciduous tree icons for at least an hour; the only usable ones I could find were either GPL (and I didn't want to have to remember that I was using a copyleft license on something), or required payment (and concomitant project complexity/devtime) to use. It was only after looking at the green mana symbol that I realized it was basically just 15 or so ellipses on top of a very simple tree shape.</span></Clarification>.</Li>
+        <Li><ColorlessManaSymbol /> The cury diamond icon for the Colorless mana symbol is also <Clarification>original<span slot="clarification">Unfortunately, it came out a lot more "original" looking than I intended. That said, the symbol is unlikely to see very much use.</span></Clarification>.</Li>
+    </List>
+  </SDHParagraph>
 </SDHWriting>
