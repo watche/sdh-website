@@ -13,5 +13,5 @@
   </Clarification>
 </span>
 <span class="inline md:hidden">
-  <a class="underline cursor-pointer" href={cardUrl} rel="noopener noreferrer" target="_blank"><slot /></a>
+  <a class="underline cursor-pointer" href={cardUrl} rel="noopener noreferrer" target="_blank" on:click|stopPropagation={()=>{}}><slot /></a>
 </span>

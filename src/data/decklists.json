@@ -4,7 +4,7 @@
     "name": "Vannifar Pod-Jiki",
     "listUrl": "https://www.moxfield.com/decks/W9MWFO4zlU6kXW7kiE0T0A",
     "blurb": "Sometimes, an Elf Ooze Wizard just needs a Goblin Shaman.\n  Why doesn't Vannifar see play in cEDH? After all, she's Birthing Pod, but her ability costs no mana, and she's the most untappable type of permanent in the game. It's because she's missing her soulmate: Kiki-Jiki. Kiki's combo creatures *are* Vannifar's pod creatures, so it's very easy to reunite these lost lovers to deal infinite combat damage. This deck has a line to win from just Rograkh for no mana, and no spell casts.",
-    "colors": "GUR",
+    "colorIdentity": "Temur",
     "strategy": "Turbo",
     "commanders": [
       {
@@ -28,7 +28,7 @@
     "name": "Tergrid-Gretchen Midrange",
     "listUrl": "https://www.moxfield.com/decks/clpbUIhZTUGqNO4sDnPJ-w/primer",
     "blurb": "This is a midrange deck seeking to deny resources to opponents and grind the game out. Tergrid is used to recur value from opponents, while Gretchen is used for card advantage midgame. \n(Addendum from curator: Currently the winningest deck in SDH!)",
-    "colors": "BGU",
+    "colorIdentity": "Sultai",
     "strategy": "Midrange Pox",
     "commanders": [
       {
@@ -52,8 +52,8 @@
     "name": "KEDISS-19",
     "listUrl": "https://www.moxfield.com/decks/4wHILZYVzEqr7Q20LtPW0g",
     "blurb": "The idea is simple: Skittles gives a player poison counters, and Kediss spreads the love. This kills the table in three swings, and casting Skithiryx is difficult, so the deck uses its library to buy time for the clock in the command zone.",
-    "colors": "BR",
-    "strategy": "Clock",
+    "colorIdentity": "Rakdos",
+    "strategy": "Stax (Infect)",
     "commanders": [
       {
         "cardUrl": "https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon",
@@ -76,7 +76,7 @@
     "name": "Budget TNT",
     "listUrl": "https://www.moxfield.com/decks/sEVSdzzJsE-IUMp0HnZQMQ",
     "blurb": "\"Mom, I want Thrasios and Tymna!\" \"We have Gretchen and Dhalsim at home; they taste just as good.\" If you've come to SDH, but still want to live in value town -- Look no further. It's \"sorta Tymna\" with \"kinda Thrasios\".",
-    "colors": "GWU",
+    "colorIdentity": "Bant",
     "strategy": "Midrange",
     "commanders": [
       {

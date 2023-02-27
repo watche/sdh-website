@@ -111,7 +111,7 @@
   }[clarifState];
 </script>
 <span bind:this={refEl}>
-  <span class="underline" on:mouseover={refMouseover} on:mouseout={refMouseout} on:click={toggleClarif} use:clickOutside={hideClarif}><slot /></span>
+  <span class="underline" on:mouseover={refMouseover} on:mouseout={refMouseout} on:click|stopPropagation={toggleClarif} on:use:clickOutside={hideClarif}><slot /></span>
 </span>
 <div bind:this={clarifEl} class={clarifStyling} on:mouseover={clarifMouseover} on:mouseout={clarifMouseout}>
   <Card>
