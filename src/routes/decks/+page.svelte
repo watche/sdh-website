@@ -9,6 +9,7 @@
   import ColorlessManaSymbol from '$components/colorless-mana-symbol.svelte';
   import CardClarification from '$components/card-clarification.svelte';
   import decks from '$data/decklists.json'
+  import Markdown from '$components/markdown.svelte'
 
   /*const colorForRarity = (rarity) => {
     return {
@@ -96,7 +97,7 @@
                     </ListgroupItem>
                   </Listgroup>
                   <div class="ml-5 dark:text-slate-300">
-                    {deck.blurb}
+                    <Markdown content={deck.blurb} />
                   </div>
               </TableBodyCell>
             </TableBodyRow>
