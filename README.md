@@ -1,4 +1,4 @@
-# (The Official SDH Website)[https://sdh-mtg.net]
+# [The Official SDH Website](https://sdh-mtg.net)
 This is the repository for the source code of [the SDH website](https://sdh-mtg.net).
 
 The site is built using Vite and Sveltekit.
