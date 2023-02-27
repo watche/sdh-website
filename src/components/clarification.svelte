@@ -16,7 +16,7 @@
   import { popoverKey } from '$components/sdh-writing.svelte'
   import {computePosition, autoUpdate, shift, limitShift, flip, offset} from '@floating-ui/dom';
   import { Card } from 'flowbite-svelte'
-  import clickOutside from 'svelte-outside-click'
+  import clickOutside from '$actions/click-outside.mjs'
 
   //// Setting up the popover
   let refEl;
