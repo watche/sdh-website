@@ -1,0 +1,97 @@
+[
+  {
+    "id": "593ea62d-3612-4af8-b330-532e4a5bf1d4",
+    "name": "Vannifar Pod-Jiki",
+    "listUrl": "https://www.moxfield.com/decks/W9MWFO4zlU6kXW7kiE0T0A",
+    "blurb": "Sometimes, an Elf Ooze Wizard just needs a Goblin Shaman. Vannifar seems like a natural one-turn combo, but in EDH, the best anyone's been able to do is two spell casts and 5 mana. In SDH, however, we can play Kiki-Jiki, whose enablers are the very same creatures that Vannifar uses to pod-chain! If Vannifar untaps (or has haste), then even with just Rograkh, she can win the game with no mana, and no spells cast.",
+    "colors": "GUR",
+    "strategy": "Turbo",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/rna/195/prime-speaker-vannifar",
+        "imageUrl": "https://cards.scryfall.io/large/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1572893948",
+        "name": "Prime Speaker Vannifar",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vannifar-portrait.webp",
+        "rarity": "MYTHIC"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/197/rograkh-son-of-rohgahh",
+        "imageUrl": "https://cards.scryfall.io/large/front/a/4/a4fab67f-00c2-4125-9262-d21a29411797.jpg?1644853041",
+        "name": "Rograkh, Son of Rohgahh",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rograkh-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "7d0179c1-b80b-41a1-ad47-c1f2fac794a8",
+    "name": "Tergrid-Gretchen Midrange",
+    "listUrl": "https://www.moxfield.com/decks/clpbUIhZTUGqNO4sDnPJ-w/primer",
+    "blurb": "This is a midrange deck seeking to deny resources to opponents and grind the game out. Tergrid is used to recur value from opponents, while Gretchen is used for card advantage midgame. \n(Addendum from curator: Currently the winningest deck in SDH!)",
+    "colors": "BGU",
+    "strategy": "Midrange Pox",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/khm/112/tergrid-god-of-fright-tergrids-lantern",
+        "imageUrl": "https://cards.scryfall.io/large/front/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1631048621",
+        "name": "Tergrid, God of Fright",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tergrid-portrait.webp",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/afr/223/gretchen-titchwillow",
+        "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c8b248e-1460-4650-9721-85c134c21b89.jpg?1627708954",
+        "name": "Gretchen Titchwillow",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/gretchen-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "df065f4b-f93a-4867-837b-b8a3780c9778",
+    "name": "KEDISS-19",
+    "listUrl": "https://www.moxfield.com/decks/4wHILZYVzEqr7Q20LtPW0g",
+    "blurb": "The idea is simple: Skittles gives a player poison counters, and Kediss spreads the love. This kills the table in three swings, and casting Skithiryx is difficult, so the deck uses its library to buy time for the clock in the command zone.",
+    "colors": "BR",
+    "strategy": "Clock",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon",
+        "imageUrl": "https://cards.scryfall.io/large/front/c/a/cab61c7e-e00a-413b-a0b5-7718b479582f.jpg?1599705958",
+        "name": "Skithiryx, the Blight Dragon",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/skithiryx-portrait.webp",
+        "rarity": "MYTHIC"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/188/kediss-emberclaw-familiar",
+        "imageUrl": "https://cards.scryfall.io/large/front/f/6/f606ebf1-483d-4331-b16a-9fb6f591a39f.jpg?1608910296",
+        "name": "Kediss, Emberclaw Familiar",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kediss-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "a111d986-b244-4bdc-b52f-2d40b2bd169d",
+    "name": "Budget TNT",
+    "listUrl": "https://www.moxfield.com/decks/sEVSdzzJsE-IUMp0HnZQMQ",
+    "blurb": "\"Mom, I want Thrasios and Tymna!\" \"We have Gretchen and Dhalsim at home; they taste just as good.\" If you've come to SDH, but still want to live in value town -- Look no further. It's \"sorta Tymna\" with \"kinda Thrasios\".",
+    "colors": "GWU",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/slx/16/tadeas-juniper-ascendant",
+        "imageUrl": "https://cards.scryfall.io/large/front/e/b/eb79f973-2384-4de4-81fb-14ba5a0e5556.jpg?1677353914",
+        "name": "Tadeas, Juniper Ascendant",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tadeas-portrait.webp",
+        "rarity": "RARE"
+      }, {
+        "cardUrl": "https://scryfall.com/card/afr/223/gretchen-titchwillow",
+        "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c8b248e-1460-4650-9721-85c134c21b89.jpg?1627708954",
+        "name": "Gretchen Titchwillow",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/gretchen-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  }
+]

@@ -8,7 +8,7 @@
     <span>
       <p>The SDH Website is unofficial Fan Content permitted under the <a href="https://company.wizards.com/en/legal/fancontentpolicy" class="underline">Fan Content Policy</a>. This site is not approved and/or endorsed by Wizards of the Coast.</p>
       <p>Portions of the materials used are property of Wizards of the Coast, ©Wizards of the Coast LLC.</p>
-      <!--<p>Other Attributions found on <a href="/attributions">the Attributions page</a></p>-->
+      <p>Other Attributions can be found on <a href="/attributions" class="underline">the Attributions page</a>.</p>
     </span>
     <span style="margin-left: auto;">
       <a href={GITHUB_URL}>
