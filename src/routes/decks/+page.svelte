@@ -44,7 +44,7 @@
   <meta name="description" content="A collection of interesting and/or representative decks of the SDH format in Magic: the Gathering." />
 </svelte:head>
 <!-- TODO: Modify SDHWriting to enable custom width -->
-<SDHWriting>
+<SDHWriting lineLength="100ch">
   <span slot="title">SDH Decklist Database</span>
   <span class="text-xs dark:text-slate-700">Yes, this is based on the <a class="underline" target="_blank" rel="noopener noreferrer" href="https://cedh-decklist-database.com/">cEDH decklist database</a>.</span>
   <div class="py-1 border border-gray-200 dark:border-gray-700 dark:bg-gray-800 rounded-md">

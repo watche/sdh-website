@@ -22,6 +22,8 @@
   export const popoverKey = Symbol();
 </script>
 <script>
+  export let lineLength = "70ch";
+
   import { setContext, onMount } from 'svelte'
   import { writable } from 'svelte/store'
   import { Card } from 'flowbite-svelte'
@@ -29,7 +31,7 @@
   let visiblePopoverId = writable(null);
   setContext(popoverKey, visiblePopoverId);
 </script>
-<div class="hidden md:inline">
+<div class="hidden md:inline" style={`--line-length: ${lineLength};`}>
   <article class="left-margin">
     <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
     <div class="mx-auto">
