@@ -13,4 +13,3 @@ export const clickOutside = (node) => {
 		}
 	};
 }
-

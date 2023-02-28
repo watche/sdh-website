@@ -20,7 +20,7 @@
   <span slot="title">The SDH Constitution</span>
   <SDHParagraph>
     <svelte:fragment slot="heading">You're allowed to win.</svelte:fragment>
-      The social contract of Commander has a fatal flaw: Players are supposed to regulate each other's power levels, and this is overwhelmingly done moralistically: If you play <CardClarification {...armageddon}>Armageddon</CardClarification>, than you've done something <em>wrong</em>. The end result is that everyone feels entitled to win, and nobody can articulate their deck's power level, so a queasy, political kind of uncertainty looms over every game of casual Commander.
+      The social contract of Commander has a fatal flaw: Players are supposed to regulate each other's power levels, and this is overwhelmingly done moralistically: If you play <CardClarification {...armageddon}>Armageddon</CardClarification>, then you've done something <em>wrong</em>. The end result is that everyone feels entitled to win, and nobody can articulate their deck's power level, so a queasy, political kind of uncertainty looms over every game of casual Commander.
       <br /><br /><strong>Fuck that.</strong> In SDH, players are expected to play to win, and only to win. No kingmaking, no stalling, and no spite plays. There are still foggy situations, but they're the exception, not the rule.
   </SDHParagraph>
   <SDHParagraph>
