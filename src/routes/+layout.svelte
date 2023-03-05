@@ -1,6 +1,7 @@
 <script>
   import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
   import { page } from '$app/stores';
+  import SDHLogo from '$assets/sdh-logo.svg';
 
   import '../app.postcss';
   import NavLink from '$routes/nav-link.svelte'
@@ -12,11 +13,18 @@
   const DECKS_ROUTE = "/decks";
   let route;
   $: route = $page.route.id;
+
+  let firstLoad = true;
+  $: if(route !== "/") {
+    firstLoad = false;
+  }
+  let logoActive;
+  $: logoActive = ((route === "/") && !firstLoad);
 </script>
 <Navbar class="border-b dark:border-slate-200/5 mb-3">
   <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-      <h1 class="text-3xl">SDH</h1>
+    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white rounded-md p-2  logo-area" data-active={logoActive}>
+        <img src={SDHLogo} class="block" />
     </span>
   </NavBrand>
   <NavUl>
@@ -41,3 +49,15 @@
   <div class="flex-auto" />
 </div>
 <Footer />
+
+<style>
+  .logo-area {
+    /* mimicking bg-slate-800 */
+    background-color: rgb(30 41 59);
+  }
+
+  .logo-area:hover, .logo-area[data-active="true"] {
+    /* mimicking bg-slate-700 */
+    background-color: rgb(51 65 85);
+  }
+</style>

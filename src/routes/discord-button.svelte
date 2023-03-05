@@ -16,7 +16,7 @@
         </div>
       </button>
     </span>
-    <button type="button" class="md:hidden text-center discord-button rounded-full text-white px-3 py-3"><DiscordLogo /></button>
+    <button type="button" class="md:hidden text-center discord-button rounded-full text-white px-5 py-5"><DiscordLogo /></button>
   </div>
 </a>
 <style>
