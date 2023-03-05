@@ -1,0 +1,20 @@
+{
+    "name": "SDH Website",
+    "short_name": "SDH Website",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#354c7e",
+    "background_color": "#354c7e",
+    "start_url": "https://sdh-mtg.net",
+    "display": "standalone"
+}
