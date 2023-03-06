@@ -1,6 +1,6 @@
 <script>
   import SDHWriting from '$components/sdh-writing.svelte'
-  import SDHParagraph from '$components/sdh-paragraph.svelte'
+  import Subheading from '$components/subheading.svelte'
   import Clarification from '$components/clarification.svelte'
   import CardClarification from '$components/card-clarification.svelte'
   import { List, Li } from 'flowbite-svelte'
@@ -30,8 +30,8 @@
 </svelte:head>
 <SDHWriting>
   <span slot="title">Rules</span>
-  <SDHParagraph>
-    <span slot="heading">Spouse Selection</span>
+  <section>
+    <Subheading>Spouse Selection</Subheading>
     <p>You may marry any two legal commanders within the following constraints:</p>
     <List class="inline">
       <Li>The Color Rule: Commander couples may not exceed three colors.</Li>
@@ -61,9 +61,9 @@
       </List>
       <em>However:</em> Commanders made legal by these abilities in EDH are still eligible in SDH. This means that you are allowed to run Background enchantments as commander, despite not being legal commanders without the "Choose a Background" mechanic.
     </p>
-  </SDHParagraph>
-  <SDHParagraph>
-    <svelte:fragment slot="heading">Card Legality</svelte:fragment>
+  </section>
+  <section>
+    <Subheading>Card Legality</Subheading>
       <p>SDH has all of the restrictions from EDH with two new restrictions.</p>
       <!-- Clean up this section a bit. -->
       <p>
@@ -80,16 +80,17 @@
       <p>
         The second category of card you can't play in SDH is cards whose color identities contain more than 3 colors. (<a href={tooManyColorsScryfallUrl} class="underline" rel="noopener nofollow noreferrer">Scryfall Query</a>)
       </p>
-  </SDHParagraph>
-  <SDHParagraph>
-    <span slot="heading">Bans</span>
-    SDH largely inherits EDH's ban list. So far, none of the usual suspects (Thassa's Oracle, Underworld Breach, Ad Nauseam, et cetera) have been banned. This is because the format is very young, and we want it to be as easy as possible for cEDH players to give SDH a try. The comprehensive (and authoritative) ban list can be found <a href="/ban-list" class="underline">here</a>.
-
-  </SDHParagraph>
-  <SDHParagraph>
-    <span slot="heading">Social Contract</span>
-    For information about what players are expected to expect from other players, see the <a href="/constitution" class="underline">SDH Constitution</a>.
-  </SDHParagraph>
+  </section>
+  <section>
+    <Subheading>Bans</Subheading>
+    <p>
+      SDH largely inherits EDH's ban list. So far, none of the usual suspects (Thassa's Oracle, Underworld Breach, Ad Nauseam, et cetera) have been banned. This is because the format is very young, and we want it to be as easy as possible for cEDH players to give SDH a try. The comprehensive (and authoritative) ban list can be found <a href="/ban-list" class="underline">here</a>.
+    </p>
+  </section>
+  <section>
+    <Subheading>Social Contract</Subheading>
+    <p>For information about what players are expected to expect from other players, see the <a href="/constitution" class="underline">SDH Constitution</a>.</p>
+  </section>
 </SDHWriting>
 <style>
   .indented {

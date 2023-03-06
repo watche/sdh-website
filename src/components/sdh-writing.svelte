@@ -37,6 +37,7 @@
 </div>
 <div class="inline md:hidden">
   <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
+  <span class="text-md">
   <slot />
 </div>
 <style>

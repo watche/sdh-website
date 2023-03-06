@@ -9,7 +9,7 @@
   import ColorlessManaSymbol from '$components/colorless-mana-symbol.svelte'
   import Clarification from '$components/clarification.svelte'
   import SDHWriting from '$components/sdh-writing.svelte'
-  import SDHParagraph from '$components/sdh-paragraph.svelte'
+  import Subheading from '$components/subheading.svelte'
 </script>
 <svelte:head>
   <title>SDH Website Attributions</title>
@@ -17,8 +17,8 @@
 </svelte:head>
 <SDHWriting>
   <span slot="title">Attributions</span>
-  <SDHParagraph>
-    <svelte:fragment slot="heading">Icon attributions</svelte:fragment>
+  <section>
+    <Subheading>Icon attributions</Subheading>
       Because it's uncommon for developers to make their own icons, I have noted the original icons here as well, so that it's not assumed that they were taken without proper attribution.
     <List class="inline" list="none">
       <Li><WhiteManaSymbol /> The sun icon for the White mana symbol was taken from <a href="https://lorcblog.blogspot.com/" class="underline">Lorc</a> via <a href="https://game-icons.net/1x1/lorc/sun.html" class="underline">game-icons.net</a>. <Clarification>It has been modified<span slot="clarification">Mostly just making center solid, and narrowing the ring between the center and the sunbeams. Also some reformatting to reduce file size.</span></Clarification>.</Li>
@@ -30,5 +30,5 @@
     </List>
     <br />
     <p>The decklist icon in <a href="/decks" class="underline">/decks</a> uses <a href="https://www.svgrepo.com/svg/391163/cards" class="underline">this SVG</a> under an <a href="https://www.svgrepo.com/page/licensing#MIT" class="underline">MIT license</a>. It has not been modified.</p>
-  </SDHParagraph>
+  </section>
 </SDHWriting>
