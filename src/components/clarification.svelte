@@ -13,10 +13,12 @@
      This does not happen in production.
   2. If the page is loaded with the cursor on a refEl, and the cursor is not moved, and the cursor is clicked before
      the popover is initialized, that click is not detected.
+-->
 <!-- 
   This module has no exports; it uses module context to coordinate popover state between component instances.
 -->
 <script context="module">
+  //// Coordinating Clarification state so that no two clarifs appear simultaneously
   import { setContext } from 'svelte'
   import { writable } from 'svelte/store'
 
@@ -44,11 +46,19 @@
   import { Card } from 'flowbite-svelte'
   import { clickOutside } from '$actions/click-outside.mjs'
 
-  //// Setting up the popover
+  //// Setting up the popover (and watching for refEl going offscreen)
+  // TODO: Move viewportObserver into the module context, and have each Clarification component `.observe(refEl)` it.
+  let viewportObserver;
+  let observingViewport = false;
   let refEl;
   let clarifEl;
   let popoverCleanupFn;
   onMount(() => {
+    viewportObserver = new IntersectionObserver((entries) => {
+      if(!(entries[0].isIntersecting)) {
+        clarifStore.release(thisClarif);
+      }
+    });
     popoverCleanupFn = autoUpdate(refEl, clarifEl, () => {
       computePosition(refEl, clarifEl, {
         placement: 'left',
@@ -69,6 +79,7 @@
     });
   });
   onDestroy(() => {
+    if(!!viewportObserver) viewportObserver.disconnect();
     if(popoverCleanupFn && !!refEl && !!clarifEl) popoverCleanupFn();
   });
 
@@ -94,10 +105,18 @@
   };
   const updateClarif = () => {
     // Any state changes that require an update will be handled immediately after initialization.
+    // This also indirectly delays the updates until the component is mounted, which is necessary
+    // to observe the component for falling out of the viewport.
     if(clarifState === UNINITIALIZED) return;
     if(visibleClarif === thisClarif) {
       showClarif();
+      viewportObserver.observe(refEl);
+      observingViewport = true;
     } else {
+      if(observingViewport) {
+        viewportObserver.unobserve(refEl);
+        observingViewport = false;
+      }
       if(mouseOnRef && (visibleClarif === NO_CLARIF)) {
         hintClarif();
       } else {
@@ -115,17 +134,23 @@
   };
 
   let mouseOnClarif = false;
-  const clarifMouseover = () => { mouseOnClarif = true; };
-  const clarifMouseout = () => { mouseOnClarif = false; };
+  const clarifMouseover = () => {
+    if(!mouseOnClarif) mouseOnClarif = true;
+  };
+  const clarifMouseout = () => {
+    if(mouseOnClarif) mouseOnClarif = false;
+  };
 
   let mouseOnRef = false;
-  const refMouseover = () => { mouseOnRef = true; };
-  const refMouseout = () => { mouseOnRef = false; };
+  const refMouseover = () => {
+    if(!mouseOnRef) mouseOnRef = true;
+  };
+  const refMouseout = () => {
+    if(mouseOnRef) mouseOnRef = false;
+  };
 
   const outClick = () => {
-    if(visibleClarif === thisClarif) {
-      clarifStore.release(thisClarif);
-    }
+    clarifStore.release(thisClarif);
   };
 
   //// Establishing exclusivity between clarifications
@@ -148,7 +173,6 @@
     [SHOWN]: "floating over-hinted-clarifs visible opacity-100",
     [UNINITIALIZED]: "hidden",
   }[clarifState];
-
 </script>
 <span on:outclick={outClick} use:clickOutside>
   <span bind:this={refEl}>
