@@ -176,7 +176,7 @@
 </script>
 <span on:outclick={outClick} use:clickOutside>
   <span bind:this={refEl}>
-    <span class="ref" on:mouseover={refMouseover} on:focus={refMouseover} on:blur={refMouseout} on:mouseout={refMouseout} on:click|stopPropagation={toggleClarif}><slot /></span>
+    <span class={`ref${(clarifState===SHOWN)?" shown-ref":""}`} on:mouseover={refMouseover} on:focus={refMouseover} on:blur={refMouseout} on:mouseout={refMouseout} on:click|stopPropagation={toggleClarif}><slot /></span>
   </span>
   <span bind:this={clarifEl} class={clarifClasses} on:mouseover={clarifMouseover} on:mouseout={clarifMouseout} on:focus={clarifMouseover} on:blur={clarifMouseout}>
     {#if clarifState !== UNINITIALIZED}
@@ -196,7 +196,7 @@
     user-select: none;
   }
   /* Imitating text-gray-300 in tailwind. */
-  .ref:hover {
+  .ref:hover, .ref.shown-ref {
     color: rgb(209 213 219);
   }
   .floating {
