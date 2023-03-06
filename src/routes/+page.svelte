@@ -3,7 +3,7 @@
   import SDHWriting from '$components/sdh-writing.svelte'
   import SDHParagraph from '$components/sdh-paragraph.svelte'
   import Clarification from '$components/clarification.svelte'
-  import TwoCommandersImg from '$assets/two-commanders-2.png'
+  import TwoCommandersImg from '$assets/two-commanders.png'
   import CommanderPhilosophyOnCedh from '$assets/commander-philosophy-on-cedh.png'
   import { DISCORD_URL } from '$constants/discord-url.mjs'
   import { List, Li } from 'flowbite-svelte'
@@ -16,8 +16,8 @@
 <SDHWriting>
   <span slot="title">Spousal Dragon Highlanders</span>
   <p>Elder Dragon Highlander is getting awfully elder, and after guilt-tripping it every Thanksgiving for many years, it’s finally decided to get married. That’s right: TWO commanders!</p>
-  <!-- TODO: Maybe center this image? -->
-  <img src={TwoCommandersImg} class="mt-2" alt="SDH allows you to run two commanders" />
+  <!-- TODO: Dehardcode image height -->
+  <img src={TwoCommandersImg} class="mt-2" alt="SDH allows you to run two commanders" style="min-height: 600px"/>
   <SDHParagraph>
     <span slot="heading">Why a new format?</span>
     It's not that we don't <em>like</em> EDH: It's that we're cEDH players. Commander simply wasn't made for us. cEDH is a purely accidental (and <Clarification>unwelcome<p slot="clarification"><a href="https://mtgcommander.net/index.php/the-philosophy-of-commander/"><img src={CommanderPhilosophyOnCedh} alt="The commander philosophy page explicitly says the game is more fun if it is not 'broken', and does so in language implicit of moral posturing." /></a></p></Clarification>) emergence from the rules of Commander, and this means that the health of the format has been neglected by the only people with the authority to regulate it. SDH is basically cEDH <strong>by and for</strong> cEDH players.
