@@ -24,7 +24,7 @@
 <Navbar class="border-b dark:border-slate-200/5 mb-3">
   <NavBrand href="/">
     <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white rounded-md p-2  logo-area" data-active={logoActive}>
-        <img src={SDHLogo} class="block" />
+        <img src={SDHLogo} class="block" alt="SDH" />
     </span>
   </NavBrand>
   <NavUl>

@@ -18,18 +18,12 @@
   1. To restrict text to an appropriate line length.
   2. To mostly center the text (with a small bias toward the left-hand side of the screen)
 -->
-<script context="module">
-  export const popoverKey = Symbol();
-</script>
 <script>
   export let lineLength = "70ch";
 
-  import { setContext, onMount } from 'svelte'
+  import { setContext } from 'svelte'
   import { writable } from 'svelte/store'
   import { Card } from 'flowbite-svelte'
-
-  let visiblePopoverId = writable(null);
-  setContext(popoverKey, visiblePopoverId);
 </script>
 <div class="hidden md:inline" style={`--line-length: ${lineLength};`}>
   <article class="left-margin">

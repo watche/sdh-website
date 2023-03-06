@@ -68,8 +68,8 @@
       <!-- Clean up this section a bit. -->
       <p>
         The first new restriction is cards from Unfinity that use one of Unfinity's three new mechanics: Attractions, Stickers, and Tickets.
-        <Clarification>These cards<span slot="clarification">
-          Unfinity cards that <em>didn't</em> use these three mechanics are still legal, so <a class="underline" href={sawInHalf.cardUrl} rel="noopener noreferrer" target="_blank">Saw in Half</a>, <a class="underline" href={exchangeOfWords.cardUrl} rel="noopener noreferrer" target="_blank">Exchange of Words</a>, and the d6-themed cards are all still legal.</span></Clarification> were restricted simply because the overwhelming majority of players seem to prefer the game without them.
+        <Clarification>These cards<svelte:fragment slot="clarification">
+          Unfinity cards that <em>didn't</em> use these three mechanics are still legal, so <a class="underline" href={sawInHalf.cardUrl} rel="noopener noreferrer" target="_blank">Saw in Half</a>, <a class="underline" href={exchangeOfWords.cardUrl} rel="noopener noreferrer" target="_blank">Exchange of Words</a>, and the d6-themed cards are all still legal.</svelte:fragment></Clarification> were restricted simply because the overwhelming majority of players seem to prefer the game without them.
         The only card in this category that saw much play was <CardClarification {...blankGoblin}>____ Goblin</CardClarification>. (<Clarification>accurate<svelte:fragment slot="clarification">
         <p>This query is only accurate because there were no EDH-legal cards that coincidentally contained the names of any of the illegal mechanics.</p>
         <br />
