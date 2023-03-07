@@ -22,6 +22,7 @@ const config = {
       '$assets': 'src/assets',
       '$actions': 'src/actions',
       '$data': 'src/data',
+      '$utils': 'src/utils'
     }
 	}
 };

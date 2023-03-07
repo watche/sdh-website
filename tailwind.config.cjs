@@ -1,3 +1,5 @@
+// IMPORTANT:
+// If changing the breakpoints, update $constants/breakpoints.mjs accordingly.
 const config = {
   content: [
     "./src/**/*.{html,js,svelte,ts}",

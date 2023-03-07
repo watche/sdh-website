@@ -24,22 +24,26 @@
   import { setContext } from 'svelte'
   import { writable } from 'svelte/store'
   import { Card } from 'flowbite-svelte'
+  import breakpoints from '$stores/breakpoints.mjs'
 </script>
-<div class="hidden md:inline" style={`--line-length: ${lineLength};`}>
-  <article class="left-margin">
-    <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
-    <div class="mx-auto">
-      <div class="length-limited">
-        <slot />
+<!-- TODO: Use svelte conditionals instead of tailwind CSS to improve performance. -->
+{#if $breakpoints.md }
+  <div style={`--line-length: ${lineLength};`}>
+    <article class="left-margin">
+      <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
+      <div class="mx-auto">
+        <div class="length-limited">
+          <slot />
+        </div>
       </div>
-    </div>
-  </article>
-</div>
-<div class="inline md:hidden">
+    </article>
+  </div>
+{:else}
   <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
   <span class="text-md">
-  <slot />
-</div>
+    <slot />
+  </span>
+{/if}
 <style>
   /* These constants are chosen completely arbitrarily, and are not depended upon outside of this file. */
   :root {

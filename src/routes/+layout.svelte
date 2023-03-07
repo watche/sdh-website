@@ -1,12 +1,15 @@
 <script>
+  import '../app.postcss';
+
   import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
+  import { onMount } from 'svelte';
+
   import { page } from '$app/stores';
   import SDHLogo from '$assets/sdh-logo.svg';
-
-  import '../app.postcss';
   import NavLink from '$routes/nav-link.svelte'
   import Footer from '$routes/footer.svelte'
   import DiscordButton from '$routes/discord-button.svelte'
+  import breakpoints, { initBreakpointStore } from '$stores/breakpoints.mjs'
 
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
@@ -20,6 +23,9 @@
   }
   let logoActive;
   $: logoActive = ((route === "/") && !firstLoad);
+
+  // The breakpoint store will not need to be initialized in any other components using it.
+  onMount(initBreakpointStore);
 </script>
 <Navbar class="border-b dark:border-slate-200/5 mb-3">
   <NavBrand href="/">
