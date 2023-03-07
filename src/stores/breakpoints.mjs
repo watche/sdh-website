@@ -4,18 +4,16 @@ import throttle from '$utils/throttle.mjs';
 
 const THROTTLE_DELAY = 200;
 
-let initialized = false;
-let getVPWidth;
+export const breakpointsInitialized = writable(false);
 
 const breakpointStore = writable({
-  'sm': true,
-  'md': true,
+  'sm': false,
+  'md': false,
   'lg': false,
   'xl': false,
   '2xl': false,
 });
 export const updateBreakpointStore = (width) => {
-  console.log(`Updating breakpoints ${width}`);
   breakpointStore.set({
     'sm': atBreakpoint("sm", width),
     'md': atBreakpoint("md", width),
@@ -24,19 +22,5 @@ export const updateBreakpointStore = (width) => {
     '2xl': atBreakpoint("2xl", width),
   });
 };
-
-// Should be called as an onMount callback.
-/*export const initBreakpointStore = () => {
-  if(!initialized) {
-    let getVPWidth = () => {
-      return Math.max((window.document.documentElement.clientWidth || 0), (window.innerWidth || 0));
-    };
-    updateBreakpointStore(getVPWidth());
-    window.addEventListener('resize', throttle(() => {
-      updateBreakpointStore(getVPWidth());
-    }, THROTTLE_DELAY, true));
-    initialized = true;
-  }
-};*/
 
 export default breakpointStore;

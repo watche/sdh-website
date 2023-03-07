@@ -24,25 +24,28 @@
   import { setContext } from 'svelte'
   import { writable } from 'svelte/store'
   import { Card } from 'flowbite-svelte'
-  import breakpoints from '$stores/breakpoints.mjs'
+  import BreakpointSwitch from '$components/breakpoint-switch.svelte'
 </script>
-{#if $breakpoints.md }
-  <div style={`--line-length: ${lineLength};`}>
-    <article class="left-margin">
-      <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
-      <div class="mx-auto">
-        <div class="length-limited">
-          <slot />
+<BreakpointSwitch>
+  <svelte:fragment slot="md">
+    <div style={`--line-length: ${lineLength};`}>
+      <article class="left-margin">
+        <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
+        <div class="mx-auto">
+          <div class="length-limited">
+            <slot />
+          </div>
         </div>
-      </div>
-    </article>
-  </div>
-{:else}
-  <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
-  <span class="text-md">
-    <slot />
-  </span>
-{/if}
+      </article>
+    </div>
+  </svelte:fragment>
+  <svelte:fragment slot="sm">
+    <h2 class="text-6xl text-white mb-3"><slot name="title" /></h2>
+    <span class="text-md">
+      <slot />
+    </span>
+  </svelte:fragment>
+</BreakpointSwitch>
 <style>
   /* These constants are chosen completely arbitrarily, and are not depended upon outside of this file. */
   :root {

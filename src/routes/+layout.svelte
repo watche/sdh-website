@@ -2,14 +2,12 @@
   import '../app.postcss';
 
   import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
-  import { beforeUpdate } from 'svelte';
 
   import { page } from '$app/stores';
   import SDHLogo from '$assets/sdh-logo.svg';
   import NavLink from '$routes/nav-link.svelte'
   import Footer from '$routes/footer.svelte'
   import DiscordButton from '$routes/discord-button.svelte'
-  import breakpoints, { updateBreakpointStore } from '$stores/breakpoints.mjs'
 
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
@@ -23,10 +21,7 @@
   }
   let logoActive;
   $: logoActive = ((route === "/") && !firstLoad);
-
-  let vpWidth = 0;
 </script>
-<svelte:window bind:innerWidth={vpWidth} on:resize={() => {updateBreakpointStore(vpWidth)}} />
 <Navbar class="border-b dark:border-slate-200/5 mb-3">
   <NavBrand href="/">
     <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white rounded-md p-2 logo-area" data-active={logoActive}>

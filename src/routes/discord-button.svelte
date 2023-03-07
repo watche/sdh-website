@@ -8,7 +8,7 @@
   import Link from '$components/link.svelte'
   import { DISCORD_URL } from '$constants/discord-url.mjs';
 </script>
-<Link href={DISCORD_URL} nofollow>
+<Link href={DISCORD_URL} nofollow class="">
   <div class="flex">
     <span class="hidden md:inline">
       <button type="button" class="text-center text-xl inline-flex items-center justify-center px-4 py-2 text-sm text-white rounded-full discord-button">

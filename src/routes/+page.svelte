@@ -1,5 +1,4 @@
 <script>
-  //import ConstitutionBody from '$routes/constitution/body.svelte'
   import SDHWriting from '$components/sdh-writing.svelte'
   import Subheading from '$components/subheading.svelte'
   import Clarification from '$components/clarification.svelte'
