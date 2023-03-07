@@ -26,7 +26,6 @@
   import { Card } from 'flowbite-svelte'
   import breakpoints from '$stores/breakpoints.mjs'
 </script>
-<!-- TODO: Use svelte conditionals instead of tailwind CSS to improve performance. -->
 {#if $breakpoints.md }
   <div style={`--line-length: ${lineLength};`}>
     <article class="left-margin">

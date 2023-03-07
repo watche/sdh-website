@@ -68,13 +68,16 @@
           offset(8)
         ],
       }).then(({x, y}) => {
-        Object.assign(clarifEl.style, {
-          left: `${x}px`,
-          top: `${y}px`,
-        });
+        // The Clarification can be removed by an {#if} before floating-ui is done initializing
+        if(!!clarifEl) {
+          Object.assign(clarifEl.style, {
+            left: `${x}px`,
+            top: `${y}px`,
+          });
 
-        clarifState = HIDDEN;
-        updateClarif();
+          clarifState = HIDDEN;
+          updateClarif();
+        }
       });
     });
   });

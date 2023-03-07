@@ -5,9 +5,10 @@
 --> 
 <script>
   import DiscordLogo from '$components/discord-logo.svelte'
+  import Link from '$components/link.svelte'
   import { DISCORD_URL } from '$constants/discord-url.mjs';
 </script>
-<a href={DISCORD_URL} rel="noopener noreferrer nofollow" target="_blank">
+<Link href={DISCORD_URL} nofollow>
   <div class="flex">
     <span class="hidden md:inline">
       <button type="button" class="text-center text-xl inline-flex items-center justify-center px-4 py-2 text-sm text-white rounded-full discord-button">
@@ -18,7 +19,7 @@
     </span>
     <button type="button" class="md:hidden text-center discord-button rounded-full text-white px-5 py-5"><DiscordLogo /></button>
   </div>
-</a>
+</Link>
 <style>
   /* Using the color found on https://discord.com/branding at 2023-02-26T17:36:06.764Z */
   .discord-button {

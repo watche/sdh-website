@@ -10,8 +10,8 @@
     }
   }
 </script>
-{#if !internal }
-  <a href={href} class="underline"><slot /></a>
+{#if internal }
+  <a href={href} class={$$props.class?$$props.class:"underline"}><slot /></a>
 {:else}
-  <a href={href} rel={`noopener${nofollow?" nofollow":""}`} class="underline" target="_blank"><slot /></a>
+  <a href={href} rel={`noopener${nofollow?" nofollow":""}`} class={$$props.class?$$props.class:"underline"} target="_blank"><slot /></a>
 {/if}

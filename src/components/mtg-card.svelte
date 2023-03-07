@@ -2,5 +2,7 @@
   export let cardUrl;
   export let name;
   export let imageUrl;
+
+  import Link from '$components/link.svelte'
 </script>
-<a href={cardUrl} target="_blank" rel="noopener noreferrer" class="cursor-pointer"><img style="border-radius: 20px" alt={name} src={imageUrl} /></a>
+<Link href={cardUrl} class="cursor-pointer" nofollow><img style="border-radius: 20px" alt={name} src={imageUrl} /></Link>

@@ -1,20 +1,20 @@
 import { BREAKPOINTS, atBreakpoint } from '$constants/breakpoints.mjs'
 import { writable } from 'svelte/store';
-import debounce from '$utils/debounce.mjs';
+import throttle from '$utils/throttle.mjs';
 
-const DEBOUNCE_DELAY = 200;
+const THROTTLE_DELAY = 200;
 
 let initialized = false;
 let getVPWidth;
 
 const breakpointStore = writable({
-  'sm': false,
-  'md': false,
+  'sm': true,
+  'md': true,
   'lg': false,
   'xl': false,
   '2xl': false,
 });
-const updateBreakpointStore = (width) => {
+export const updateBreakpointStore = (width) => {
   console.log(`Updating breakpoints ${width}`);
   breakpointStore.set({
     'sm': atBreakpoint("sm", width),
@@ -26,16 +26,17 @@ const updateBreakpointStore = (width) => {
 };
 
 // Should be called as an onMount callback.
-export const initBreakpointStore = () => {
+/*export const initBreakpointStore = () => {
   if(!initialized) {
     let getVPWidth = () => {
       return Math.max((window.document.documentElement.clientWidth || 0), (window.innerWidth || 0));
     };
-    window.addEventListener('resize', debounce(() => {
+    updateBreakpointStore(getVPWidth());
+    window.addEventListener('resize', throttle(() => {
       updateBreakpointStore(getVPWidth());
-    }, DEBOUNCE_DELAY, true));
+    }, THROTTLE_DELAY, true));
     initialized = true;
   }
-};
+};*/
 
 export default breakpointStore;

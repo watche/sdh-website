@@ -24,7 +24,6 @@
       <tr>
         <th class="pl-2 py-1" colspan="2">
           <DecklistButton deck={deck} />
-          <!--<a href={deck.listUrl} class="underline">Decklist</a>-->
         </th>
       </tr>
     </table>
