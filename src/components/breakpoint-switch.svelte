@@ -1,70 +1,154 @@
+<!--
+  This component encapsulates the (surprisingly complicated) logic of selectively displaying content at different screen widths.
+
+  There are two main details that complicate this:
+  1. Hiding elements with CSS doesn't stop them from rendering, which causes performance problems (especially with nested components using breakpoints.)
+  2. During server-side rendering, the screen size is unknowable,
+    so template conditionals will not necessarily be showing the correct content.
+    This results in a jarring, very visible, shift in the content about a quarter-second after the page loads.
+
+  The availability of the screen width is only a problem on the initial page load.
+  Subsequent navigations will have the information immediately, so the component should ideally support both.
+
+  This situation is complicated even further by the fact that Svelte does not support dynamic slot names,
+  so some duplicate code appears to be inevitable.
+
+  Given that the tailwind config does not change during runtime, it seems feasible to generate this component dynamically.
+  Something that should probably be done in flowbite-svelte, though, rather than here.
+
+  The approach taken is to render all of the filled slots with dynamic CSS based on the other filled slots,
+  then remove the unused slots from the page as soon as the breakpoints are available.
+-->
 <script>
   import breakpoints, { breakpointsInitialized } from '$stores/breakpoints.mjs'
-  const slotsBySize = ["2xl", "xl", "lg", "md", "sm"];
 
+  const slotsBySize = ["sm", "md", "lg", "xl", "2xl"];
   let filledSlotsBySize;
   $: filledSlotsBySize = slotsBySize.filter((slotName) => {
     return !!$$slots[slotName];
   });
   let largestSlot;
-  $: largestSlot = filledSlotsBySize[0];
+  $: largestSlot = filledSlotsBySize[filledSlotsBySize.length - 1];
   let largestActiveSlot;
   $: largestActiveSlot = slotsBySize.filter((slotName) => {
       return (!!$$slots[slotName] && $breakpoints[slotName]);
-  })[0] || "sm";
+  }).pop() || slotsBySize[0];
+  const shouldRenderSlot = (slotName) => {
+    return (!$breakpointsInitialized && $$slots[slotName]) || ($breakpointsInitialized && (largestActiveSlot === slotName));
+  };
+  let renderedSlots;
+  $: renderedSlots = ($breakpoints, $$slots, Object.fromEntries(slotsBySize.map((slotName) => {
+    return [slotName, shouldRenderSlot(slotName)];
+  })));
 
-  const classListForSlot = (slotName) => {
-    if(filledSlotsBySize.length === 1) return "inline";
+  // CSS logic
+  const prevSlot = (slotName) => {
     const slotIdx = filledSlotsBySize.indexOf(slotName);
-    if(slotIdx === (filledSlotsBySize.length - 1)) {// If slotName is the smallest filled slot...
-      return `inline ${filledSlotsBySize[slotIdx-1]}:hidden`;
+    if(slotIdx === 0) {
+      return null;
+    } else {
+      return filledSlotsBySize[slotIdx - 1];
     }
-    if(slotIdx === 0) {// If slotName is the largest filled slot...
-      return `hidden ${slotName}:inline`;
+  };
+  const nextSlot = (slotName) => {
+    const slotIdx = filledSlotsBySize.indexOf(slotName);
+    if(slotIdx === (filledSlotsBySize.length - 1)) {
+      return null;
+    } else {
+      return filledSlotsBySize[slotIdx + 1];
     }
-    return `hidden ${slotName}:max-${filledSlotsBySize[slotIdx - 1]}:inline`;
+  };
+  const classListForSlot = (slotName) => {
+    if($breakpointsInitialized) return "inline";
+    if(Object.keys($$slots).indexOf(slotName) === -1) return "hidden";
+    let c = "";
+    const next = nextSlot(slotName);
+    const prev = prevSlot(slotName);
+    if(!next && !prev) return c;
+    if(!prev) {
+      c += "inline ";
+    } else {
+      c += `hidden ${slotName}:inline `;
+    }
+    if(next) {
+      c += `${next}:hidden`;
+    }
+    return c;
   };
 </script>
-{#if !$breakpointsInitialized}
-  {#if !!$$slots.sm}
+{#if Object.getOwnPropertyNames($$slots).length === 1}
+  <slot name="sm" />
+  <slot name="md" />
+  <slot name="lg" />
+  <slot name="xl" />
+  <slot name="2xl" />
+{:else}
+  {#if renderedSlots.sm}
     <span class={classListForSlot("sm")}>
       <slot name="sm" />
     </span>
   {/if}
-  {#if !!$$slots.md}
+  {#if renderedSlots.md}
     <span class={classListForSlot("md")}>
       <slot name="md" />
     </span>
   {/if}
-  {#if !!$$slots.lg}
+  {#if renderedSlots.lg}
     <span class={classListForSlot("lg")}>
       <slot name="lg" />
     </span>
   {/if}
-  {#if !!$$slots.xl}
+  {#if renderedSlots.xl}
     <span class={classListForSlot("xl")}>
       <slot name="xl" />
     </span>
   {/if}
-  {#if !!$$slots["2xl"]}
+  {#if renderedSlots["2xl"]}
     <span class={classListForSlot("2xl")}>
       <slot name="2xl" />
     </span>
   {/if}
-{:else}
-  {#if largestActiveSlot === "sm"}
-    <slot name="sm" />
-  {/if}
-  {#if largestActiveSlot === "md"}
-    <slot name="md" />
-  {/if}
-  {#if largestActiveSlot === "lg"}
-    <slot name="lg" />
-  {/if}
-  {#if largestActiveSlot === "xl"}
-    <slot name="xl" />
-  {/if}
-  {#if largestActiveSlot === "2xl"}
-    <slot name="2xl" />
-  {/if}
 {/if}
+<style>
+  /* TODO: Figure out why so many of these classes are not working "out of the box" from Tailwind. */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .md\:inline {
+      display: inline;
+    }
+  }
+  @media (min-width: 768px) {
+    .md\:hidden {
+      display: none;
+    }
+  }
+  @media (min-width: 1536px) {
+    .xxl\:hidden {
+      display: none;
+    }
+    .xxl\:inline {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1535) {
+    .xl\:inline {
+      display: none;
+    }
+  }
+  @media (min-width: 1280px) {
+    .xl\:hidden {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1026px) and (max-width: 1279) {
+    .lg\:inline {
+      display: inline;
+    }
+  }
+  @media (min-width: 1024px) {
+    .lg\:hidden {
+      display: none;
+    }
+  }
+</style>

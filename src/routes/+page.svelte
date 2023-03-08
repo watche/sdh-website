@@ -17,7 +17,8 @@
   <span slot="title">Spousal Dragon Highlanders</span>
   <p>Elder Dragon Highlander is getting awfully elder, and after guilt-tripping it every Thanksgiving for many years, it’s finally decided to get married. That’s right: TWO commanders!</p>
   <!-- TODO: Dehardcode image height -->
-  <img src={TwoCommandersImg} class="mt-2" alt="SDH allows you to run two commanders" style="min-height: 600px"/>
+  <!-- TODO: Div with similar `background-color`s to make the loading less jarring. -->
+  <img src={TwoCommandersImg} class="mt-2" style="aspect-ratio: 600 / 486" width="600" height="486" alt="SDH allows you to run two commanders" />
   <section>
     <Subheading>Why a new format?</Subheading>
     <p>
