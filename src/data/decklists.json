@@ -139,5 +139,28 @@
         "rarity": "UNCOMMON"
       }
     ]
+  },
+  {
+    "id": "9482552f-4c3b-4b79-a872-116a0b412416",
+    "name": "Ranar the Restful",
+    "listUrl": "https://www.moxfield.com/decks/vdjXMrLm_k-TlQbeDdcVVg",
+    "blurb": "At long last, Ranar gets to use the card he was made for: Food Chain. He's an enabler, and his wife's a payoff; what more can a young couple ask for? \n\n&nbsp;\n\n That's an irrelevant question because Ranar is very, very old, and just wants to Rest in Peace, which is the deck's other main combo pieace.",
+    "colorIdentity": "Bant",
+    "strategy": "Stax",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/khc/2/ranar-the-ever-watchful",
+        "imageUrl": "https://cards.scryfall.io/large/front/1/c/1c8c41dd-8551-4ce8-a9be-9b9f65718852.jpg?1657065666",
+        "name": "Ranar the Ever-Watchful",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ranar-portrait.jpeg",
+        "rarity": "RARE"
+      }, {
+        "cardUrl": "https://scryfall.com/card/cmr/280/imoti-celebrant-of-bounty",
+        "imageUrl": "https://cards.scryfall.io/large/front/8/a/8afceb13-877a-4256-9ba6-851b6924ffd9.jpg?1608911148",
+        "name": "Imoti, Celebrant of Bounty",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/imoti-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
   }
 ]
