@@ -53,7 +53,7 @@
     "listUrl": "https://www.moxfield.com/decks/4wHILZYVzEqr7Q20LtPW0g",
     "blurb": "The idea is simple: Skittles gives a player poison counters, and Kediss spreads the love. This kills the table in three swings, and casting Skithiryx is difficult, so the deck uses its library to buy time for the clock in the command zone.",
     "colorIdentity": "Rakdos",
-    "strategy": "Stax (Infect)",
+    "strategy": "Clock",
     "commanders": [
       {
         "cardUrl": "https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon",
@@ -98,7 +98,7 @@
     "id": "36cc394a-afba-4552-90d1-add12204e9ba",
     "name": "Dinner Party",
     "listUrl": "https://www.moxfield.com/decks/CMTk9bwtyU6CXCgmd_7rBg",
-    "blurb": "Rocco loves to put fresh food on the table, and since Rocco and Emiel turn eachother into mana outlets, there're a lot of combos on the table, too! The deck can also win from just by casting Rocco finding Dockside, and can attempt wins over and over again in the face of interaction.",
+    "blurb": "Rocco loves to put fresh food on the table, and since Rocco and Emiel turn each other into mana outlets, he puts a lot of combos on the table, too! The deck can also win from just by casting Rocco to find Dockside, and can attempt wins over and over again in the face of interaction.",
     "colorIdentity": "Naya",
     "strategy": "Persistence",
     "commanders": [
@@ -113,6 +113,29 @@
         "imageUrl": "https://cards.scryfall.io/large/front/b/6/b6cf8b35-2a81-40fd-b383-becb81bef806.jpg?1664413683",
         "name": "Rocco, Cabaretti Caterer",
         "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rocco-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "c78920df-dc2a-4335-b851-6657d9ad8222",
+    "name": "Roll Tide",
+    "listUrl": "https://www.moxfield.com/decks/37dTbuB1lEu-5hNykBPk4A",
+    "blurb": "\"Look Mom, all abilities!\" Together, these commanders have *five* one-card combos, and all of them can win through Silence. Thoracle/Consult is in the deck as a backup plan because the main line is easier to assemble and harder to stop. And if you get stopped anyway, the commanders still provide enough value to stay in the game.",
+    "colorIdentity": "Dimir",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/one/75/unctus-grand-metatect",
+        "imageUrl": "https://cards.scryfall.io/large/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.jpg?1675956999",
+        "name": "Unctus, Grand Metatect",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/unctus-portrait.jpg",
+        "rarity": "RARE"
+      }, {
+        "cardUrl": "https://scryfall.com/card/cmr/267/araumi-of-the-dead-tide",
+        "imageUrl": "https://cards.scryfall.io/large/front/4/8/48b597dd-f6eb-45da-977d-453e8c1433cc.jpg?1608911023",
+        "name": "Araumi of the Dead Tide",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/araumi-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
