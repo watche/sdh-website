@@ -93,5 +93,28 @@
         "rarity": "UNCOMMON"
       }
     ]
+  },
+  {
+    "id": "36cc394a-afba-4552-90d1-add12204e9ba",
+    "name": "Dinner Party",
+    "listUrl": "https://www.moxfield.com/decks/CMTk9bwtyU6CXCgmd_7rBg",
+    "blurb": "Rocco loves to put fresh food on the table, and since Rocco and Emiel turn eachother into mana outlets, there're a lot of combos on the table, too! The deck can also win from just by casting Rocco finding Dockside, and can attempt wins over and over again in the face of interaction.",
+    "colorIdentity": "Naya",
+    "strategy": "Persistence",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/2x2/10/emiel-the-blessed",
+        "imageUrl": "https://cards.scryfall.io/large/front/0/f/0f594562-7e9f-47e6-a033-fb70e3cf1e10.jpg?1673146967",
+        "name": "Emiel the Blessed",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/emiel-portrait.webp",
+        "rarity": "MYTHIC"
+      }, {
+        "cardUrl": "https://scryfall.com/card/snc/218/rocco-cabaretti-caterer",
+        "imageUrl": "https://cards.scryfall.io/large/front/b/6/b6cf8b35-2a81-40fd-b383-becb81bef806.jpg?1664413683",
+        "name": "Rocco, Cabaretti Caterer",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rocco-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
   }
 ]
