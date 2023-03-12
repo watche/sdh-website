@@ -4,11 +4,11 @@
   import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
 
   import { page } from '$app/stores';
-  import SDHLogo from '$assets/sdh-logo.svg';
   import NavLink from '$routes/nav-link.svelte'
   import Footer from '$routes/footer.svelte'
   import DiscordButton from '$routes/discord-button.svelte'
   import HamburgerMenu from '$components/hamburger-menu.svelte'
+  import SDHLogo from '$components/sdh-logo.svelte'
 
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
@@ -29,9 +29,7 @@
   <Navbar class="border-b dark:border-slate-200/5">
     <HamburgerMenu bind:open={hamburgerMenuOpen} />
     <NavBrand href="/">
-      <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white rounded-md p-2 logo-area" data-active={logoActive}>
-          <img src={SDHLogo} class="block" alt="SDH" />
-      </span>
+      <SDHLogo active={logoActive} />
     </NavBrand>
     <NavUl>
       <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
