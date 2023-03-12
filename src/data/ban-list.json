@@ -30,7 +30,8 @@
     "card": {
       "name": "Erayo, Soratami Ascendant // Erayo's Essence",
       "imageUrl": "https://cards.scryfall.io/normal/front/0/b/0b61d772-2d8b-4acf-9dd2-b2e8b03538c8.jpg?1610664131",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=87599"
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=87599",
+      "flippable": true
     },
     "banType": "spouse",
     "rationale": "Considering that Erayo can be your third spell, and it counts opponents' spells, and that it counters EACH opponent's spells, and that it becomes less removeable once flipped, this EDH ban is likely to stick."
@@ -174,7 +175,8 @@
     "card": {
       "name": "Erayo, Soratami Ascendant // Erayo's Essence",
       "imageUrl": "https://cards.scryfall.io/normal/front/0/b/0b61d772-2d8b-4acf-9dd2-b2e8b03538c8.jpg?1610664131",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=87599"
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=87599",
+      "flippable": true
     },
     "banType": "library",
     "rationale": "Considering that Erayo can be your third spell, and it counts opponents' spells, and that it counters EACH opponent's spells, and that it becomes less removeable once flipped, this EDH ban is likely to stick."
