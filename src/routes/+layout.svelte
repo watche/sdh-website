@@ -28,7 +28,7 @@
 
   let navMenuOpen = false;
 
-  const MENU_ANIM_DURATION = "0.4s";
+  const MENU_ANIM_DURATION = "0.25s";
   const logoClick = () => {
     if(!$breakpointsInitialized || $breakpoints.md) {
       window.location = "/";
@@ -47,7 +47,7 @@
     </NavUl>
     <DiscordButton />
   </Navbar>
-  <NavMenu open={navMenuOpen} animDuration={MENU_ANIM_DURATION} />
+  <NavMenu open={navMenuOpen} animDuration={MENU_ANIM_DURATION} on:navigation={() => navMenuOpen = false} />
 </span>
 
 <!--

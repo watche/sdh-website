@@ -5,6 +5,12 @@
   import { Navbar, NavUl } from 'flowbite-svelte';
   import Link from '$components/link.svelte';
   import breakpoints from '$stores/breakpoints.mjs';
+  import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+  const emitNavigation = () => {
+    dispatch("navigation", {});
+  };
 
   const routes = [
     {name: "Homepage", url:"/"},
@@ -15,7 +21,7 @@
 </script>
 <ul style={`--anim-duration: ${animDuration}; --menu-item-count: ${routes.length }`} class={`nav-menu my-2 ${open?"menu-expanded border-b":"menu-collapsed"} dark:border-slate-200/5`}>
   {#each routes as route}
-    <li><Link class="text-white px-2" href={route.url}>{route.name}</Link></li>
+    <li on:click={emitNavigation}><Link class="text-white px-2" href={route.url}>{route.name}</Link></li>
   {/each}
 </ul>
 <style>

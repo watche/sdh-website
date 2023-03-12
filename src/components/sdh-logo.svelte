@@ -42,13 +42,13 @@
 
   #setting {
     transform-origin: 97px 97px;
-    transform: rotate(0turn);
+    transform: rotate(0deg);
     transition: transform var(--anim-duration) ease-in-out;
   }
 
   #setting[data-active="true"] {
     transform-origin: 97px 97px;
-    transform: rotate(1turn);
+    transform: rotate(240deg);
     transition: transform var(--anim-duration) ease-in-out;
   }
 </style>

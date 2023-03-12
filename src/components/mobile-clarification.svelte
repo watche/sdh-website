@@ -5,7 +5,7 @@
   let expanded = false;
 </script>
 <span on:click={() => {expanded = !expanded;}}>
-  <span class="underline"><slot /><span class="ml-1"><QuestionMarkIcon /></span></span>
+  <span class="underline cursor-pointer select-none"><slot /><span class="ml-1"><slot name="clarifAffordance"><QuestionMarkIcon /></slot></span></span>
 </span>
 {#if expanded}
 <Card>
