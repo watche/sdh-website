@@ -162,5 +162,28 @@
         "rarity": "UNCOMMON"
       }
     ]
+  },
+  {
+    "id": "3b3ecb2b-43df-4118-a52d-33161af7c04a",
+    "name": "Cathar's Crusader",
+    "listUrl": "https://www.moxfield.com/decks/V9hFvam4rU6Rg1-xIzBjwg",
+    "blurb": "Are you tired of all those goddamn under-30-year-old little kids playing \"cEDH\" in your local meta? Have infinite combos violated the sanctity of ~marriage~ Commander? Punish those little bastards with this hard stax/combat deck.",
+    "colorIdentity": "Azorius",
+    "strategy": "Stax",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/mid/1/adeline-resplendent-cathar",
+        "imageUrl": "https://cards.scryfall.io/large/front/1/8/18092f68-b96e-4084-9eba-b240d2195d81.jpg?1634346539",
+        "name": "Adeline, Resplendent Cathar",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/adeline-portrait.webp",
+        "rarity": "RARE"
+      }, {
+        "cardUrl": "https://scryfall.com/card/dom/69/tetsuko-umezawa-fugitive",
+        "imageUrl": "https://cards.scryfall.io/large/front/1/6/16185c50-f7b8-4cea-a129-dfad8e9df781.jpg?1591605108",
+        "name": "Tetsuko Umezawa, Fugitive",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tetsuko-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
   }
 ]
