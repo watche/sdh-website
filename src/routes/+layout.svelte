@@ -1,13 +1,15 @@
 <script>
   import '../app.postcss';
 
-  import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
+  import { Navbar, NavUl } from 'flowbite-svelte';
 
   import { page } from '$app/stores';
-  import SDHLogo from '$assets/sdh-logo.svg';
   import NavLink from '$routes/nav-link.svelte'
   import Footer from '$routes/footer.svelte'
   import DiscordButton from '$routes/discord-button.svelte'
+  import SDHLogo from '$components/sdh-logo.svelte'
+  import NavMenu from '$routes/nav-menu.svelte'
+  import breakpoints, { breakpointsInitialized } from '$stores/breakpoints.mjs'
 
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
@@ -15,26 +17,38 @@
   let route;
   $: route = $page.route.id;
 
+  // TODO: Fix this
   let firstLoad = true;
   $: if(route !== "/") {
     firstLoad = false;
   }
-  let logoActive;
-  $: logoActive = ((route === "/") && !firstLoad);
+
+  let logoActive = false;
+  $: logoActive = $breakpointsInitialized && ($breakpoints.md?((route === "/" && !firstLoad)):(navMenuOpen));
+
+  let navMenuOpen = false;
+
+  const MENU_ANIM_DURATION = "0.25s";
+  const logoClick = () => {
+    if(!$breakpointsInitialized || $breakpoints.md) {
+      window.location = "/";
+    } else {
+      navMenuOpen = !navMenuOpen;
+    }
+  }
 </script>
-<Navbar class="border-b dark:border-slate-200/5 mb-3">
-  <NavBrand href="/">
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white rounded-md p-2 logo-area" data-active={logoActive}>
-        <img src={SDHLogo} class="block" alt="SDH" />
-    </span>
-  </NavBrand>
-  <NavUl>
-    <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
-    <NavLink route={RULES_ROUTE}>Rules</NavLink>
-    <NavLink route={DECKS_ROUTE}>Decks</NavLink>
-  </NavUl>
-  <DiscordButton />
-</Navbar>
+<span class="mb-3">
+  <Navbar class="border-b dark:border-slate-200/5">
+    <SDHLogo active={logoActive} on:click={logoClick} animDuration={MENU_ANIM_DURATION} />
+    <NavUl>
+      <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
+      <NavLink route={RULES_ROUTE}>Rules</NavLink>
+      <NavLink route={DECKS_ROUTE}>Decks</NavLink>
+    </NavUl>
+    <DiscordButton />
+  </Navbar>
+  <NavMenu open={navMenuOpen} animDuration={MENU_ANIM_DURATION} on:navigation={() => navMenuOpen = false} />
+</span>
 
 <!--
   This wrapper element, aside from creating columns to act as the margins,
@@ -50,14 +64,3 @@
   <div class="flex-auto" />
 </div>
 <Footer />
-<style>
-  .logo-area {
-    /* mimicking bg-slate-800 */
-    background-color: rgb(30 41 59);
-  }
-
-  .logo-area:hover, .logo-area[data-active="true"] {
-    /* mimicking bg-slate-700 */
-    background-color: rgb(51 65 85);
-  }
-</style>

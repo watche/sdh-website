@@ -23,6 +23,8 @@
   import CardClarification from '$components/card-clarification.svelte';
   import DeckExpansionRow from '$routes/decks/deck-expansion-row.svelte';
   import DecklistButton from '$routes/decks/decklist-button.svelte';
+  import BreakpointSwitch from '$components/breakpoint-switch.svelte';
+  import Link from '$components/link.svelte';
 
   import { Avatar } from 'flowbite-svelte';
   import { createEventDispatcher } from 'svelte';
@@ -34,21 +36,25 @@
     <div class="flex items-center">
       <div class="flex items-center">
         {#each deck.commanders as commander}
-          <!-- For indicating rarity:  dot={{color: colorForRarity(commander.rarity), size:"lg", placement:"bottom-right"}} -->
-          <!-- Currently does not overlap the commander Avatar, and causes the image to shrink and deform. -->
-          <!-- TODO: Add rarity indicator to commanders -->
           <span class="pr-1">
-            <CardClarification cardUrl={commander.cardUrl} imageUrl={commander.imageUrl} name={commander.name}>
-              <Avatar src={commander.artUrl} />
-            </CardClarification>
+            <BreakpointSwitch>
+              <svelte:fragment slot="lg">
+                <!--
+                  TODO: Clean this up. The objective is to use DesktopClarification and use a link when below the necessary breakpoint,
+                  but this is only achieved because of CardClarification's current implementation.
+                -->
+                <CardClarification cardUrl={commander.cardUrl} imageUrl={commander.imageUrl} name={commander.name}>
+                  <Avatar src={commander.artUrl} />
+                </CardClarification>
+              </svelte:fragment>
+              <svelte:fragment slot="sm">
+                <a href={commander.cardUrl} class="" rel="nofollow noopener" on:click|stopPropagation={()=>{}}><Avatar src={commander.artUrl} /></a>
+              </svelte:fragment>
+            </BreakpointSwitch>
           </span>
         {/each}
       </div>
       <span class="ml-5">{deck.name}</span>
-      <!-- TODO: Find something to put on the right side of the row -- Looks barren atm. -->
-      <!--{#if !expanded}
-        <span class="ml-auto"><DecklistButton deck="deck"/></span>
-      {/if}-->
     </div>
   </div>
   <DeckExpansionRow expanded={expanded} last={last} deck={deck} />

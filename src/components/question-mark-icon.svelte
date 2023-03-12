@@ -10,7 +10,8 @@
     fill: rgb(51 65 85);
   }
   #mark {
-    fill: currentcolor;
+    /* Mimicking the default text color. This is used over currentcolor so that question marks in lists look right. */
+    fill: rgb(203 213 235);
     font-size: 350px;
     font-weight: bolder;
   }

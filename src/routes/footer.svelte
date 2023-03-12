@@ -11,7 +11,7 @@
       <p>Portions of the materials used are property of Wizards of the Coast, ©Wizards of the Coast LLC.</p>
       <p>Other Attributions can be found on <Link href="/attributions">the Attributions page</Link>.</p>
     </span>
-    <span style="margin-left: auto;">
+    <span class="hidden md:inline" style="margin-left: auto;">
       <Link href={GITHUB_URL}>
         <div class="flex items-center text-sm"><div style="height:17px;">Check us out on GitHub!</div><span class="pl-2" /><GitHubLogo /></div>
       </Link>
