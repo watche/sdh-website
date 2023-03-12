@@ -1,7 +1,14 @@
 <script>
-  export let active = false;
+  export let active;
+  export let animDuration;
+  import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+  const emitClick = () => {
+    dispatch("click", {});
+  };
 </script>
-<span class="self-center whitespace-nowrap dark:text-white rounded-md p-2 logo-area" data-active={active}>
+<span class="self-center whitespace-nowrap dark:text-white rounded-md p-2 logo-area cursor-pointer select-none dark:bg-slate-800 dark:md:bg-inherit" data-active={active} on:click={emitClick} style={`--anim-duration: ${animDuration};`}>
   <svg width="9em" height="3em" version="1.1" viewBox="0 0 571 190" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="sdh-logo">
     <defs>
       <linearGradient id="ring-band-fade-pat" x1="190.4" x2="344" y1="71.539" y2="71.539" gradientTransform="matrix(1.3047 0 0 1 -48.394 -.80075)" gradientUnits="userSpaceOnUse">
@@ -20,11 +27,7 @@
   </svg>
 </span>
 <style>
-  .logo-area {
-    /* mimicking bg-slate-800 */
-    background-color: rgb(30 41 59);
-  }
-  .logo-area:hover, .logo-area[data-active="true"] {
+  .logo-area[data-active="true"] {
     /* mimicking bg-slate-700 */
     background-color: rgb(51 65 85);
   }
@@ -40,12 +43,12 @@
   #setting {
     transform-origin: 97px 97px;
     transform: rotate(0turn);
-    transition: transform 0.5s ease-in-out;
+    transition: transform var(--anim-duration) ease-in-out;
   }
 
   #setting[data-active="true"] {
     transform-origin: 97px 97px;
     transform: rotate(1turn);
-    transition: transform 0.5s ease-in-out;
+    transition: transform var(--anim-duration) ease-in-out;
   }
 </style>

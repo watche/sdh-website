@@ -1,14 +1,15 @@
 <script>
   import '../app.postcss';
 
-  import { Navbar, NavUl, NavBrand } from 'flowbite-svelte';
+  import { Navbar, NavUl } from 'flowbite-svelte';
 
   import { page } from '$app/stores';
   import NavLink from '$routes/nav-link.svelte'
   import Footer from '$routes/footer.svelte'
   import DiscordButton from '$routes/discord-button.svelte'
-  import HamburgerMenu from '$components/hamburger-menu.svelte'
   import SDHLogo from '$components/sdh-logo.svelte'
+  import NavMenu from '$routes/nav-menu.svelte'
+  import breakpoints, { breakpointsInitialized } from '$stores/breakpoints.mjs'
 
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
@@ -16,21 +17,29 @@
   let route;
   $: route = $page.route.id;
 
+  // TODO: Fix this
   let firstLoad = true;
   $: if(route !== "/") {
     firstLoad = false;
   }
-  let logoActive;
-  $: logoActive = ((route === "/") && !firstLoad);
 
-  let hamburgerMenuOpen = false;
+  let logoActive = false;
+  $: logoActive = $breakpointsInitialized && ($breakpoints.md?((route === "/" && !firstLoad)):(navMenuOpen));
+
+  let navMenuOpen = false;
+
+  const MENU_ANIM_DURATION = "0.4s";
+  const logoClick = () => {
+    if(!$breakpointsInitialized || $breakpoints.md) {
+      window.location = "/";
+    } else {
+      navMenuOpen = !navMenuOpen;
+    }
+  }
 </script>
 <span class="mb-3">
   <Navbar class="border-b dark:border-slate-200/5">
-    <HamburgerMenu bind:open={hamburgerMenuOpen} />
-    <NavBrand href="/">
-      <SDHLogo active={logoActive} />
-    </NavBrand>
+    <SDHLogo active={logoActive} on:click={logoClick} animDuration={MENU_ANIM_DURATION} />
     <NavUl>
       <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
       <NavLink route={RULES_ROUTE}>Rules</NavLink>
@@ -38,15 +47,7 @@
     </NavUl>
     <DiscordButton />
   </Navbar>
-  <div style="height: var(--hamburger-menu-height);" class={`${hamburgerMenuOpen?"hamburger-menu-expanded border-b":"hamburger-menu-collapsed"} dark:border-slate-200/5`}>
-    <Navbar>
-      <NavUl ulClass="flex-col">
-        <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
-        <NavLink route={RULES_ROUTE}>Rules</NavLink>
-        <NavLink route={DECKS_ROUTE}>Decks</NavLink>
-      </NavUl>
-    </Navbar>
-  </div>
+  <NavMenu open={navMenuOpen} animDuration={MENU_ANIM_DURATION} />
 </span>
 
 <!--
@@ -63,28 +64,3 @@
   <div class="flex-auto" />
 </div>
 <Footer />
-<style>
-  .logo-area {
-    /* mimicking bg-slate-800 */
-    background-color: rgb(30 41 59);
-  }
-
-  .logo-area:hover, .logo-area[data-active="true"] {
-    /* mimicking bg-slate-700 */
-    background-color: rgb(51 65 85);
-  }
-
-  .hamburger-menu-collapsed {
-    max-height: 0px;
-    overflow: hidden;
-    border-bottom-width: 1px;
-    border-bottom-width: 0px;
-    transition: max-height 0.25s linear, border-bottom-width 0.25s step-end;
-  }
-  .hamburger-menu-expanded {
-    max-height: 100px;
-    overflow: hidden;
-    border-bottom-width: 1px;
-    transition: max-height 0.25s linear, border-bottom-width 0.25s step-start;
-  }
-</style>
