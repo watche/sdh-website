@@ -5,6 +5,8 @@
   at the exact half-way point of that flipping animation.
 
   Also, the flip button shouldn't get affected by any of these transformations.
+
+  TODO: Use an icon for the flip button instead of the text "Flip".
 -->
 <script>
   export let cardUrl;

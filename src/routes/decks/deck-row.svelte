@@ -21,7 +21,8 @@
     })(expanded)}, 300);
   }
 
-  import CardClarification from '$components/card-clarification.svelte';
+  import DesktopClarification from '$components/desktop-clarification.svelte';
+  import MtgCard from '$components/mtg-card.svelte';
   import DeckExpansionRow from '$routes/decks/deck-expansion-row.svelte';
   import DecklistButton from '$routes/decks/decklist-button.svelte';
   import BreakpointSwitch from '$components/breakpoint-switch.svelte';
@@ -39,15 +40,10 @@
         {#each deck.commanders as commander}
           <span class="pr-1">
             <BreakpointSwitch>
-              <svelte:fragment slot="lg">
-                <!--
-                  TODO: Clean this up. The objective is to use DesktopClarification and use a link when below the necessary breakpoint,
-                  but this is only achieved because of CardClarification's current implementation.
-                -->
-                <CardClarification {...commander}>
-                  <Avatar src={commander.artUrl} />
-                </CardClarification>
-              </svelte:fragment>
+              <DesktopClarification slot="md">
+                <Avatar src={commander.artUrl} />
+                <MtgCard slot="clarification" {...commander} />
+              </DesktopClarification>
               <svelte:fragment slot="sm">
                 <a href={commander.cardUrl} class="" rel="nofollow noopener" on:click|stopPropagation={()=>{}}><Avatar src={commander.artUrl} /></a>
               </svelte:fragment>

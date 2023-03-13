@@ -109,46 +109,5 @@
     </span>
   {/if}
 {/if}
-<style>
-  /* TODO: Figure out why so many of these classes are not working "out of the box" from Tailwind. */
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .md\:inline {
-      display: inline;
-    }
-  }
-  @media (min-width: 768px) {
-    .md\:hidden {
-      display: none;
-    }
-  }
-  @media (min-width: 1536px) {
-    .xxl\:hidden {
-      display: none;
-    }
-    .xxl\:inline {
-      display: inline;
-    }
-  }
-
-  @media (min-width: 1280px) and (max-width: 1535) {
-    .xl\:inline {
-      display: none;
-    }
-  }
-  @media (min-width: 1280px) {
-    .xl\:hidden {
-      display: none;
-    }
-  }
-
-  @media (min-width: 1026px) and (max-width: 1279) {
-    .lg\:inline {
-      display: inline;
-    }
-  }
-  @media (min-width: 1024px) {
-    .lg\:hidden {
-      display: none;
-    }
-  }
-</style>
+<!-- This span ensures that all of the breakpoint classes we might need to use will be included in the build by Tailwind. -->
+<span class="sm:hidden sm:inline md:hidden md:inline lg:inline lg:hidden xl:inline xl:hidden 2xl:inline 2xl:hidden" />

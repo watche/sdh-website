@@ -30,9 +30,10 @@
     return 0;
   });
 </script>
-<!--TODO: When reloading the page, the footer flashes in the wrong spot (at the bottom of the table.) -->
-<!--TODO: The avatar images flicker once when the page loads. -->
-<!--TODO? Create system for showing little badges on the right side of the deck row like "New" or a little medal for winning a game on Youtube or something. -->
+<!-- TODO: When reloading the page, the footer flashes in the wrong spot (at the bottom of the table.) -->
+<!-- TODO: Move the breakpoint from md to lg (not currently supported by SDHWriting). -->
+<!-- TODO? Create system for showing little badges on the right side of the deck row like "New" or a little medal for winning a game on Youtube or something. -->
+<!-- The avatar images flicker once when the page loads in development, but not in production; this does not need to be fixed.. -->
 <svelte:head>
   <title>SDH Decklist Database</title>
   <meta name="description" content="A collection of interesting and/or representative decks of the SDH format in Magic: the Gathering." />
