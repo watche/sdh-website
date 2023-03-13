@@ -39,7 +39,7 @@
 </script>
 <span class="mb-3">
   <Navbar class="border-b dark:border-slate-200/5">
-    <SDHLogo active={logoActive} on:click={logoClick} animDuration={MENU_ANIM_DURATION} />
+    <SDHLogo active={logoActive} on:click={logoClick} animDuration={MENU_ANIM_DURATION} scale={3} />
     <NavUl>
       <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
       <NavLink route={RULES_ROUTE}>Rules</NavLink>

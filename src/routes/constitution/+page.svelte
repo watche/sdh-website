@@ -4,12 +4,18 @@
   import Clarification from '$components/clarification.svelte'
   import MtgCard from '$components/mtg-card.svelte'
   import CardClarification from '$components/card-clarification.svelte'
+  import SDHLogo from '$components/sdh-logo.svelte'
   import { Card } from 'flowbite-svelte'
 
   const armageddon = {
     cardUrl: "https://scryfall.com/card/a25/5/armageddon",
     imageUrl: "https://cards.scryfall.io/large/front/7/7/77f1f6ac-983f-4f3e-8906-47f774e8367b.jpg?1582021719",
     name: "Armageddon"
+  };
+  const moxDiamond = {
+    cardUrl: "https://scryfall.com/card/tpr/228/mox-diamond",
+    imageUrl: "https://cards.scryfall.io/large/front/b/f/bf9fecfd-d122-422f-bd0a-5bf69b434dfe.jpg?1562431287",
+    name: "Mox Diamond"
   };
 </script>
 <svelte:head>
@@ -44,5 +50,12 @@
   <section>
     <Subheading>Rule Zero</Subheading>
     <p>Just like in Commander, you're welcome to ignore any and all of these rules in a consenting playgroup. You don't need a formal document to tell you this, of course, but this is included simply to maintain the precedent from Commander that mixing things up with friends is not "playing the game wrong".</p>
+  </section>
+  <section>
+    <Subheading>The SDH Logo</Subheading>
+      <div class="flex flex-row content-center">
+        <SDHLogo scale={6} />
+        <p class="align-middle">The SDH Logo is simply a <CardClarification {...moxDiamond}>Mox Diamond</CardClarification> mounted on a wedding ring, which conceptually connects marriage to MtG, and does so using a superstaple card.</p>
+      </div>
   </section>
 </SDHWriting>
