@@ -11,6 +11,7 @@
   // When expanding the last row, we need to un-round the last row border instantly.
   // When collapsing the last row, we need to round the border only once the animation has finished.
   // TODO: De-hardcode timeout length (matches --collapse-toggle-duration in DeckExpansionRow)
+  // TODO: Use step-end and step-start in CSS instead of using JS.
   $: if(expanded) {
     expandedAndAnimationFinished = expanded;
   } else {
@@ -43,7 +44,7 @@
                   TODO: Clean this up. The objective is to use DesktopClarification and use a link when below the necessary breakpoint,
                   but this is only achieved because of CardClarification's current implementation.
                 -->
-                <CardClarification cardUrl={commander.cardUrl} imageUrl={commander.imageUrl} name={commander.name}>
+                <CardClarification {...commander}>
                   <Avatar src={commander.artUrl} />
                 </CardClarification>
               </svelte:fragment>

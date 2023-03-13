@@ -34,6 +34,7 @@
       {
         "cardUrl": "https://scryfall.com/card/khm/112/tergrid-god-of-fright-tergrids-lantern",
         "imageUrl": "https://cards.scryfall.io/large/front/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1631048621",
+        "backSideImageUrl": "https://cards.scryfall.io/large/back/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1631048621",
         "name": "Tergrid, God of Fright",
         "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tergrid-portrait.webp",
         "rarity": "RARE"
