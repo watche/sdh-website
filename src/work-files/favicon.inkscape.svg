@@ -7,7 +7,7 @@
    viewBox="0 0 169.61917 169.6196"
    version="1.1"
    id="svg5"
-   inkscape:export-filename="sdh-favicon-4-raster.png"
+   inkscape:export-filename="../../../sdh-misc/sdh-favicon-4-raster.png"
    inkscape:export-xdpi="42.673931"
    inkscape:export-ydpi="42.673931"
    inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.51553235"
-     inkscape:cx="-462.62858"
-     inkscape:cy="163.90824"
+     inkscape:cx="74.680085"
+     inkscape:cy="169.72747"
      inkscape:window-width="1920"
      inkscape:window-height="1035"
      inkscape:window-x="0"
@@ -81,33 +81,42 @@
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#e6a000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        id="ellipse61290"
        cx="84.810669"
-       cy="71.623886"
+       cy="78.240631"
        inkscape:label="Platform"
-       r="73.925911" />
+       r="74.942162" />
     <circle
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0;stop-color:#000000"
        id="path74645"
-       cx="84.830444"
-       cy="71.59687"
-       r="58.296082"
+       cx="84.830719"
+       cy="78.213249"
+       r="59.097473"
        inkscape:label="Diamond" />
-    <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#e6a000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="M 140.44534,23.042391 134.40252,10.0935 114.83531,-3.7186521 168.64515,18.726094 148.79018,16.42407 l 10.64687,17.840696 -12.66114,-9.208101 -5.17956,3.453037 z"
-       id="path4681"
-       inkscape:transform-center-x="-56.929563"
-       inkscape:transform-center-y="-56.350831" />
-    <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#e6a000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="M 14.920521,47.733593 6.7278641,59.44128 4.5497934,83.293053 -2.9174036,25.469992 5.0164676,43.815914 15.143528,25.675104 l -1.643879,15.568919 5.580199,2.759113 z"
-       id="path4683"
-       inkscape:transform-center-x="76.729447"
-       inkscape:transform-center-y="-17.242365" />
-    <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#e6a000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       d="m 99.066138,144.09567 14.235482,1.24121 21.74527,-10.03961 -46.342633,35.37832 11.921083,-16.04391 -20.773914,0.30012 14.305035,-6.36082 -0.400655,-6.21213 z"
-       id="path4685"
-       inkscape:transform-center-x="-22.63849"
-       inkscape:transform-center-y="81.362539" />
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f5af0f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="path7700"
+       cx="-39.026508"
+       cy="161.53546"
+       r="24.263391"
+       inkscape:transform-center-x="13.531532"
+       inkscape:transform-center-y="71.879515"
+       transform="rotate(-38.981248)" />
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f5af0f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="circle8444"
+       cx="-162.96619"
+       cy="4.7480669"
+       r="24.263391"
+       inkscape:transform-center-x="-69.015256"
+       inkscape:transform-center-y="-24.221132"
+       transform="rotate(-158.98125)" />
+    <circle
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#f5af0f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="circle8446"
+       cx="34.785526"
+       cy="-24.193136"
+       r="24.263391"
+       inkscape:transform-center-x="55.483745"
+       inkscape:transform-center-y="-47.658414"
+       transform="rotate(81.018752)" />
   </g>
 </svg>

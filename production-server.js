@@ -7,6 +7,7 @@ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 2
 //
 // Also, to run with user privileges, the private key and certificate chain permissions must allow the script to read them.
 // TODO: Dockerize
+// TODO: Move to dotenv for configuration
 const HTTP_PORT = 28982;
 const HTTPS_PORT = 23127;
 
