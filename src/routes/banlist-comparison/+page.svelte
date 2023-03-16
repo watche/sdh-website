@@ -1,3 +1,9 @@
+<script context="module">
+  import { writable } from 'svelte/store'
+  const fromRules = writable(false);
+
+  export { fromRules }
+</script>
 <script>
   import SDHWriting from '$components/sdh-writing.svelte'
   import Subheading from '$components/subheading.svelte'
@@ -5,6 +11,11 @@
   import CardClarification from '$components/card-clarification.svelte'
   import CardWithExplanation from '$components/card-with-explanation.svelte'
   import { List, Li } from 'flowbite-svelte'
+  import { beforeNavigate } from '$app/navigation'
+
+  beforeNavigate(() => {
+    fromRules.set(false);
+  });
 
   const uncardsScryfallUrl = "https://scryfall.com/search?q=format%3Aedh+-is%3Areprint+%28set%3Asunf+or+set%3Aunf%29+%28set%3Asunf+or+o%3Aattraction+or+type%3Aattraction+or+o%3A%22%7Btk%7D%22+or+o%3A%22sticker%22%29&unique=cards&as=grid&order=name";
   const tooManyColorsScryfallUrl = "https://scryfall.com/search?q=format%3Aedh+ci%3E3&unique=cards&as=grid&order=name";
@@ -90,8 +101,6 @@
     "imageUrl": "https://cards.scryfall.io/large/front/8/c/8c28cebf-f849-4353-9dd1-c62f05c15d0f.jpg?1673913524",
     "cardUrl": "https://scryfall.com/card/unf/45/exchange-of-words",
   };
-
-
 </script>
 <svelte:head>
   <title>Bans: SDH vs. EDH</title>
@@ -99,7 +108,7 @@
 </svelte:head>
 <SDHWriting>
   <span slot="title">Banlist Comparison to EDH</span>
-  <aside class="dark:text-slate-700 test-sm">Note: The <Link href="/bans">Official SDH Banlist</Link> trumps this document if an inconsistency is ever created.</aside>
+  <aside class="dark:text-slate-700 test-sm">Note: The <Link href="/ban-list">Official SDH Banlist</Link> trumps this document if an inconsistency is ever created.</aside>
   <section>
     <Subheading>Unbanned from Commander</Subheading>
     <p>(These cards are unbanned both in the library and in the command zone.)</p>
@@ -116,7 +125,10 @@
   <section>
     <Subheading>Illegal in SDH</Subheading>
       <p>Legality rules do exclude some cards that are playable in EDH, namely the <Link href={uncardsScryfallUrl} nofollow>un-cards that used Tickets, Stickers, or Attractions</Link>, and <Link href={tooManyColorsScryfallUrl}>cards in more than three colors</Link>.</p>
-      <br />
+      {#if !fromRules}<br />{/if}
       <p>The only widely-used card hit by these changes is <CardClarification {...blankGoblin}>_____ Goblin</CardClarification>.</p>
   </section>
+  {#if $fromRules}
+    <p class="mt-3"><Link href="/rules">Click here to return to the Rules page.</Link></p>
+  {/if}
 </SDHWriting>

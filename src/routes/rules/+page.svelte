@@ -5,25 +5,14 @@
   import CardClarification from '$components/card-clarification.svelte'
   import Link from '$components/link.svelte'
   import { List, Li } from 'flowbite-svelte'
+  import { beforeNavigate } from '$app/navigation'
+  import { fromRules } from '$routes/banlist-comparison/+page.svelte'
 
-  const blankGoblin = {
-    "name": "_____ Goblin",
-    "imageUrl": "https://cards.scryfall.io/large/front/5/8/5819e3f3-da49-4003-88ce-f3b7bb495787.jpg?1673914269",
-    "cardUrl": "https://scryfall.com/card/unf/107/_____-goblin",
-  };
-  const sawInHalf = {
-    "name": "Saw in Half",
-    "imageUrl": "https://cards.scryfall.io/large/front/0/5/05e6a7bc-a35a-4e68-99a0-be264553b5de.jpg?1673914032",
-    "cardUrl": "https://scryfall.com/card/unf/88/saw-in-half",
-  };
-  const exchangeOfWords = {
-    "name": "Exchange of Words",
-    "imageUrl": "https://cards.scryfall.io/large/front/8/c/8c28cebf-f849-4353-9dd1-c62f05c15d0f.jpg?1673913524",
-    "cardUrl": "https://scryfall.com/card/unf/45/exchange-of-words",
-  };
-
-  const uncardsScryfallUrl = "https://scryfall.com/search?q=format%3Aedh+-is%3Areprint+%28set%3Asunf+or+set%3Aunf%29+%28set%3Asunf+or+o%3Aattraction+or+type%3Aattraction+or+o%3A%22%7Btk%7D%22+or+o%3A%22sticker%22%29&unique=cards&as=grid&order=name";
-  const tooManyColorsScryfallUrl = "https://scryfall.com/search?q=format%3Aedh+ci%3E3&unique=cards&as=grid&order=name";
+  beforeNavigate((navigation) => {
+    if(navigation.to.route.id === "/banlist-comparison") {
+      fromRules.set(true);
+    }
+  });
 </script>
 <svelte:head>
   <title>SDH Rules</title>
