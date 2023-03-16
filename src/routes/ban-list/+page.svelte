@@ -4,7 +4,7 @@
    
   import SDHWriting from '$components/sdh-writing.svelte'
   import Subheading from '$components/subheading.svelte'
-  import BannedCard from '$routes/ban-list/banned-card.svelte'
+  import CardWithExplanation from '$components/card-with-explanation.svelte'
 
   const spouseBans = bans.filter((ban) => {
     return ban.banType === "spouse";
@@ -20,7 +20,7 @@
     <Subheading>Banned as Spouse</Subheading>
     <List class="inline">
       {#each spouseBans as ban}
-        <Li><BannedCard ban={ban} /></Li>
+        <Li><CardWithExplanation card={ban.card} explanation={ban.rationale} /></Li>
       {/each}
     </List>
   </section>
@@ -28,7 +28,7 @@
     <Subheading>Banned from Library</Subheading>
     <List class="inline">
       {#each libraryBans as ban}
-        <Li><BannedCard ban={ban} /></Li>
+        <Li><CardWithExplanation card={ban.card} explanation={ban.rationale} /></Li>
       {/each}
     </List>
   </section>

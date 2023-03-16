@@ -65,28 +65,16 @@
   </section>
   <section>
     <Subheading>Card Legality</Subheading>
-      <p>SDH has all of the restrictions from EDH with two new restrictions.</p>
-      <!-- Clean up this section a bit. -->
-      <p>
-        The first new restriction is cards from Unfinity that use one of Unfinity's three new mechanics: Attractions, Stickers, and Tickets.
-        <Clarification>These cards<svelte:fragment slot="clarification">
-          Unfinity cards that <em>didn't</em> use these three mechanics are still legal, so <Link href={sawInHalf.cardUrl}>Saw in Half</Link>, <Link href={exchangeOfWords.cardUrl}>Exchange of Words</Link>, and the d6-themed cards are all still legal.</svelte:fragment></Clarification> were restricted simply because the overwhelming majority of players seem to prefer the game without them.
-        The only card in this category that saw much play was <CardClarification {...blankGoblin}>____ Goblin</CardClarification>. (<Clarification>accurate<svelte:fragment slot="clarification">
-        <p>This query is only accurate because there were no EDH-legal cards that coincidentally contained the names of any of the illegal mechanics.</p>
-        <br />
-        <p>Unfortunately, this search may be invalidated if WotC ever releases more Eternal-legal cards with these mechanics, but that seems unlikely given their reception.</p>
-        </svelte:fragment></Clarification> <Link href={uncardsScryfallUrl} nofollow>Scryfall Query</Link>)
-      </p>
-      <br />
-      <p>
-        The second category of card you can't play in SDH is cards whose color identities contain more than 3 colors. (<Link href={tooManyColorsScryfallUrl} nofollow>Scryfall Query</Link>)
-      </p>
+    <p>SDH inherits EDH's restrictions, and adds two more:</p>
+    <List tag="ol" list="decimal">
+      <Li>Cards from using Attractions, Stickers, and/or Tickets are not legal in SDH.</Li>
+      <Li>Cards in more than 3 colors cannot be run in SDH.</Li>
+    </List>
+    <p>For more details, see the <Link href="/banlist-comparison">EDH banlist comparison</Link>.</p>
   </section>
   <section>
     <Subheading>Bans</Subheading>
-    <p>
-      SDH largely inherits EDH's ban list. So far, none of the usual suspects (Thassa's Oracle, Underworld Breach, Ad Nauseam, et cetera) have been banned. This is because the format is very young, and we want it to be as easy as possible for cEDH players to give SDH a try. The comprehensive (and authoritative) ban list can be found <Link href="/ban-list" class="underline">here</Link>.
-    </p>
+    <p>SDH largely inherits EDH's ban list. So far, none of the usual suspects (Thassa's Oracle, Underworld Breach, Ad Nauseam, et cetera) have been banned. This is because the format is very young, and we want it to be as easy as possible for cEDH players to give SDH a try. The comprehensive (and authoritative) ban list can be found <Link href="/ban-list" class="underline">here</Link>.</p>
   </section>
   <section>
     <Subheading>Social Contract</Subheading>
