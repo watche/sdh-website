@@ -177,11 +177,11 @@
     [UNINITIALIZED]: "hidden",
   }[clarifState];
 </script>
-<span on:outclick={outClick} use:clickOutside>
+<span on:outclick={outClick} use:clickOutside class="">
   <span bind:this={refEl}>
-    <span class={`ref${(clarifState===SHOWN)?" shown-ref":""}`} on:mouseover={refMouseover} on:focus={refMouseover} on:blur={refMouseout} on:mouseout={refMouseout} on:click|stopPropagation={toggleClarif}><slot /></span>
-  </span>
-  <span bind:this={clarifEl} class={clarifClasses} on:mouseover={clarifMouseover} on:mouseout={clarifMouseout} on:focus={clarifMouseover} on:blur={clarifMouseout}>
+    <span class={`ref${(clarifState===SHOWN)?" shown-ref":""}`} on:mouseover={refMouseover} on:focus={refMouseover} on:blur={refMouseout} on:mouseout={refMouseout} on:click|stopPropagation={toggleClarif}><slot /></span><!--
+  --></span><!--
+  --><span bind:this={clarifEl} class={clarifClasses} on:mouseover={clarifMouseover} on:mouseout={clarifMouseout} on:focus={clarifMouseover} on:blur={clarifMouseout}>
     {#if clarifState !== UNINITIALIZED}
     <Card>
       <!-- TODO: Use <details> for SEO (must remove built-in styling) -->
@@ -189,8 +189,8 @@
       <!-- May also need some affordance to let users know how to use the popover more intuitively. -->
     </Card>
     {/if}
-  </span>
-</span>
+  </span><!--
+--></span>
 <style>
   /* Imitating `underline cursor-pointer select-none` in tailwind. */
   .ref {

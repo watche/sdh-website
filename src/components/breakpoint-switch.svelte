@@ -76,38 +76,18 @@
     return c;
   };
 </script>
-{#if Object.getOwnPropertyNames($$slots).length === 1}
-  <slot name="sm" />
-  <slot name="md" />
-  <slot name="lg" />
-  <slot name="xl" />
-  <slot name="2xl" />
-{:else}
-  {#if renderedSlots.sm}
-    <span class={classListForSlot("sm")}>
-      <slot name="sm" />
-    </span>
-  {/if}
-  {#if renderedSlots.md}
-    <span class={classListForSlot("md")}>
-      <slot name="md" />
-    </span>
-  {/if}
-  {#if renderedSlots.lg}
-    <span class={classListForSlot("lg")}>
-      <slot name="lg" />
-    </span>
-  {/if}
-  {#if renderedSlots.xl}
-    <span class={classListForSlot("xl")}>
-      <slot name="xl" />
-    </span>
-  {/if}
-  {#if renderedSlots["2xl"]}
-    <span class={classListForSlot("2xl")}>
-      <slot name="2xl" />
-    </span>
-  {/if}
-{/if}
 <!-- This span ensures that all of the breakpoint classes we might need to use will be included in the build by Tailwind. -->
 <span class="sm:hidden sm:inline md:hidden md:inline lg:inline lg:hidden xl:inline xl:hidden 2xl:inline 2xl:hidden" />
+{#if Object.getOwnPropertyNames($$slots).length === 1}<!--
+  --><slot name="sm" /><!--
+  --><slot name="md" /><!--
+  --><slot name="lg" /><!--
+  --><slot name="xl" /><!--
+  --><slot name="2xl" /><!--
+-->{:else}<!--
+  -->{#if renderedSlots.sm}<span class={classListForSlot("sm")}><slot name="sm" /></span>{/if}<!--
+  -->{#if renderedSlots.md}<span class={classListForSlot("md")}><slot name="md" /></span>{/if}<!--
+  -->{#if renderedSlots.lg}<span class={classListForSlot("lg")}><slot name="lg" /></span>{/if}<!--
+  -->{#if renderedSlots.xl}<span class={classListForSlot("xl")}><slot name="xl" /></span>{/if}<!--
+  -->{#if renderedSlots["2xl"]}<span class={classListForSlot("2xl")}><slot name="2xl" /></span>{/if}<!--
+-->{/if}

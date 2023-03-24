@@ -4,16 +4,6 @@
   import MobileClarification from '$components/mobile-clarification.svelte'
 </script>
 <BreakpointSwitch>
-  <span slot="md">
-    <DesktopClarification>
-      <span><slot /></span>
-      <span slot="clarification"><slot name="clarification" /></span>
-    </DesktopClarification>
-  </span>
-  <span slot="sm">
-    <MobileClarification>
-      <span><slot /></span>
-      <span slot="clarification"><slot name="clarification" /></span>
-    </MobileClarification>
-  </span>
+  <span slot="md"><DesktopClarification><slot /><span slot="clarification"><slot name="clarification" /></span></DesktopClarification></span>
+  <span slot="sm"><MobileClarification><slot /><span slot="clarification"><slot name="clarification" /></span></MobileClarification></span>
 </BreakpointSwitch>
