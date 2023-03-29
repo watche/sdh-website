@@ -59,6 +59,7 @@
       <Li>Cards from using Attractions, Stickers, and/or Tickets are not legal in SDH.</Li>
       <Li>Cards in more than 3 colors cannot be run in SDH.</Li>
     </List>
+    <p>Technically, SDH also illegalizes Contraptions and ante cards, but those cards were already banned in EDH, so there's effectively no difference.</p>
     <p>For more details, see the <Link href="/banlist-comparison">EDH banlist comparison</Link>.</p>
   </section>
   <section>
