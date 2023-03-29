@@ -24,8 +24,8 @@
     <Subheading>Spouse Selection</Subheading>
     <p>You may marry any two legal commanders within the following constraints:</p>
     <List class="inline">
-      <Li>The Color Rule: Commander couples may not exceed three colors.</Li>
-      <Li>The Rarity Rule: At least one of the spouses must be an Uncommon.</Li>
+      <Li>The Color Rule: Commander couples' color identities may not exceed three colors.</Li>
+      <Li>The Rarity Rule: At least one of the chosen spouses must be of either Common or Uncommon rarity.</Li>
     </List>
     <div>And, of course, no banned commanders.</div>
     <br />

@@ -315,5 +315,32 @@
     },
     "banType": "library",
     "rationale": "If Flash is the card that ruined cEDH (for a time), then Time Vault is the card that ruined No Banlist cEDH. Especially given that it's colorless, it's an extremely dominant strategy that would eat up 4 or 5 slots in every deck and cause a lot of stale wins."
+  },
+  {
+    "card": {
+      "name": "Falling Star",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=1571",
+      "imageUrl": "https://cards.scryfall.io/large/front/f/2/f2b9983e-20d4-4d12-9e2c-ec6d9a345787.jpg?1562861838"
+    },
+    "banType": "library",
+    "rationale": "This card is essentially a silver-border card, and like many such cards, does not work online, and rewards a skill that is not part of the core Magic experience."
+  },
+  {
+    "card": {
+      "name": "Chaos Orb",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=1571",
+      "imageUrl": "https://cards.scryfall.io/large/front/7/a/7a601041-926f-40fd-8106-39099b87806f.jpg?1559592122"
+    },
+    "banType": "library",
+    "rationale": "Everything said in the rationale for Falling Star applies here: Doesn't work online, and your ability (or lack of ability) to flip a card accurately should not matter in a game of Magic."
+  },
+  {
+    "card": {
+      "name": "Channel",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=517600",
+      "imageUrl": "https://cards.scryfall.io/large/front/c/e/ce54c7c1-3401-4414-8da0-5846cb0ae1b4.jpg?1618695674"
+    },
+    "banType": "library",
+    "rationale": "Simply too powerful."
   }
 ]

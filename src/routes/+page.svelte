@@ -20,40 +20,20 @@
   <!-- TODO: Div with similar `background-color`s to make the loading less jarring. -->
   <img src={TwoCommandersImg} class="mt-2" style="aspect-ratio: 600 / 486" width="600" height="486" alt="SDH allows you to run two commanders" />
   <section>
-    <Subheading>Why a new format?</Subheading>
-    <p>
-      It's not that we don't <em>like</em> EDH: It's that we're cEDH players. Commander simply wasn't made for us. cEDH is a purely accidental (and <Clarification>unwelcome<p slot="clarification"><Link href="https://mtgcommander.net/index.php/the-philosophy-of-commander/"><img src={CommanderPhilosophyOnCedh} alt="The commander philosophy page explicitly says the game is more fun if it is not 'broken', and does so in language implicit of moral posturing." /></Link></p></Clarification>) emergence from the rules of Commander, and this means that the health of the format has been neglected by the only people with the authority to regulate it. SDH is basically cEDH <strong>by and for</strong> cEDH players.
-    </p>
+    <p class="mb-3">An idea so good that Wizards themselves have <Clarification>had<span slot="clarification">Partner</span></Clarification> <Clarification>it<span slot="clarification">Partner With</span></Clarification> <Clarification>several<span slot="clarification">Companion</span></Clarification> <Clarification>times<svelte:fragment slot="clarification">Choose a Background</svelte:fragment></Clarification>! But nobody really wants to play "every commander has partner" because it just feels too busted. It feels like No Banlist where it's a can of worms most players would rather keep closed.</p>
+    <p>SDH keeps the worms at bay with two simple rules:</p>
+    <List class="inline">
+      <Li>Decks are limited to three colors.</Li>
+      <Li>At least one of the commanders has to be an Uncommon or lower.</Li>
+    </List>
+    <p class="mt-1 mb-3">And that's pretty much it. Just these two rules open the door to new and interesting commander-centric strategies, and close the door to decks that are too good to be fun.</p>
+    <p>To see some of the interesting decks made possible by SDH, check out the <Link href="/decks">Decklist DB</Link>. And for weird cornercases in the rules, see the <Link href="/rules">Rules page</Link>. If there's a mistake on the rules page, or if you just want to talk about SDH, drop by the  <Link href={DISCORD_URL} nofollow>official Discord</Link>.</p>
   </section>
-
-  <section>
-    <Subheading>Why two commanders?</Subheading>
-    <p>
-      The neglect on the part of the Commander government is not the only problem for cEDH: The meta has grown stale for another reason. Interesting decks get all the attention when they win tournaments, but the reality is that the majority of the top sixteen are almost always high-color goodstuff decks with generic value commanders. SDH changes this by shifting power from the 98 to the command zone by giving you two commanders, and restricting your color identity to three colors. This also unleashes the creativity of the cEDH community <em>in the command zone itself</em>, which exponentially broadens the possibilities for deckbuilding, and really takes deckbuilding "off the rails". <em>Nobody</em>, not even the government of SDH, can foresee every "broken" commander pair that exists. They're out there for you to find.
-    </p>
-  </section>
-
-  <section>
-    <Subheading>Isn't this format going to be overpowered?</Subheading>
-    <p>
-      This is a reasonable concern. After all, most cEDH players don't like No Banlist cEDH. This is largely mitigated by the Rarity rule: One of your commanders must be a Common or Uncommon. But more importantly, the ban list is maintained by people who know (and care) about the meta and health of the format. If games start feeling stale or luck-based, cards will be banned accordingly until the format is balanced and fun again. Right now, though, this is a young format, and nobody's been able to break it yet. If that seems impossible, make a deck, and prove us wrong!
-    </p>
-  </section>
-
   <section>
     <Subheading>How can I play?</Subheading>
     <p>
       To make a deck, just make an EDH deck with <Clarification>Moxfield<p slot="clarification">When you're selecting your commander using the textbox, there should be a little checkbox that says "Search only legal commanders". When you uncheck it, a box will appear for your second commander. You can find this menu for an existing EDH deck by clicking a commander and clicking "Change Commanders". Once you've done this, you're just building an EDH deck.</p></Clarification> or
     <Clarification>Archidekt<p slot="clarification">After you've doubled-clicked a card to add commander as you normally would, just double click another card and press the same button. Archidekt not only allows this, but correctly accounts for the new color identity created by the pair.</p></Clarification>. If you have no local playgroup, the best place to get started is probably the <Link href={DISCORD_URL} nofollow>official SDH Discord</Link>. It has voice chats for playing games over <Link href="https://spelltable.wizards.com/">Spelltable</Link> or <Link href="https://sites.google.com/view/mtgduelist/">MtG Duelist</Link>.
     </p>
-  </section>
-
-  <section>
-    <Subheading>More Information</Subheading>
-    <List class="inline">
-      <Li>For more on the underlying attitudes and philosophies of the format, read its <Link href="/constitution">Constitution</Link>.</Li>
-      <Li>To read the comprehensive rules, check out the <Link href="/rules" class="underline">Rules Page</Link></Li>
-      <Li>To see what SDH decks look like, check out the <Link href="/decks" class="underline">the SDH Decklist Database</Link></Li>
-    </List>
   </section>
 </SDHWriting>
