@@ -1,5 +1,101 @@
 [
   {
+    "id": "c18e299e-97b6-4d93-8907-33aa23029d9a",
+    "name": "Rhystic Study at Home",
+    "listUrl": "https://www.moxfield.com/decks/cLcW0M3UXkSwdnZUw-GENw",
+    "blurb": "Don't be fooled by the name: This is bar-none the strongest deck in SDH, and very likely to be banned as a pair in the first revision to the rules. With Norin and Candlekeep, you draw 2 cards every time your anyone does basically anything, so you draw 8 cards per turn cycle with a low enough CMC to almost always be out on turn 2, after which, your advantage will be so insurmountable that you can often blow interaction on all three of your opponents without running out. Goofy commanders, but serious business.",
+    "colorIdentity": "Izzet",
+    "strategy": "Control",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/tsp/171/norin-the-wary",
+        "imageUrl": "https://cards.scryfall.io/large/front/f/6/f61ea59a-1db0-4e6b-bcde-19787c76a49b.jpg?1562946915",
+        "name": "Norin the Wary",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/norin-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/clb/60/candlekeep-sage",
+        "imageUrl": "https://cards.scryfall.io/large/front/6/f/6f706ac3-0ad8-44ac-a99e-21c04075951d.jpg?1674135436",
+        "name": "Candlekeep Sage",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/candlekeep-portrait.jpg",
+        "rarity": "COMMON"
+      }
+    ]
+  },
+  {
+    "id": "d8a88d82-db61-488b-8d00-794f742f6f6c",
+    "name": "Eruth/Vega Impulse Turbo",
+    "listUrl": "https://www.moxfield.com/decks/wnbplGivIkaTb3uYH7fVHw",
+    "blurb": "This deck will really *torment* your opponents by making your turn 3 last 20 minutes! The idea is simple: With Eruth and Vega together, every spell you cast impulse draws two more spells, and the deck is built so that you can rip through the whole thing this way with very little mana. The biggest bottleneck by far is casting the commanders themselves. \n\n(Fun fact: This is probably the first SDH list ever made!)",
+    "colorIdentity": "Jeskai",
+    "strategy": "Turbo",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/vow/237/eruth-tormented-prophet",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/f/9f764077-df2d-4ac7-b507-2c8e08386d49.jpg?1643594095",
+        "name": "Eruth, Tormented Prophet",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/eruth-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/khm/233/vega-the-watcher",
+        "imageUrl": "https://cards.scryfall.io/large/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1631051983",
+        "name": "Vega, the Watcher",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vega-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "fe8656ae-add5-438b-93a6-9a126c3ad960",
+    "name": "Urzgrakh Tidespout Turbo",
+    "listUrl": "https://www.moxfield.com/decks/QEn5U2F_zU233uQfbyA_dg",
+    "blurb": "Finally, an excuse to play Mox Amber in Urza! This deck *really* gets its money's worth from Rograkh, but in an unusual way: Rograkh is kept in the command zone until Tidespout Tyrant is out, and is then used to start the loop (and to participate in it) for zero mana. This makes the Tidespout combo much, much easier, and adding Red greatly increases the number of polymorph spells, which enables the deck to be much more committal with this strategy than is possible in mono-blue.",
+    "colorIdentity": "Izzet",
+    "strategy": "Turbo",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/mh1/75/urza-lord-high-artificer",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/e/9e7fb3c0-5159-4d1f-8490-ce4c9a60f567.jpg?1567181307",
+        "name": "Urza, Lord High Artificer",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/urza-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/197/rograkh-son-of-rohgahh",
+        "imageUrl": "https://cards.scryfall.io/large/front/a/4/a4fab67f-00c2-4125-9262-d21a29411797.jpg?1644853041",
+        "name": "Rograkh, Son of Rohgahh",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rograkh-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "42fda890-3d84-4ecf-8de5-fa5c3097498d",
+    "name": "Taigam Turns",
+    "listUrl": "https://www.moxfield.com/decks/S_R6hogh-EGBKvLGxWJ4tw",
+    "blurb": "It's kind of a gimmick deck, but it's also too good to be *just* a gimmick deck. Taigam turns every extra turn spell into an uncounterable Time Stretch, Vega makes every instant or sorcery cantrip (and turns actual cantrips into Ancestral Recall), and together, they enable a unique and uncounterable infinite turns combo. (Also, this deck gets to run Approach of the Second Sun!)",
+    "colorIdentity": "Azorius",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/c17/46/taigam-ojutai-master",
+        "imageUrl": "https://cards.scryfall.io/large/front/b/4/b47e2781-544f-442c-98d0-43b9d91bab03.jpg?1562621099",
+        "name": "Taigam, Ojutai Master",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/taigam-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/khm/233/vega-the-watcher",
+        "imageUrl": "https://cards.scryfall.io/large/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1631051983",
+        "name": "Vega, the Watcher",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vega-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
     "id": "593ea62d-3612-4af8-b330-532e4a5bf1d4",
     "name": "Vannifar Pod-Jiki",
     "listUrl": "https://www.moxfield.com/decks/W9MWFO4zlU6kXW7kiE0T0A",
@@ -27,7 +123,7 @@
     "id": "7d0179c1-b80b-41a1-ad47-c1f2fac794a8",
     "name": "Tergrid-Gretchen Midrange",
     "listUrl": "https://www.moxfield.com/decks/clpbUIhZTUGqNO4sDnPJ-w",
-    "blurb": "This is a midrange deck seeking to deny resources to opponents and grind the game out. Tergrid is used to recur value from opponents, while Gretchen is used for card advantage midgame. \n(Addendum from curator: Currently the winningest deck in SDH!)",
+    "blurb": "This is a midrange deck seeking to deny resources to opponents and grind the game out. Tergrid is used to recur value from opponents, while Gretchen is used for card advantage midgame.",
     "colorIdentity": "Sultai",
     "strategy": "Midrange Pox",
     "commanders": [
