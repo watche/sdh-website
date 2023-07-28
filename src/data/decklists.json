@@ -1,5 +1,318 @@
 [
   {
+    "id": "ad690d78-82af-41f4-baba-be5123b051d4",
+    "name": "Grix Nixilis",
+    "listUrl": "https://www.moxfield.com/decks/CKT-opOoBkCOLsySt29Mfw",
+    "blurb": "Finally, Ob Nixilis is set free from his Rakdos color identity! Aside from providing treasures, Malcolm's combo piece in Glinthorn Buccaneer can also be found with black tutors, and the deck has access to the usual Grixis win conditions in addition to Ob's and Malcolm's unique win conditions.",
+    "colorIdentity": "Grixis",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/mat/41/ob-nixilis-captive-kingpin",
+        "imageUrl": "https://cards.scryfall.io/large/front/d/d/ddb68233-3683-41bd-9b6e-4f07a1b54244.jpg?1684340801",
+        "name": "Ob Nixilis, Captive Kingpin",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ob-nix-portrait.jpg",
+        "rarity": "MYTHIC"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/79/malcolm-keen-eyed-navigator",
+        "imageUrl": "https://cards.scryfall.io/large/front/b/b/bbc3bbda-a4bc-4302-a3fc-b1c89f0f5461.jpg?1608909299",
+        "name": "Malcolm, Keen-Eyed Navigator",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/malcolm-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "fe872843-d7b0-4032-90dd-91c8b7a9a676",
+    "name": "Squee, the Edible",
+    "listUrl": "https://www.moxfield.com/decks/c81-d_pkOE6uDI0Wj707-w",
+    "blurb": "Squee finally showed up to work on time, so you no longer need to find him lounging around in the deck when you've got Food Chain; he's already ready to go! Harald is ... Not great, but he's the only available payoff in Golgari colors. (Since he's only an indirect payoff, Demonic Consultation and Tainted Pact somewhat risky plays, despite normally being A+ FC finders.) The deck is really fast though, and speed conquers all.",
+    "colorIdentity": "Jund",
+    "strategy": "Turbo",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/ncc/275/squee-the-immortal",
+        "imageUrl": "https://cards.scryfall.io/large/front/a/8/a8232acd-4645-489c-8cf1-4efdc75d9322.jpg?1673484412",
+        "name": "Squee, the Immortal",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/squee-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/khm/212/harald-king-of-skemfar",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/e/9eac78a2-599f-4dba-aec7-982c5ae3f75a.jpg?1631051439",
+        "name": "Harald, King of Skemfar",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/harald-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "04a710a2-0056-4e77-8fcc-588c9709dd6b",
+    "name": "Slicer/Ardenn",
+    "listUrl": "https://www.moxfield.com/decks/WLfF3BVbnkmYjHAYb4rzQg",
+    "blurb": "Slicer's puts a clock on the game, but he's missing the best color in the game for buying time to let that clock run out (this metaphor is getting clunky). Ardenn provides that color (and equipment tutors) and makes Slicer's Voltron strategy just that much cheaper and better.",
+    "colorIdentity": "Boros",
+    "strategy": "Stax",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/bot/6/slicer-hired-muscle-slicer-high-speed-antagonist",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/d/9d9a9350-4734-4cc1-986d-467e6715199f.jpg?1674092821",
+        "name": "Slicer, Hired Muscle",
+        "backSideImageUrl": "https://cards.scryfall.io/large/back/9/d/9d9a9350-4734-4cc1-986d-467e6715199f.jpg?1674092821",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/slicer-portrait.jpg",
+        "rarity": "MYTHIC"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/10/ardenn-intrepid-archaeologist",
+        "imageUrl": "https://cards.scryfall.io/large/front/7/2/728b802c-969b-4865-b7a0-871c585d097a.jpg?1617148314",
+        "name": "Ardenn, Intrepid Archaeologist",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ardenn-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "e1e796a0-d8e9-47bf-8162-fa57e690f5f6",
+    "name": "Dwarf-pirate Tribal Treasure Storm",
+    "listUrl": "https://www.moxfield.com/decks/PB81MU3Lyk-ueyAYK-YRrw",
+    "blurb": "Magda and Malcolm make treasures, Magda consumes treasures, and Malcolm gets to have Glinthorn buccaneer: What's not to love? (There's also some more exotic stuff like Maskwood Nexus + Aphetto Alchemist, but many of these combo ideas aren't as good as they might sound.)",
+    "colorIdentity": "Izzet",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/khm/142/magda-brazen-outlaw",
+        "imageUrl": "https://cards.scryfall.io/large/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg?1631049453",
+        "name": "Magda, Brazen Outlaw",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/magda-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/79/malcolm-keen-eyed-navigator",
+        "imageUrl": "https://cards.scryfall.io/large/front/b/b/bbc3bbda-a4bc-4302-a3fc-b1c89f0f5461.jpg?1608909299",
+        "name": "Malcolm, Keen-Eyed Navigator",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/malcolm-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "6c21cacc-237b-4ee0-b17c-f5d245f4a607",
+    "name": "Brago, King(pin) Eternal",
+    "listUrl": "https://www.moxfield.com/decks/tLC3aDW_5kq6ZPgvzIqIKw",
+    "blurb": "Brago's Strionic Resonator combo is very awkward and unreliable if you have to find a payoff in the deck, and Brago has no built-in value engine if you don't happen to land a permanent with a good ETB. Rilsa fixes both of these problems: She deals infinite damage as a combo payoff, and she Takes the Initiative twice each turn cycle if you attack with Brago, flicker her, then make it to the next turn with the initiative (and because she has deathtouch, and Brago flies, you probably will.) Also, Consultation.",
+    "colorIdentity": "Esper",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/khc/82/brago-king-eternal",
+        "imageUrl": "https://cards.scryfall.io/large/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1631235340",
+        "name": "Brago, King Eternal",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/brago-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/clb/293/rilsa-rael-kingpin",
+        "imageUrl": "https://cards.scryfall.io/large/front/5/4/54484439-6f8a-47f1-8d62-4689af7f00c2.jpg?1674137671",
+        "name": "Rilsa Rael, Kingpin",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rilsa-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "2ce7091c-84cc-4556-b7ae-5e7331154ec8",
+    "name": "Double Masters",
+    "listUrl": "https://www.moxfield.com/decks/vEEpivPsvEKZTsYNXw2j3w",
+    "blurb": "As we all know, Double Masters was a very expensive set. Some might even say \"extortionately\" so. Thankfully, we have our own extortionist by the docks who will supply all the treasure we need! Barrin and Juri combo to deal infinite damage with a Dockside count of 5, and Barrin provides removal in the command zone for the deck's otherwise generic Grixis Goodstuff strategy.",
+    "colorIdentity": "Grixis",
+    "strategy": "Turbo",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/usg/63/barrin-master-wizard",
+        "imageUrl": "https://cards.scryfall.io/large/front/e/c/ec79e35f-9e78-462d-8b71-4f044e2eff90.jpg?1562944897",
+        "name": "Barrin, Master Wizard",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/barrin-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/cmr/282/juri-master-of-the-revue",
+        "imageUrl": "https://cards.scryfall.io/large/front/a/e/aec6b2b7-625a-451d-bc0b-4456f5bf2719.jpg?1608911166",
+        "name": "Juri, Master of the Revue",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/juri-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "3ad39d13-eb09-447a-a020-b563924873ba",
+    "name": "Exquisite Farm",
+    "listUrl": "https://www.moxfield.com/decks/ImorGIuAMECj4vOylTSqkA",
+    "blurb": "The tragedy of every hatebears list is that you still have to find some way to win the game through your own stax, so cuts ultimately get made... But almost nothing has to be cut for Dina with Exquisite Blood! You can freely run Root Maze, Hushbringer, Rule of Law, Collector Ouphe, and almost anything else you want! Dina also gives Tymna Green, which gives this farm deck the two primary creature colors. (Also, Dina gives you a rare excuse to run Academy Rector and Protean Hulk.)",
+    "colorIdentity": "Abzan",
+    "strategy": "Stax",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/c16/48/tymna-the-weaver",
+        "imageUrl": "https://cards.scryfall.io/large/front/b/c/bc7cbe9b-324e-42b8-94e2-36e91cb32163.jpg?1644853048",
+        "name": "Tymna the Weaver",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tymna-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/stx/178/dina-soul-steeper",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/c/9cd2b567-0cf7-4441-b3ce-e31141dd91c8.jpg?1627428607",
+        "name": "Dina, Soul Steeper",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/dina-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "a10bb50c-dae1-4810-bcb7-49b1da1b2775",
+    "name": "Kaho, Voracious Reader",
+    "listUrl": null,
+    "blurb": "Codie is a big book with the words \"Ad Nauseam\" in it, and it turns out that Kaho is a big reader who can only read \"Ad Nauseam\". Kaho is much harder to cast (thus slower) than Codie, but she imposes no deckbuilding restrictions, and has the versatility to find other, non-Ad-Naus spells if necessary, but she's mostly a backup to Cormela's Grixis Goodstuff plan.",
+    "colorIdentity": "Grixis",
+    "strategy": "Turbo",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/sok/41/kaho-minamo-historian",
+        "imageUrl": "https://cards.scryfall.io/large/front/d/8/d85a5f54-9b79-4c3d-b983-021b4b01b122.jpg?1562496115",
+        "name": "Kaho, Minamo Historian",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kaho-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/snc/177/cormela-glamour-thief",
+        "imageUrl": "https://cards.scryfall.io/large/front/2/2/221ac34a-94ed-4c49-afad-b19cac541731.jpg?1664412852",
+        "name": "Cormela, Glamor Thief",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/cormela-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "db01086c-1d16-49c0-9718-e04259f3f471",
+    "name": "Bad Blood Pod",
+    "listUrl": "https://www.moxfield.com/decks/fONgUPuT0EyTtVHqF0zS9g",
+    "blurb": "It's basically Blood Pod, but Tana makes exponential tokens once you get it started, and Tymna doesn't do anything until it gets started (but \"does anything\" exponentially. If you can land some tokens, you just need to buy time until you overwhelm your opponents with doubling value. (And, like its namesake, it has a 3-CMC and 4-CMC commander for a Birthing Pod line into Kiki-Jiki.)",
+    "colorIdentity": "Naya",
+    "strategy": "Stax",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/onc/2/neyali-suns-vanguard",
+        "imageUrl": "https://cards.scryfall.io/large/front/2/b/2b5df03d-2463-468b-b444-d946eeb1c96d.jpg?1675905561",
+        "name": "Neyali, Suns' Vanguard",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/neyali-portrait.jpg",
+        "rarity": "MYTHIC"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/clb/269/cadira-caller-of-the-small",
+        "imageUrl": "https://cards.scryfall.io/large/front/7/5/75994e0b-b0c7-4b0d-8f48-4be303429bd6.jpg?1674137453",
+        "name": "Cadira, Caller of the Small",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/cadira-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "10448e19-35a1-444c-8be5-9d37d536c500",
+    "name": "Sisay (but bad) (but good?)",
+    "listUrl": null,
+    "blurb": "The ancient, forgotten Sisay returns to her full splendor with the perfect spouse: Ioreth. Aside from untapping Sisay, Ioreth also combos with either Sakashima to untap any legendary creature an infinite number of times. There's a legendary land in these colors that grants haste, and [Reveka, Wizard Savant](https://scryfall.com/card/me3/49/reveka-wizard-savant) can turn those untaps into damage. (Old Sisay's ability to find noncreatures also means she can give you lands and removal for free, which nu-Sisay cannot.)",
+    "colorIdentity": "Bant",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/inv/237/captain-sisay",
+        "imageUrl": "https://cards.scryfall.io/large/front/d/2/d24d441c-f37f-44fe-8a93-f5c89df807e4.jpg?1562937244",
+        "name": "Captain Sisay",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/sisay-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/ltr/56/ioreth-of-the-healing-house",
+        "imageUrl": "https://cards.scryfall.io/large/front/0/3/03ab74cd-978a-49eb-9d38-bc8b472b3cef.jpg?1686968152",
+        "name": "Ioreth of the Healing House",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ioreth-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "a50c7def-5f5a-4098-9082-3b9b01724668",
+    "name": "Bad Blue Farm",
+    "listUrl": null,
+    "blurb": "Unlike a lot of these \"bad\" lists, this one *actually is* just plain worse than the original. Its Tymna costs 5 instead of three, and impulse draws cards instead of drawing cards. There might be some clever way to make Liara's discount matter, but certainly no more than Liara's enormous cost and worse card advantage matters.",
+    "colorIdentity": "Jeskai",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/c16/34/kraum-ludevics-opus",
+        "imageUrl": "https://cards.scryfall.io/large/front/5/5/557fcd17-6cb3-414a-b2b1-ea9ae32e5aec.jpg?1644853032",
+        "name": "Kraum, Ludevic's Opus",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kraum-portrait.jpg",
+        "rarity": "Rare"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/clb/270/commander-liara-portyr",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/a/9ac8b247-455e-4a3f-9f88-b20918c36cc3.jpg?1674137467",
+        "name": "Commander Liara Portyr",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/liara-portyr-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "f8b29795-f1c8-4bb9-84c4-4e324bf785ac",
+    "name": "Way Worse Winota",
+    "listUrl": "https://www.moxfield.com/decks/C2bNnKTBIUORJ6qlc2-y0A",
+    "blurb": "Imagine Winota, but with activated abilities, and instead of getting a single Human from your library, you got up to three artifacts and creatures (from your hand) instead... As it turns out, the fact that those artifacts and creatures don't really give you more Kayla activations makes the deck a lot worse (also Kayla is summoning sick, and is thirsty for mana, unlike Winota). Vhal, though, pays for most of an activation by herself, and you get infinite Kayla activations with Umbral Mantle and Vhal together.",
+    "colorIdentity": "Jeskai",
+    "strategy": "Stax",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/bro/218/queen-kayla-bin-kroog",
+        "imageUrl": "https://cards.scryfall.io/large/front/6/8/685c9767-eaa7-4e16-b245-816181e2fc36.jpg?1674421829",
+        "name": "Queen Kayla Bin-Kroog",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kayla-bin-kroog-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/clb/102/vhal-candlekeep-researcher",
+        "imageUrl": "https://cards.scryfall.io/large/front/4/6/46738fb3-ab5e-486c-b66a-1526ba1cdfa8.jpg?1674135857",
+        "name": "Vhal, Candlekeep Researcher",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vhal-portrait.jpg",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
+    "id": "8994fa3d-c8a2-4d6e-bb49-7a2667c3252d",
+    "name": "Gretchen's Necromantic Arts",
+    "listUrl": "https://www.moxfield.com/decks/caiQwFugfUqvm8BmgyY9ng",
+    "blurb": "\"Acererak? Why would a Commander deck run Acererak?\" In SDH, Acer has two one-card-combos in Aluren and Rooftop Storm, and can also function as a value engine in a pinch. Gretchen gives Acer access to his combo pieces, and also upgrades his value engine by letting you use her instead. Acer is also a Food Chain payoff and a mana sink (and unlike Gretchen, is a mana sink that deals damage, so he doesn't require any \"payoff cards\" in the deck.)",
+    "colorIdentity": "Sultai",
+    "strategy": "Midrange",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/afr/87/acererak-the-archlich",
+        "imageUrl": "https://cards.scryfall.io/large/front/d/d/dd52d0bd-3abd-401c-9f56-ee911613da3b.jpg?1627704283",
+        "name": "Acererak the Archlich",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/acer-portrait.jpg",
+        "rarity": "MYTHIC"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/afr/223/gretchen-titchwillow",
+        "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c8b248e-1460-4650-9721-85c134c21b89.jpg?1627708954",
+        "name": "Gretchen Titchwillow",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/gretchen-portrait.webp",
+        "rarity": "UNCOMMON"
+      }
+    ]
+  },
+  {
     "id": "c18e299e-97b6-4d93-8907-33aa23029d9a",
     "name": "Rhystic Study at Home",
     "listUrl": "https://www.moxfield.com/decks/cLcW0M3UXkSwdnZUw-GENw",
@@ -218,7 +531,7 @@
     "id": "c78920df-dc2a-4335-b851-6657d9ad8222",
     "name": "Roll Tide",
     "listUrl": "https://www.moxfield.com/decks/37dTbuB1lEu-5hNykBPk4A",
-    "blurb": "\"Look Mom, all abilities!\" Together, these commanders have *five* one-card combos, and all of them can win through Silence. Thoracle/Consult is in the deck as a backup plan because the main line is easier to assemble and harder to stop. And if you get stopped anyway, the commanders still provide enough value to stay in the game.",
+    "blurb": "\"Look Mom, all abilities!\" Together, these commanders have *five* one-card combos, and all of them can win through Silence. Thoracle/Consult is in the deck as a backup plan because the main line is easier to assemble and harder to stop. This resilience compensates for the pair's lack of late-game value relative to other pairs, and this deck can often \"steal\" games through opponents' overwhelming value.",
     "colorIdentity": "Dimir",
     "strategy": "Midrange",
     "commanders": [

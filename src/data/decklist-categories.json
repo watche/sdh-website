@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Quintessential SDH Decks",
+    "blurb": "These decks' commanders are greater than the sum of their parts, and enable unique and interesting value engines and win conditions. The hope is that the future SDH meta will resemble these.",
+    "deckIds": [
+      "c18e299e-97b6-4d93-8907-33aa23029d9a",
+      "d8a88d82-db61-488b-8d00-794f742f6f6c",
+      "fe8656ae-add5-438b-93a6-9a126c3ad960",
+      "df065f4b-f93a-4867-837b-b8a3780c9778",
+      "42fda890-3d84-4ecf-8de5-fa5c3097498d",
+      "c78920df-dc2a-4335-b851-6657d9ad8222",
+      "e1e796a0-d8e9-47bf-8162-fa57e690f5f6",
+      "3b3ecb2b-43df-4118-a52d-33161af7c04a",
+      "6c21cacc-237b-4ee0-b17c-f5d245f4a607"
+    ]
+  },
+  {
+    "name": "\"Bad\" \"cEDH\" Decks",
+    "blurb": "These are decks made to imitate popular cEDH decks that can't be run in SDH.",
+    "deckIds": [
+      "a111d986-b244-4bdc-b52f-2d40b2bd169d",
+      "db01086c-1d16-49c0-9718-e04259f3f471",
+      "10448e19-35a1-444c-8be5-9d37d536c500",
+      "a10bb50c-dae1-4810-bcb7-49b1da1b2775",
+      "a50c7def-5f5a-4098-9082-3b9b01724668",
+      "f8b29795-f1c8-4bb9-84c4-4e324bf785ac"
+    ]
+  },
+  {
+    "name": "Totally Not Gimmick Decks",
+    "blurb": "These aren't gimmick decks *per se*, but they are very distinctly built around a small number of cards in the 99, without which, the deck doesn't really work. (For *real* SDH gimmick decks, try figuring out the one-card combo for [Ali from Cairo](https://scryfall.com/card/me4/107/ali-from-cairo) and [Logomos](https://scryfall.com/card/dmu/205/lagomos-hand-of-hatred). Or the 2-card-combo (with great redundancy for one of the pieces) for [Adrix and Nev](https://scryfall.com/card/c21/9/adrix-and-nev-twincasters) and [Sakashima](https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces).)",
+    "deckIds": [
+      "2ce7091c-84cc-4556-b7ae-5e7331154ec8",
+      "9482552f-4c3b-4b79-a872-116a0b412416",
+      "fe872843-d7b0-4032-90dd-91c8b7a9a676",
+      "593ea62d-3612-4af8-b330-532e4a5bf1d4",
+      "36cc394a-afba-4552-90d1-add12204e9ba"
+    ]
+  },
+  {
+    "name": "\"Real\" Decks",
+    "blurb": "These are SDH decks that are built like cEDH partner decks in that the commanders don't have any direct synergy with eachother, but are still complementary enough (or individually good enough) to be good together. This is likely to be what tournament SDH eventually looks like, even if local-meta SDH will probably be very \"quintessential\".",
+    "deckIds": [
+      "7d0179c1-b80b-41a1-ad47-c1f2fac794a8",
+      "ad690d78-82af-41f4-baba-be5123b051d4",
+      "3ad39d13-eb09-447a-a020-b563924873ba",
+      "8994fa3d-c8a2-4d6e-bb49-7a2667c3252d",
+      "04a710a2-0056-4e77-8fcc-588c9709dd6b"
+    ]
+  }
+]

@@ -1,10 +1,24 @@
 <script>
   import SDHWriting from '$components/sdh-writing.svelte';
+  import Subheading from '$components/subheading.svelte'
+  import Markdown from '$components/markdown.svelte'
   import CardClarification from '$components/card-clarification.svelte';
   import decks from '$data/decklists.json'
+  import unpopulatedDeckCategories from '$data/decklist-categories.json'
   import DeckRow from '$routes/decks/deck-row.svelte'
   import breakpoints from '$stores/breakpoints.mjs'
   import Link from '$components/link.svelte'
+
+  const deckCategories = unpopulatedDeckCategories.map((category) => {
+    return {
+      ...category,
+      decks: category.deckIds.map((deckId) => {
+        return decks.find((deck) => {
+          return deck.id === deckId;
+        });
+      })
+    };
+  });
 
   let expandedDeck = null;
   const expandDeck = (deck) => {
@@ -21,14 +35,6 @@
       expandDeck(deck);
     }
   };
-
-  let sortedDecks = decks.slice(0).sort((deck1, deck2) => {
-    let name1 = deck1.name;
-    let name2 = deck2.name;
-    if(name1 > name2) return 1;
-    if(name1 < name2) return -1;
-    return 0;
-  });
 </script>
 <!-- TODO: When reloading the page, the footer flashes in the wrong spot (at the bottom of the table.) -->
 <!-- TODO: Move the breakpoint from md to lg (not currently supported by SDHWriting). -->
@@ -40,13 +46,19 @@
 </svelte:head>
 <SDHWriting lineLength="100ch">
   <span slot="title">SDH Decklist Database</span>
-  <span class="text-xs dark:text-slate-700 mb-3">This is <em>heavily</em> inspired by the <Link href="https://cedh-decklist-database.com/">cEDH decklist database</Link>.</span>
-  <!--
-    We're not using Table here for two reasons:
-    1. The flowbite-svelte Table component appears to have no native support for rounded corners, and faking it with a wrapper div poses the challenge of making the wrapper div highlight with the top/bottom cells.
-    2. Expanding a row underneath the selected row to display deck details is difficult to apply a CSS animation to in the context of a flowbite-svelte Table.
-  -->
-  {#each sortedDecks as deck, i}
-    <DeckRow deck={deck} first={i===0} last={i===(sortedDecks.length-1)} on:click={() => (deckClick(deck))} expanded={deck.id === expandedDeck} />
+  {#each deckCategories as category}
+    <section>
+      <Subheading>{category.name}</Subheading>
+        <p><Markdown content ={category.blurb} /></p>
+        {#each category.decks as deck, i}
+          <!--
+            We're not using Table here for two reasons:
+            1. The flowbite-svelte Table component appears to have no native support for rounded corners, and faking it with a wrapper div poses the challenge of making the wrapper div highlight with the top/bottom cells.
+            2. Expanding a row underneath the selected row to display deck details is difficult to apply a CSS animation to in the context of a flowbite-svelte Table.
+          -->
+          <DeckRow deck={deck} first={i===0} last={i===(category.decks.length-1)} on:click={() => (deckClick(deck))} expanded={deck.id === expandedDeck} />
+        {/each}
+    </section>
+    <br />
   {/each}
 </SDHWriting>
