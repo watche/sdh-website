@@ -1,15 +1,6 @@
 [
   {
     "card": {
-      "name": "Rofellos, Llanowar Emissary",
-      "imageUrl": "https://cards.scryfall.io/normal/front/6/d/6d63a085-101c-4749-a3a4-1d335c25b10e.jpg?1562916904",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383074"
-    },
-    "banType": "spouse",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
-  },
-  {
-    "card": {
       "name": "Leovold, Emissary of Trest",
       "imageUrl": "https://cards.scryfall.io/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1559959275",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456798"
@@ -38,24 +29,6 @@
   },
   {
     "card": {
-      "name": "Emrakul, the Aeons Torn",
-      "imageUrl": "https://cards.scryfall.io/normal/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1673146896",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571334"
-    },
-    "banType": "spouse",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated. (Has not been evaluated as Spouse *or* as card in library.)"
-  },
-  {
-    "card": {
-      "name": "Gifts Ungiven",
-      "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cc950b6c-0346-4939-b36b-9f10a75f7a32.jpg?1673147306",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571384"
-    },
-    "banType": "library",
-    "rationale": "This card is mostly still banned because we haven't gotten the chance to experiment with it yet. It doesn't seem significantly better than Intuition."
-  },
-  {
-    "card": {
       "name": "Limited Resources",
       "imageUrl": "https://cards.scryfall.io/normal/front/2/0/20ae3609-a3cc-486c-94f6-b8f647adfb47.jpg?1562087362",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=6049"
@@ -74,48 +47,12 @@
   },
   {
     "card": {
-      "name": "Recurring Nightmare",
-      "imageUrl": "https://cards.scryfall.io/normal/front/b/5/b50e1800-a45c-43bd-8886-8a06145d9346.jpg?1562431270",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=397441"
-    },
-    "banType": "library",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
-  },
-  {
-    "card": {
-      "name": "Rofellos, Llanowar Emissary",
-      "imageUrl": "https://cards.scryfall.io/normal/front/6/d/6d63a085-101c-4749-a3a4-1d335c25b10e.jpg?1562916904",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383074"
-    },
-    "banType": "library",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
-  },
-  {
-    "card": {
-      "name": "Leovold, Emissary of Trest",
-      "imageUrl": "https://cards.scryfall.io/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1559959275",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456798"
-    },
-    "banType": "library",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
-  },
-  {
-    "card": {
       "name": "Tinker",
       "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7da23b15-dfb8-4267-9b33-d7a4c035c434.jpg?1562863289",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=12383"
     },
     "banType": "library",
     "rationale": "This card is incredibly good, but hasn't been evaluated for play in SDH"
-  },
-  {
-    "card": {
-      "name": "Emrakul, the Aeons Torn",
-      "imageUrl": "https://cards.scryfall.io/normal/front/2/4/249db4d4-2542-47ee-a216-e13ffbc2319c.jpg?1673146896",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571334"
-    },
-    "banType": "library",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
   },
   {
     "card": {
