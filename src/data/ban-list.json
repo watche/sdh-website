@@ -1,6 +1,33 @@
 [
   {
     "card": {
+      "name": "Jace, Wielder of Mysteries",
+      "imageUrl": "https://cards.scryfall.io/large/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1557576232",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460981&printed=false"
+    },
+    "banType": "spouse",
+    "rationale": "This ban may get reversed, but having Labjace in the command zone seems too powerful. This ban (like Narset and Ashiok) was made in the same rules change that legalized planeswalkers, so none of them have been tested in practice."
+  },
+  {
+    "card": {
+      "name": "Ashiok, Dream Render",
+      "imageUrl": "https://cards.scryfall.io/large/front/f/2/f2df3258-c053-48a8-974f-d80899b2cd93.jpg?1557577343",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=461155&printed=false"
+    },
+    "banType": "spouse",
+    "rationale": "Crippling and asymmetrical stax piece in ideal colors in the uncommon slot would homogeneize commander choices, and would appear so often that it would essentially remove toolbox decks as an archetype."
+  },
+  {
+    "card": {
+      "name": "Narset, Parter of Veils",
+      "imageUrl": "https://cards.scryfall.io/large/front/4/e/4e6e5c63-b6e5-4756-bf23-6c6f8669442d.jpg?1690004395",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=625258&printed=false"
+    },
+    "banType": "spouse",
+    "rationale": "Like Ashiok, crippling, cheap, and completely non-committal. Would homogeneize deckbuilding, and would be a boring \"obligatory\" Uncommon slot in many decks. You'd need to account for your opponents' Narsets whenever making a deck, which is a hallmark sign of a card that would be bad for meta diversity."
+  },
+  {
+    "card": {
       "name": "Leovold, Emissary of Trest",
       "imageUrl": "https://cards.scryfall.io/normal/front/c/e/cedfc5b7-9242-4680-b284-debc8b5a9bc7.jpg?1559959275",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456798"

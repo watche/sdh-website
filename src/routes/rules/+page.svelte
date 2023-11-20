@@ -22,7 +22,7 @@
   <span slot="title">Rules</span>
   <section>
     <Subheading>Spouse Selection</Subheading>
-    <p>You may marry any two legal commanders within the following constraints:</p>
+      <p>You may marry any two legal commanders (or <Clarification><span>Planeswalkers!</span><p slot="clarification">Adding planeswalkers significantly increases the depth of the card pool, and relatively few bans are necessary to prevent balance problems. This is a new change, and still somewhat experimental, but is likely to stick.</p></Clarification>) within the following constraints:</p>
     <List class="inline">
       <Li>The Color Rule: Commander couples' color identities may not exceed three colors.</Li>
       <Li>The Rarity Rule: At least one of the chosen spouses must be of either Common or Uncommon rarity.</Li>
@@ -54,17 +54,16 @@
   </section>
   <section>
     <Subheading>Card Legality</Subheading>
-    <p>SDH inherits EDH's restrictions, and adds two more:</p>
+    <p>Cards on <strong><Link href="/ban-list">The Banlist</Link></strong> are not legal.</p>
+    <br />
+    <p>Otherwise, SDH inherits EDH's restrictions, and adds two more:</p>
     <List tag="ol" list="decimal">
-      <Li>Cards from using Attractions, Stickers, and/or Tickets are not legal in SDH.</Li>
-      <Li>Cards in more than 3 colors cannot be run in SDH.</Li>
+      <Li>Cards using Attractions, Stickers, and/or Tickets are not legal in SDH.</Li>
+      <Li>Because of the Color Rule, cards in more than 3 colors cannot be run in SDH.</Li>
     </List>
     <p>Technically, SDH also illegalizes Contraptions and ante cards, but those cards were already banned in EDH, so there's effectively no difference.</p>
-    <p>For more details, see the <Link href="/banlist-comparison">EDH banlist comparison</Link>.</p>
-  </section>
-  <section>
-    <Subheading>Bans</Subheading>
-    <p>SDH largely inherits EDH's ban list. So far, none of the usual suspects (Thassa's Oracle, Underworld Breach, Ad Nauseam, et cetera) have been banned. This is because the format is very young, and we want it to be as easy as possible for cEDH players to give SDH a try. The comprehensive (and authoritative) ban list can be found <Link href="/ban-list" class="underline">here</Link>.</p>
+    <br />
+    <p>For a more digestible version of the banlist, see the <Link href="/banlist-comparison">EDH banlist comparison</Link>.</p>
   </section>
   <section>
     <Subheading>Social Contract</Subheading>

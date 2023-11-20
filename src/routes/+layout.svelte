@@ -14,6 +14,7 @@
   const CONSTITUTION_ROUTE = "/constitution";
   const RULES_ROUTE = "/rules";
   const DECKS_ROUTE = "/decks";
+  const HOF_ROUTE = "/hall-of-fame";
   let route;
   $: route = $page.route.id;
 
@@ -44,6 +45,7 @@
       <NavLink route={CONSTITUTION_ROUTE}>Constitution</NavLink>
       <NavLink route={RULES_ROUTE}>Rules</NavLink>
       <NavLink route={DECKS_ROUTE}>Decks</NavLink>
+      <NavLink route={HOF_ROUTE}>Hall of Fame</NavLink>
     </NavUl>
     <DiscordButton />
   </Navbar>

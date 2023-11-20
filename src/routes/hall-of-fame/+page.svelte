@@ -13,6 +13,11 @@
 
   import { Avatar } from 'flowbite-svelte'
 
+  const lionsEyeDiamond = {
+    cardUrl: "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=383000&printed=false",
+    imageUrl: "https://cards.scryfall.io/large/front/7/5/758f95f8-bcb0-43ae-b474-56ebd855951e.jpg?1590511899",
+    name: "Lion's Eye Diamond"
+  };
   // Note:
   // Consecrated Sphinx
   // Otawara
@@ -55,7 +60,7 @@
     <br />
     <p>And it's not a fragile engine either. <Clarification><span>Norin is <em>very</em> difficult to remove</span><p slot="clarification">If you respond to his trigger with removal, he just triggers again on top of it. So you need ability-based creature removal, and Otawara isn't going to cut it, since he's trivial to recast most of the time... And Norin's owner can trigger him by casting their <em>own</em> instant to put a Norin trigger back on top of the stack. And he's very easy to recast, and doesn't suffer from summoning sickness. You can use Stifle effects to lock Norin in Exile, but because of Norin's weird wording, you can actually put him into the command zone, and return him from there on end step. This makes his commander tax explode, but does technically work around Stifle effects. This is all on top of the fact that the Norin player's hand will be full of interaction most of the time. <br /><br />While we're here, fun fact: Norin can also attack to flicker himself.</p></Clarification>. This makes <CardClarification {...hofDecks[0].commanders[1]}>Candlekeep Sage</CardClarification> the weakpoint, but enchantments are pretty hard to remove, and everything is being protected by an Izzet deck drawing eight cards every turn cycle.</p>
     <br />
-    <p>The deck was held beck somewhat by the lack of good win conditions in Izzet colors, but even then, it won about 50% of the games it played. And all of those games were 3v1s against a first-draft version of the deck. It was so good that on multiple occasions, Lion's Eye Diamond was used to get the commanders out on turn one, and went completely unpunished.</p>
+    <p>The deck was held beck somewhat by the lack of good win conditions in Izzet colors, but even then, it won about 50% of the games it played. And all of those games were 3v1s against a first-draft version of the deck. It was so good that on multiple occasions, <CardClarification {...lionsEyeDiamond}>LED</CardClarification> was used to get the commanders out on turn one, and went completely unpunished.</p>
     <br />
     <p>It's fortunate that Norin/Candlekeep was the first banworthy pairing, since the commanders are individually so innocuous that the "banned as pairing" classification came naturally.</p>
   </div>
