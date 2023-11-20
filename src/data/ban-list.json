@@ -306,5 +306,14 @@
     },
     "banType": "library",
     "rationale": "Simply too powerful."
+  },
+  {
+    "card": {
+      "name": "Thassa's Oracle",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=476324",
+      "imageUrl": "https://cards.scryfall.io/large/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1680582212"
+    },
+    "banType": "library",
+    "rationale": "Thassa's Oracle had very efficient two-card-combos with Demonic Consultation and Tainted Pact that were completely commander-agnostic, gameplan-agnostic, and non-committal. This was exacerbated by the fact that Thoracle was in the two best colors, and had the effect of devaluing commander participation in combos. Additionally, Laboratory Maniac still exists, so more creative/commander-centric uses of Thassa's Oracle can largely continue to exist."
   }
 ]
