@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c18f299f-90b6-4d93-8907-33aa23029d9a",
+    "name": "Rhystic Study at Home",
+    "listUrl": "https://www.moxfield.com/decks/cLcW0M3UXkSwdnZUw-GENw",
+    "blurb": "Don't be fooled by the name: This is bar-none the strongest deck in SDH, and very likely to be banned as a pair in the first revision to the rules. With Norin and Candlekeep, you draw 2 cards every time your anyone does basically anything, so you draw 8 cards per turn cycle with a low enough CMC to almost always be out on turn 2, after which, your advantage will be so insurmountable that you can often blow interaction on all three of your opponents without running out. Goofy commanders, but serious business.",
+    "colorIdentity": "Izzet",
+    "strategy": "Control",
+    "commanders": [
+      {
+        "cardUrl": "https://scryfall.com/card/tsp/171/norin-the-wary",
+        "imageUrl": "https://cards.scryfall.io/large/front/f/6/f61ea59a-1db0-4e6b-bcde-19787c76a49b.jpg?1562946915",
+        "name": "Norin the Wary",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/norin-portrait.jpg",
+        "rarity": "RARE"
+      },
+      {
+        "cardUrl": "https://scryfall.com/card/clb/60/candlekeep-sage",
+        "imageUrl": "https://cards.scryfall.io/large/front/6/f/6f706ac3-0ad8-44ac-a99e-21c04075951d.jpg?1674135436",
+        "name": "Candlekeep Sage",
+        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/candlekeep-portrait.jpg",
+        "rarity": "COMMON"
+      }
+    ]
+  }
+]

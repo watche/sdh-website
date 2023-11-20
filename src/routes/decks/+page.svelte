@@ -49,7 +49,7 @@
   {#each deckCategories as category}
     <section>
       <Subheading>{category.name}</Subheading>
-        <p><Markdown content ={category.blurb} /></p>
+        <p><Markdown content={category.blurb} /></p>
         {#each category.decks as deck, i}
           <!--
             We're not using Table here for two reasons:
