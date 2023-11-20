@@ -315,5 +315,14 @@
     },
     "banType": "library",
     "rationale": "Thassa's Oracle had very efficient two-card-combos with Demonic Consultation and Tainted Pact that were completely commander-agnostic, gameplan-agnostic, and non-committal. This was exacerbated by the fact that Thoracle was in the two best colors, and had the effect of devaluing commander participation in combos. Additionally, Laboratory Maniac still exists, so more creative/commander-centric uses of Thassa's Oracle can largely continue to exist."
+  },
+  {
+    "card": {
+      "name": "Underworld Breach",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=476412&printed=false",
+      "imageUrl": "https://cards.scryfall.io/large/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1650599818"
+    },
+    "banType": "library",
+    "rationale": "Underworld Breach, like Thassa's Oracle, gave many decks a \"free\" win condition for being in certain color identities, and made it possible to run pure \"goodstuff\" decks whose commanders were just value engines with no combo participation. This was the meta, and resulted in overall less diverse and commander-centric gameplay, despite Breach itself being a very interesting and stax-vulnerable card. Unlike Thoracle, there's a chance that Breach comes back off the ban list at some point."
   }
 ]

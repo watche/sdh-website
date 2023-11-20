@@ -149,6 +149,63 @@
   const libraryUnbans = unbans.filter((unban) => {
     return unban.banType === "library";
   });
+  // TODO: De-duplicate (copypasted from $data/ban-list.json
+  const bans = [
+    {
+      "card": {
+        "name": "Thassa's Oracle",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=476324",
+        "imageUrl": "https://cards.scryfall.io/large/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1680582212"
+      },
+      "banType": "library",
+      "rationale": "Thassa's Oracle had very efficient two-card-combos with Demonic Consultation and Tainted Pact that were completely commander-agnostic, gameplan-agnostic, and non-committal. This was exacerbated by the fact that Thoracle was in the two best colors, and had the effect of devaluing commander participation in combos. Additionally, Laboratory Maniac still exists, so more creative/commander-centric uses of Thassa's Oracle can largely continue to exist."
+    },
+    {
+      "card": {
+        "name": "Underworld Breach",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=476412&printed=false",
+        "imageUrl": "https://cards.scryfall.io/large/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1650599818"
+      },
+      "banType": "library",
+      "rationale": "Underworld Breach, like Thassa's Oracle, gave many decks a \"free\" win condition for being in certain color identities, and made it possible to run pure \"goodstuff\" decks whose commanders were just value engines with no combo participation. This was the meta, and resulted in overall less diverse and commander-centric gameplay, despite Breach itself being a very interesting and stax-vulnerable card. Unlike Thoracle, there's a chance that Breach comes back off the ban list at some point."
+    },
+    {
+    "card": {
+      "name": "Jace, Wielder of Mysteries",
+      "imageUrl": "https://cards.scryfall.io/large/front/6/a/6adb7d73-4482-4930-8497-cffd169b57e2.jpg?1557576232",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460981&printed=false"
+    },
+    "banType": "spouse",
+    "rationale": "This ban may get reversed, but having Labjace in the command zone seems too powerful. This ban (like Narset and Ashiok) was made in the same rules change that legalized planeswalkers, so none of them have been tested in practice."
+  },
+  {
+    "card": {
+      "name": "Ashiok, Dream Render",
+      "imageUrl": "https://cards.scryfall.io/large/front/f/2/f2df3258-c053-48a8-974f-d80899b2cd93.jpg?1557577343",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=461155&printed=false"
+    },
+    "banType": "spouse",
+    "rationale": "Crippling and asymmetrical stax piece in ideal colors in the uncommon slot would homogeneize commander choices, and would appear so often that it would essentially remove toolbox decks as an archetype."
+  },
+  {
+    "card": {
+      "name": "Narset, Parter of Veils",
+      "imageUrl": "https://cards.scryfall.io/large/front/4/e/4e6e5c63-b6e5-4756-bf23-6c6f8669442d.jpg?1690004395",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=625258&printed=false"
+    },
+    "banType": "spouse",
+    "rationale": "Like Ashiok, crippling, cheap, and completely non-committal. Would homogeneize deckbuilding, and would be a boring \"obligatory\" Uncommon slot in many decks. You'd need to account for your opponents' Narsets whenever making a deck, which is a hallmark sign of a card that would be bad for meta diversity."
+  },
+  ];
+  const generalBans = bans.filter((ban) => {
+    return ban.banType === "everywhere";
+  });
+  const commanderBans = bans.filter((ban) => {
+    return ban.banType === "spouse";
+  });
+  const libraryBans = bans.filter((ban) => {
+    return ban.banType === "library";
+  });
   const blankGoblin = {
     "name": "_____ Goblin",
     "imageUrl": "https://cards.scryfall.io/large/front/5/8/5819e3f3-da49-4003-88ce-f3b7bb495787.jpg?1673914269",
@@ -199,10 +256,24 @@
     </List>
     {/if}
   </section>
+  <br />
   <section>
     <Subheading>New Bans</Subheading>
-      <p>No cards have been banned yet.</p>
+    <p>These cards are banned in the library:</p>
+    <List>
+      {#each libraryBans as ban}
+        <Li><CardWithExplanation card={ban.card} explanation={ban.explanation} /></Li>
+      {/each}
+    </List>
+    <br />
+    <p>These cards are banned in the command zone:</p>
+    <List>
+      {#each commanderBans as ban}
+        <Li><CardWithExplanation card={ban.card} explanation={ban.explanation} /></Li>
+      {/each}
+    </List>
   </section>
+  <br />
   <section>
     <Subheading>Illegal in SDH</Subheading>
       <p>Legality rules do exclude some cards that are playable in EDH, namely the <Link href={uncardsScryfallUrl} nofollow>un-cards that used Tickets, Stickers, or Attractions</Link>, and <Link href={tooManyColorsScryfallUrl}>cards in more than three colors</Link>.</p>

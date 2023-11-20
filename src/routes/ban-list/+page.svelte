@@ -25,16 +25,19 @@
   const wotcForbiddenCardsUrl = "https://magic.wizards.com/en/news/announcements/depictions-racism-magic-2020-06-10";
   const fcpUrl = "https://company.wizards.com/en/legal/fancontentpolicy";
 </script>
+<svelte:head>
+  <title>SDH Banlist</title>
+  <meta name="description" content="The authoritative list of cards banned in the Spousal Dragon Highlanders format of Magic: the Gathering." />
+</svelte:head>
 <SDHWriting>
   <svelte:fragment slot="title">Bans</svelte:fragment>
-  <p>This document contains the current authoritative ban list. Unlike EDH, cards may be separately banned from the command zone or from the library. These are listed separately.</p>
+  <p>This document contains the current authoritative ban list. Unlike EDH, cards may be banned "as commander", and pairs of commanders can even be banned-as-pairing. These categories are listed separately.</p>
   <br />
   <p><strong>For players coming from EDH</strong>, the <Link href="/banlist-comparison">EDH banlist comparison</Link> will be much easier to read.</p>
   <section>
     <Subheading>Banned Couples</Subheading>
-    <p>Banned Couples are commanders that are individually legal, but may not be run together.</p>
-    <p>(For more, see the <Link href="/hall-of-fame">SDH Hall of Fame</Link>.)</p>
-    <br />
+    <!-- TODO: No longer direct to the HoF when decks have been inducted into the HoF for non-pairing reasons. -->
+    <p>Banned Couples are commanders that are individually legal, but may not be run together. (For more information, see the <Link href="/hall-of-fame">SDH Hall of Fame</Link>.)</p>
     <List class="inline">
       <!-- TODO: Change to be proper "pairing" entry in ban JSON. -->
       {#each hofDecks as ban}

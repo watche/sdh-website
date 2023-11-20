@@ -63,6 +63,8 @@
     <p>The deck was held beck somewhat by the lack of good win conditions in Izzet colors, but even then, it won about 50% of the games it played. And all of those games were 3v1s against a first-draft version of the deck. It was so good that on multiple occasions, <CardClarification {...lionsEyeDiamond}>LED</CardClarification> was used to get the commanders out on turn one, and went completely unpunished.</p>
     <br />
     <p>It's fortunate that Norin/Candlekeep was the first banworthy pairing, since the commanders are individually so innocuous that the "banned as pairing" classification came naturally.</p>
+    <br />
+    <p>Norin/Candlekeep was first discovered by <Link href="https://www.moxfield.com/decks/cLcW0M3UXkSwdnZUw-GENw">JaydonAdams</Link> on Moxfield, and was in the very first pod of SDH ever played. When it was discovered, the format's creator briefly panicked and worried that SDH <em>really was</em> just "too busted". Ironically, the long, fruitless search for an equally busted deck has been the ultimate reassurance that SDH is more than just a meme. This HoF entry is written a whole <em>nine months</em> after Norin/Candlekeep was found, and to this day, no other deck compares.</p>
   </div>
   <br />
   <p>If <strong>you</strong> would like to appear in the Hall of Fame, show everyone your game-warping decklist on our <Link href={DISCORD_URL} nofollow>Discord</Link>.</p>
