@@ -11,14 +11,14 @@
         "cardUrl": "https://scryfall.com/card/tsp/171/norin-the-wary",
         "imageUrl": "https://cards.scryfall.io/large/front/f/6/f61ea59a-1db0-4e6b-bcde-19787c76a49b.jpg?1562946915",
         "name": "Norin the Wary",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/norin-portrait.jpg",
+        "artUrl": "portraits/norin-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/clb/60/candlekeep-sage",
         "imageUrl": "https://cards.scryfall.io/large/front/6/f/6f706ac3-0ad8-44ac-a99e-21c04075951d.jpg?1674135436",
         "name": "Candlekeep Sage",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/candlekeep-portrait.jpg",
+        "artUrl": "portraits/candlekeep-portrait.jpg",
         "rarity": "COMMON"
       }
     ]

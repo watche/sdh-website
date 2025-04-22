@@ -324,5 +324,14 @@
     },
     "banType": "library",
     "rationale": "Underworld Breach, like Thassa's Oracle, gave many decks a \"free\" win condition for being in certain color identities, and made it possible to run pure \"goodstuff\" decks whose commanders were just value engines with no combo participation. This was the meta, and resulted in overall less diverse and commander-centric gameplay, despite Breach itself being a very interesting and stax-vulnerable card. Unlike Thoracle, there's a chance that Breach comes back off the ban list at some point."
+  },
+  {
+    "card": {
+      "name": "Nadu, Winged Wisdom",
+      "imageUrl": "https://cards.scryfall.io/large/front/9/4/94b67489-5eb0-4406-9bf3-27e50dc632eb.jpg?1731574759",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=661500"
+    },
+    "banType": "spouse",
+    "rationale": "Was too homogenizing in cEDH. Was never used in SDH, as the format was dormant at the time of its release."
   }
 ]

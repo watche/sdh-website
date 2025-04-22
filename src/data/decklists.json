@@ -11,14 +11,14 @@
         "cardUrl": "https://scryfall.com/card/mat/41/ob-nixilis-captive-kingpin",
         "imageUrl": "https://cards.scryfall.io/large/front/d/d/ddb68233-3683-41bd-9b6e-4f07a1b54244.jpg?1684340801",
         "name": "Ob Nixilis, Captive Kingpin",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ob-nix-portrait.jpg",
+        "artUrl": "portraits/ob-nix-portrait.jpg",
         "rarity": "MYTHIC"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/79/malcolm-keen-eyed-navigator",
         "imageUrl": "https://cards.scryfall.io/large/front/b/b/bbc3bbda-a4bc-4302-a3fc-b1c89f0f5461.jpg?1608909299",
         "name": "Malcolm, Keen-Eyed Navigator",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/malcolm-portrait.jpg",
+        "artUrl": "portraits/malcolm-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -35,14 +35,14 @@
         "cardUrl": "https://scryfall.com/card/ncc/275/squee-the-immortal",
         "imageUrl": "https://cards.scryfall.io/large/front/a/8/a8232acd-4645-489c-8cf1-4efdc75d9322.jpg?1673484412",
         "name": "Squee, the Immortal",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/squee-portrait.jpg",
+        "artUrl": "portraits/squee-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/khm/212/harald-king-of-skemfar",
         "imageUrl": "https://cards.scryfall.io/large/front/9/e/9eac78a2-599f-4dba-aec7-982c5ae3f75a.jpg?1631051439",
         "name": "Harald, King of Skemfar",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/harald-portrait.jpg",
+        "artUrl": "portraits/harald-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -60,14 +60,14 @@
         "imageUrl": "https://cards.scryfall.io/large/front/9/d/9d9a9350-4734-4cc1-986d-467e6715199f.jpg?1674092821",
         "name": "Slicer, Hired Muscle",
         "backSideImageUrl": "https://cards.scryfall.io/large/back/9/d/9d9a9350-4734-4cc1-986d-467e6715199f.jpg?1674092821",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/slicer-portrait.jpg",
+        "artUrl": "portraits/slicer-portrait.jpg",
         "rarity": "MYTHIC"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/10/ardenn-intrepid-archaeologist",
         "imageUrl": "https://cards.scryfall.io/large/front/7/2/728b802c-969b-4865-b7a0-871c585d097a.jpg?1617148314",
         "name": "Ardenn, Intrepid Archaeologist",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ardenn-portrait.jpg",
+        "artUrl": "portraits/ardenn-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -84,14 +84,14 @@
         "cardUrl": "https://scryfall.com/card/khm/142/magda-brazen-outlaw",
         "imageUrl": "https://cards.scryfall.io/large/front/0/7/079e6263-e54c-4899-a336-5315909b9322.jpg?1631049453",
         "name": "Magda, Brazen Outlaw",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/magda-portrait.jpg",
+        "artUrl": "portraits/magda-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/79/malcolm-keen-eyed-navigator",
         "imageUrl": "https://cards.scryfall.io/large/front/b/b/bbc3bbda-a4bc-4302-a3fc-b1c89f0f5461.jpg?1608909299",
         "name": "Malcolm, Keen-Eyed Navigator",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/malcolm-portrait.jpg",
+        "artUrl": "portraits/malcolm-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -108,14 +108,14 @@
         "cardUrl": "https://scryfall.com/card/khc/82/brago-king-eternal",
         "imageUrl": "https://cards.scryfall.io/large/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1631235340",
         "name": "Brago, King Eternal",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/brago-portrait.jpg",
+        "artUrl": "portraits/brago-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/clb/293/rilsa-rael-kingpin",
         "imageUrl": "https://cards.scryfall.io/large/front/5/4/54484439-6f8a-47f1-8d62-4689af7f00c2.jpg?1674137671",
         "name": "Rilsa Rael, Kingpin",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rilsa-portrait.jpg",
+        "artUrl": "portraits/rilsa-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -132,14 +132,14 @@
         "cardUrl": "https://scryfall.com/card/usg/63/barrin-master-wizard",
         "imageUrl": "https://cards.scryfall.io/large/front/e/c/ec79e35f-9e78-462d-8b71-4f044e2eff90.jpg?1562944897",
         "name": "Barrin, Master Wizard",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/barrin-portrait.jpg",
+        "artUrl": "portraits/barrin-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/282/juri-master-of-the-revue",
         "imageUrl": "https://cards.scryfall.io/large/front/a/e/aec6b2b7-625a-451d-bc0b-4456f5bf2719.jpg?1608911166",
         "name": "Juri, Master of the Revue",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/juri-portrait.jpg",
+        "artUrl": "portraits/juri-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -156,14 +156,14 @@
         "cardUrl": "https://scryfall.com/card/c16/48/tymna-the-weaver",
         "imageUrl": "https://cards.scryfall.io/large/front/b/c/bc7cbe9b-324e-42b8-94e2-36e91cb32163.jpg?1644853048",
         "name": "Tymna the Weaver",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tymna-portrait.jpg",
+        "artUrl": "portraits/tymna-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/stx/178/dina-soul-steeper",
         "imageUrl": "https://cards.scryfall.io/large/front/9/c/9cd2b567-0cf7-4441-b3ce-e31141dd91c8.jpg?1627428607",
         "name": "Dina, Soul Steeper",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/dina-portrait.jpg",
+        "artUrl": "portraits/dina-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -180,14 +180,14 @@
         "cardUrl": "https://scryfall.com/card/sok/41/kaho-minamo-historian",
         "imageUrl": "https://cards.scryfall.io/large/front/d/8/d85a5f54-9b79-4c3d-b983-021b4b01b122.jpg?1562496115",
         "name": "Kaho, Minamo Historian",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kaho-portrait.jpg",
+        "artUrl": "portraits/kaho-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/snc/177/cormela-glamour-thief",
         "imageUrl": "https://cards.scryfall.io/large/front/2/2/221ac34a-94ed-4c49-afad-b19cac541731.jpg?1664412852",
         "name": "Cormela, Glamor Thief",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/cormela-portrait.jpg",
+        "artUrl": "portraits/cormela-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -204,14 +204,14 @@
         "cardUrl": "https://scryfall.com/card/onc/2/neyali-suns-vanguard",
         "imageUrl": "https://cards.scryfall.io/large/front/2/b/2b5df03d-2463-468b-b444-d946eeb1c96d.jpg?1675905561",
         "name": "Neyali, Suns' Vanguard",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/neyali-portrait.jpg",
+        "artUrl": "portraits/neyali-portrait.jpg",
         "rarity": "MYTHIC"
       },
       {
         "cardUrl": "https://scryfall.com/card/clb/269/cadira-caller-of-the-small",
         "imageUrl": "https://cards.scryfall.io/large/front/7/5/75994e0b-b0c7-4b0d-8f48-4be303429bd6.jpg?1674137453",
         "name": "Cadira, Caller of the Small",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/cadira-portrait.jpg",
+        "artUrl": "portraits/cadira-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -228,14 +228,14 @@
         "cardUrl": "https://scryfall.com/card/inv/237/captain-sisay",
         "imageUrl": "https://cards.scryfall.io/large/front/d/2/d24d441c-f37f-44fe-8a93-f5c89df807e4.jpg?1562937244",
         "name": "Captain Sisay",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/sisay-portrait.jpg",
+        "artUrl": "portraits/sisay-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/ltr/56/ioreth-of-the-healing-house",
         "imageUrl": "https://cards.scryfall.io/large/front/0/3/03ab74cd-978a-49eb-9d38-bc8b472b3cef.jpg?1686968152",
         "name": "Ioreth of the Healing House",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ioreth-portrait.jpg",
+        "artUrl": "portraits/ioreth-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -252,14 +252,14 @@
         "cardUrl": "https://scryfall.com/card/c16/34/kraum-ludevics-opus",
         "imageUrl": "https://cards.scryfall.io/large/front/5/5/557fcd17-6cb3-414a-b2b1-ea9ae32e5aec.jpg?1644853032",
         "name": "Kraum, Ludevic's Opus",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kraum-portrait.jpg",
+        "artUrl": "portraits/kraum-portrait.jpg",
         "rarity": "Rare"
       },
       {
         "cardUrl": "https://scryfall.com/card/clb/270/commander-liara-portyr",
         "imageUrl": "https://cards.scryfall.io/large/front/9/a/9ac8b247-455e-4a3f-9f88-b20918c36cc3.jpg?1674137467",
         "name": "Commander Liara Portyr",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/liara-portyr-portrait.jpg",
+        "artUrl": "portraits/liara-portyr-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -276,14 +276,14 @@
         "cardUrl": "https://scryfall.com/card/bro/218/queen-kayla-bin-kroog",
         "imageUrl": "https://cards.scryfall.io/large/front/6/8/685c9767-eaa7-4e16-b245-816181e2fc36.jpg?1674421829",
         "name": "Queen Kayla Bin-Kroog",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kayla-bin-kroog-portrait.jpg",
+        "artUrl": "portraits/kayla-bin-kroog-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/clb/102/vhal-candlekeep-researcher",
         "imageUrl": "https://cards.scryfall.io/large/front/4/6/46738fb3-ab5e-486c-b66a-1526ba1cdfa8.jpg?1674135857",
         "name": "Vhal, Candlekeep Researcher",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vhal-portrait.jpg",
+        "artUrl": "portraits/vhal-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -300,14 +300,14 @@
         "cardUrl": "https://scryfall.com/card/afr/87/acererak-the-archlich",
         "imageUrl": "https://cards.scryfall.io/large/front/d/d/dd52d0bd-3abd-401c-9f56-ee911613da3b.jpg?1627704283",
         "name": "Acererak the Archlich",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/acer-portrait.jpg",
+        "artUrl": "portraits/acer-portrait.jpg",
         "rarity": "MYTHIC"
       },
       {
         "cardUrl": "https://scryfall.com/card/afr/223/gretchen-titchwillow",
         "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c8b248e-1460-4650-9721-85c134c21b89.jpg?1627708954",
         "name": "Gretchen Titchwillow",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/gretchen-portrait.webp",
+        "artUrl": "portraits/gretchen-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -324,14 +324,14 @@
         "cardUrl": "https://scryfall.com/card/tsp/171/norin-the-wary",
         "imageUrl": "https://cards.scryfall.io/large/front/f/6/f61ea59a-1db0-4e6b-bcde-19787c76a49b.jpg?1562946915",
         "name": "Norin the Wary",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/norin-portrait.jpg",
+        "artUrl": "portraits/norin-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/clb/60/candlekeep-sage",
         "imageUrl": "https://cards.scryfall.io/large/front/6/f/6f706ac3-0ad8-44ac-a99e-21c04075951d.jpg?1674135436",
         "name": "Candlekeep Sage",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/candlekeep-portrait.jpg",
+        "artUrl": "portraits/candlekeep-portrait.jpg",
         "rarity": "COMMON"
       }
     ]
@@ -348,14 +348,14 @@
         "cardUrl": "https://scryfall.com/card/vow/237/eruth-tormented-prophet",
         "imageUrl": "https://cards.scryfall.io/large/front/9/f/9f764077-df2d-4ac7-b507-2c8e08386d49.jpg?1643594095",
         "name": "Eruth, Tormented Prophet",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/eruth-portrait.jpg",
+        "artUrl": "portraits/eruth-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/khm/233/vega-the-watcher",
         "imageUrl": "https://cards.scryfall.io/large/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1631051983",
         "name": "Vega, the Watcher",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vega-portrait.jpg",
+        "artUrl": "portraits/vega-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -372,14 +372,14 @@
         "cardUrl": "https://scryfall.com/card/mh1/75/urza-lord-high-artificer",
         "imageUrl": "https://cards.scryfall.io/large/front/9/e/9e7fb3c0-5159-4d1f-8490-ce4c9a60f567.jpg?1567181307",
         "name": "Urza, Lord High Artificer",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/urza-portrait.jpg",
+        "artUrl": "portraits/urza-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/197/rograkh-son-of-rohgahh",
         "imageUrl": "https://cards.scryfall.io/large/front/a/4/a4fab67f-00c2-4125-9262-d21a29411797.jpg?1644853041",
         "name": "Rograkh, Son of Rohgahh",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rograkh-portrait.webp",
+        "artUrl": "portraits/rograkh-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -396,14 +396,14 @@
         "cardUrl": "https://scryfall.com/card/c17/46/taigam-ojutai-master",
         "imageUrl": "https://cards.scryfall.io/large/front/b/4/b47e2781-544f-442c-98d0-43b9d91bab03.jpg?1562621099",
         "name": "Taigam, Ojutai Master",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/taigam-portrait.jpg",
+        "artUrl": "portraits/taigam-portrait.jpg",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/khm/233/vega-the-watcher",
         "imageUrl": "https://cards.scryfall.io/large/front/2/8/28fced7f-3078-4a54-8f76-0ef14c732e97.jpg?1631051983",
         "name": "Vega, the Watcher",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vega-portrait.jpg",
+        "artUrl": "portraits/vega-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -420,14 +420,14 @@
         "cardUrl": "https://scryfall.com/card/rna/195/prime-speaker-vannifar",
         "imageUrl": "https://cards.scryfall.io/large/front/8/4/84abfc59-10a7-4cb5-9cdd-81797116c810.jpg?1572893948",
         "name": "Prime Speaker Vannifar",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/vannifar-portrait.webp",
+        "artUrl": "portraits/vannifar-portrait.webp",
         "rarity": "MYTHIC"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/197/rograkh-son-of-rohgahh",
         "imageUrl": "https://cards.scryfall.io/large/front/a/4/a4fab67f-00c2-4125-9262-d21a29411797.jpg?1644853041",
         "name": "Rograkh, Son of Rohgahh",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rograkh-portrait.webp",
+        "artUrl": "portraits/rograkh-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -445,14 +445,14 @@
         "imageUrl": "https://cards.scryfall.io/large/front/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1631048621",
         "backSideImageUrl": "https://cards.scryfall.io/large/back/1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead.jpg?1631048621",
         "name": "Tergrid, God of Fright",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tergrid-portrait.webp",
+        "artUrl": "portraits/tergrid-portrait.webp",
         "rarity": "RARE"
       },
       {
         "cardUrl": "https://scryfall.com/card/afr/223/gretchen-titchwillow",
         "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c8b248e-1460-4650-9721-85c134c21b89.jpg?1627708954",
         "name": "Gretchen Titchwillow",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/gretchen-portrait.webp",
+        "artUrl": "portraits/gretchen-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -469,14 +469,14 @@
         "cardUrl": "https://scryfall.com/card/2xm/107/skithiryx-the-blight-dragon",
         "imageUrl": "https://cards.scryfall.io/large/front/c/a/cab61c7e-e00a-413b-a0b5-7718b479582f.jpg?1599705958",
         "name": "Skithiryx, the Blight Dragon",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/skithiryx-portrait.webp",
+        "artUrl": "portraits/skithiryx-portrait.webp",
         "rarity": "MYTHIC"
       },
       {
         "cardUrl": "https://scryfall.com/card/cmr/188/kediss-emberclaw-familiar",
         "imageUrl": "https://cards.scryfall.io/large/front/f/6/f606ebf1-483d-4331-b16a-9fb6f591a39f.jpg?1608910296",
         "name": "Kediss, Emberclaw Familiar",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/kediss-portrait.webp",
+        "artUrl": "portraits/kediss-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -493,13 +493,13 @@
         "cardUrl": "https://scryfall.com/card/slx/16/tadeas-juniper-ascendant",
         "imageUrl": "https://cards.scryfall.io/large/front/e/b/eb79f973-2384-4de4-81fb-14ba5a0e5556.jpg?1677353914",
         "name": "Tadeas, Juniper Ascendant",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tadeas-portrait.webp",
+        "artUrl": "portraits/tadeas-portrait.webp",
         "rarity": "RARE"
       }, {
         "cardUrl": "https://scryfall.com/card/afr/223/gretchen-titchwillow",
         "imageUrl": "https://cards.scryfall.io/large/front/3/c/3c8b248e-1460-4650-9721-85c134c21b89.jpg?1627708954",
         "name": "Gretchen Titchwillow",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/gretchen-portrait.webp",
+        "artUrl": "portraits/gretchen-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -516,13 +516,13 @@
         "cardUrl": "https://scryfall.com/card/2x2/10/emiel-the-blessed",
         "imageUrl": "https://cards.scryfall.io/large/front/0/f/0f594562-7e9f-47e6-a033-fb70e3cf1e10.jpg?1673146967",
         "name": "Emiel the Blessed",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/emiel-portrait.webp",
+        "artUrl": "portraits/emiel-portrait.webp",
         "rarity": "MYTHIC"
       }, {
         "cardUrl": "https://scryfall.com/card/snc/218/rocco-cabaretti-caterer",
         "imageUrl": "https://cards.scryfall.io/large/front/b/6/b6cf8b35-2a81-40fd-b383-becb81bef806.jpg?1664413683",
         "name": "Rocco, Cabaretti Caterer",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/rocco-portrait.webp",
+        "artUrl": "portraits/rocco-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -539,13 +539,13 @@
         "cardUrl": "https://scryfall.com/card/one/75/unctus-grand-metatect",
         "imageUrl": "https://cards.scryfall.io/large/front/1/6/164b07e6-48ba-4789-bd8f-7cada1fec8a9.jpg?1675956999",
         "name": "Unctus, Grand Metatect",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/unctus-portrait.jpg",
+        "artUrl": "portraits/unctus-portrait.jpg",
         "rarity": "RARE"
       }, {
         "cardUrl": "https://scryfall.com/card/cmr/267/araumi-of-the-dead-tide",
         "imageUrl": "https://cards.scryfall.io/large/front/4/8/48b597dd-f6eb-45da-977d-453e8c1433cc.jpg?1608911023",
         "name": "Araumi of the Dead Tide",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/araumi-portrait.jpg",
+        "artUrl": "portraits/araumi-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
@@ -562,13 +562,13 @@
         "cardUrl": "https://scryfall.com/card/khc/2/ranar-the-ever-watchful",
         "imageUrl": "https://cards.scryfall.io/large/front/1/c/1c8c41dd-8551-4ce8-a9be-9b9f65718852.jpg?1657065666",
         "name": "Ranar the Ever-Watchful",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/ranar-portrait.jpeg",
+        "artUrl": "portraits/ranar-portrait.jpeg",
         "rarity": "RARE"
       }, {
         "cardUrl": "https://scryfall.com/card/cmr/280/imoti-celebrant-of-bounty",
         "imageUrl": "https://cards.scryfall.io/large/front/8/a/8afceb13-877a-4256-9ba6-851b6924ffd9.jpg?1608911148",
         "name": "Imoti, Celebrant of Bounty",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/imoti-portrait.webp",
+        "artUrl": "portraits/imoti-portrait.webp",
         "rarity": "UNCOMMON"
       }
     ]
@@ -585,13 +585,13 @@
         "cardUrl": "https://scryfall.com/card/mid/1/adeline-resplendent-cathar",
         "imageUrl": "https://cards.scryfall.io/large/front/1/8/18092f68-b96e-4084-9eba-b240d2195d81.jpg?1634346539",
         "name": "Adeline, Resplendent Cathar",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/adeline-portrait.webp",
+        "artUrl": "portraits/adeline-portrait.webp",
         "rarity": "RARE"
       }, {
         "cardUrl": "https://scryfall.com/card/dom/69/tetsuko-umezawa-fugitive",
         "imageUrl": "https://cards.scryfall.io/large/front/1/6/16185c50-f7b8-4cea-a129-dfad8e9df781.jpg?1591605108",
         "name": "Tetsuko Umezawa, Fugitive",
-        "artUrl": "https://sdhwebsitesupport.blob.core.windows.net/sdh-commander-portraits/tetsuko-portrait.jpg",
+        "artUrl": "portraits/tetsuko-portrait.jpg",
         "rarity": "UNCOMMON"
       }
     ]
