@@ -56,15 +56,6 @@
   },
   {
     "card": {
-      "name": "Limited Resources",
-      "imageUrl": "https://cards.scryfall.io/normal/front/2/0/20ae3609-a3cc-486c-94f6-b8f647adfb47.jpg?1562087362",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=6049"
-    },
-    "banType": "library",
-    "rationale": "This ban is a hand-me-down from EDH that has not yet been evaluated."
-  },
-  {
-    "card": {
       "name": "Tinker",
       "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7da23b15-dfb8-4267-9b33-d7a4c035c434.jpg?1562863289",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=12383"
@@ -89,6 +80,15 @@
     },
     "banType": "library",
     "rationale": "This hand-me-down ban from EDH is probably going to stick because it makes reanimator strategies much less interesting: It's always either Griselbrand or Thassa's Oracle."
+  },
+  {
+    "card": {
+      "name": "Drannith Magistrate",
+      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479531",
+      "imageUrl": "https://cards.scryfall.io/large/front/9/8/98b0a4a8-9319-451b-9b79-b0bca7a41e91.jpg?1628801742"
+    },
+    "banType": "library",
+    "explanation": "Drannith punishes commander-centric gameplans, which are exactly what this format seeks to enable and encourage. Drannith's effect would be okay if it specified \"noncommander\", but for the simplicity of the format, it's been "
   },
   {
     "card": {
@@ -234,15 +234,6 @@
     },
     "banType": "library",
     "rationale": "The Moxen are banned over cards like Mana Crypt and Jeweled Lotus because they give an (extra) advantage to players using more colors."
-  },
-  {
-    "card": {
-      "name": "Fastbond",
-      "imageUrl": "https://cards.scryfall.io/large/front/d/a/daf43523-558c-4701-9fa3-5d1ceb82a006.jpg?1566819914",
-      "cardUrl": "https://scryfall.com/card/vma/209/fastbond"
-    },
-    "banType": "library",
-    "rationale": "Fastbond has not been subject to much experimentation within the SDH community, but turning fast cards into fast mana is one of the dominant patterns in cEDH, and this would essentially turn your lands into moxen, so this should probably stay banned."
   },
   {
     "card": {

@@ -23,6 +23,24 @@
   const unbans = [
     {
       "card": {
+        "name": "Fastbond",
+        "imageUrl": "https://cards.scryfall.io/large/front/d/a/daf43523-558c-4701-9fa3-5d1ceb82a006.jpg?1566819914",
+        "cardUrl": "https://scryfall.com/card/vma/209/fastbond"
+      },
+      "banType": "everywhere",
+      "rationale": "Fastbond is still only experimentally unbanned. The main reason for its unban is that it aids the lands archetype, so hopefully it will improve deck diversity.  It also seems that it will only significantly ramp the player if they're already drawing more cards than their opponents, in which case they're already winning anyway. Most decks run relatively few lands, so the most likely scenario for an opening hand is to start with two lands, in which case you're likely to play the first two or three turns with the same amount of mana as you would without Fastbond."
+    },
+    {
+      "card": {
+        "name": "Limited Resources",
+        "imageUrl": "https://cards.scryfall.io/normal/front/2/0/20ae3609-a3cc-486c-94f6-b8f647adfb47.jpg?1562087362",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=6049"
+      },
+      "banType": "library",
+      "rationale": "This unban is primarily experimental, but this card doesn't seem as brutal as something like Back to Basics, and is harder to break parity on. Also, with the abundance of non-land mana in this format, it's still possible for players to draw into enough mana to enact their gameplans, so this effect would mostly slow decks down than shut them down."
+    },
+    {
+      "card": {
         "name": "Dockside Extortionist",
         "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?name=Dockside%20Extortionist",
         "imageUrl": "https://cards.scryfall.io/large/front/9/e/9e2e3efb-75cb-430f-b9f4-cb58f3aeb91b.jpg?1727093692"
@@ -185,7 +203,6 @@
   const libraryUnbans = unbans.filter((unban) => {
     return unban.banType === "library";
   });
-  // TODO: De-duplicate (copypasted from $data/ban-list.json
   const bans = [
     {
       "card": {
@@ -204,6 +221,24 @@
       },
       "banType": "library",
       "explanation": "Thassa's Oracle had very efficient two-card-combos with Demonic Consultation and Tainted Pact that were completely commander-agnostic, gameplan-agnostic, and non-committal. This was exacerbated by the fact that Thoracle was in the two best colors, and had the effect of devaluing commander participation in combos. Additionally, Laboratory Maniac still exists, so more creative/commander-centric uses of Thassa's Oracle can largely continue to exist."
+    },
+    {
+      "card": {
+        "name": "Drannith Magistrate",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479531",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/8/98b0a4a8-9319-451b-9b79-b0bca7a41e91.jpg?1628801742"
+      },
+      "banType": "library",
+      "explanation": "Drannith punishes commander-centric gameplans, which are exactly what this format seeks to enable and encourage. Drannith's effect would be okay if it specified \"noncommander\", but for the simplicity of the format, it's been banned instead of having a format-specific errata."
+    },
+    {
+      "card": {
+        "name": "Narset, Parter of Veils",
+        "imageUrl": "https://cards.scryfall.io/large/front/4/e/4e6e5c63-b6e5-4756-bf23-6c6f8669442d.jpg?1690004395",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=625258&printed=false"
+      },
+      "banType": "spouse",
+      "explanation": "Like Ashiok, crippling, cheap, and completely non-committal. Would homogeneize deckbuilding, and would be a boring \"obligatory\" Uncommon slot in many decks. You'd need to account for your opponents' Narsets whenever making a deck, which is a hallmark sign of a card that would be bad for meta diversity."
     },
     {
       "card": {
@@ -318,14 +353,8 @@
       {/each}
     </List>
   </section>
-  <br />
-  <section>
-    <Subheading>Illegal in SDH</Subheading>
-      <p>Legality rules do exclude some cards that are playable in EDH, namely the <Link href={uncardsScryfallUrl} nofollow>un-cards that used Tickets, Stickers, or Attractions</Link>, and <Link href={tooManyColorsScryfallUrl}>cards in more than three colors</Link>.</p>
-      {#if !fromRules}<br />{/if}
-      <p>The only widely-used card hit by these changes is <CardClarification {...blankGoblin}>_____ Goblin</CardClarification>.</p>
-  </section>
   {#if $fromRules}
+    <br />
     <p class="mt-3"><Link href="/rules">Click here to return to the Rules page.</Link></p>
   {/if}
 </SDHWriting>
