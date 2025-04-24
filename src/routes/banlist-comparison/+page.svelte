@@ -28,7 +28,7 @@
         "cardUrl": "https://scryfall.com/card/vma/209/fastbond"
       },
       "banType": "everywhere",
-      "rationale": "Fastbond is still only experimentally unbanned. The main reason for its unban is that it aids the lands archetype, so hopefully it will improve deck diversity.  It also seems that it will only significantly ramp the player if they're already drawing more cards than their opponents, in which case they're already winning anyway. Most decks run relatively few lands, so the most likely scenario for an opening hand is to start with two lands, in which case you're likely to play the first two or three turns with the same amount of mana as you would without Fastbond."
+      "explanation": "Fastbond is still only experimentally unbanned. The main reason for its unban is that it aids the lands archetype, so hopefully it will improve deck diversity.  It also seems that it will only significantly ramp the player if they're already drawing more cards than their opponents, in which case they're already winning anyway. Most decks run relatively few lands, so the most likely scenario for an opening hand is to start with two lands, in which case you're likely to play the first two or three turns with the same amount of mana as you would without Fastbond."
     },
     {
       "card": {
@@ -36,8 +36,8 @@
         "imageUrl": "https://cards.scryfall.io/normal/front/2/0/20ae3609-a3cc-486c-94f6-b8f647adfb47.jpg?1562087362",
         "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=6049"
       },
-      "banType": "library",
-      "rationale": "This unban is primarily experimental, but this card doesn't seem as brutal as something like Back to Basics, and is harder to break parity on. Also, with the abundance of non-land mana in this format, it's still possible for players to draw into enough mana to enact their gameplans, so this effect would mostly slow decks down than shut them down."
+      "banType": "everywhere",
+      "explanation": "This unban is primarily experimental, but this card doesn't seem as brutal as something like Back to Basics, and is harder to break parity on. Also, with the abundance of non-land mana in this format, it's still possible for players to draw into enough mana to enact their gameplans, so this effect would mostly slow decks down than shut them down."
     },
     {
       "card": {
