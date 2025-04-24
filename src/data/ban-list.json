@@ -65,15 +65,6 @@
   },
   {
     "card": {
-      "name": "Panoptic Mirror",
-      "imageUrl": "https://cards.scryfall.io/normal/front/5/0/50e945b0-e919-41bb-9bc5-f71ad531e8f1.jpg?1562636846",
-      "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=47930"
-    },
-    "banType": "library",
-    "rationale": "This card is controversial. If you want it unbanned, argue for it in the Discord."
-  },
-  {
-    "card": {
       "name": "Tinker",
       "imageUrl": "https://cards.scryfall.io/normal/front/7/d/7da23b15-dfb8-4267-9b33-d7a4c035c434.jpg?1562863289",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=12383"
@@ -123,7 +114,7 @@
       "imageUrl": "https://cards.scryfall.io/normal/front/2/7/27691efa-052d-4afe-b9ef-159858ca660f.jpg?1626100340",
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=526244"
     },
-    "banType": "library",
+    "banType": "spouse",
     "rationale": "Hand-me-down ban from EDH. Very likely to be unbanned in the library."
   },
   {

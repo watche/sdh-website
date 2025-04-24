@@ -23,6 +23,42 @@
   const unbans = [
     {
       "card": {
+        "name": "Dockside Extortionist",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?name=Dockside%20Extortionist",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/e/9e2e3efb-75cb-430f-b9f4-cb58f3aeb91b.jpg?1727093692"
+      },
+      "banType": "everywhere",
+      "explanation": "Dockside was never banned in SDH, and has been found to be essential to maintaining the diversity of the meta."
+    },
+    {
+      "card": {
+        "name": "Jeweled Lotus",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=627860",
+        "imageUrl": "https://cards.scryfall.io/large/front/d/7/d7183700-6941-4a3d-a581-4f33bea795e9.jpg?1727093687"
+      },
+      "banType": "everywhere",
+      "explanation": "Jeweled Lotus was never banned in SDH, and enables commander-centric play. Costing zero mana and being able to sacrifice itself also opens the door to some gimmick play."
+    },
+    {
+      "card": {
+        "name": "Mana Crypt",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=642856",
+        "imageUrl": "https://cards.scryfall.io/large/front/4/d/4d960186-4559-4af0-bd22-63baa15f8939.jpg?1727298349"
+      },
+      "banType": "everywhere",
+      "explanation": "This card was never banned in SDH, but may be in the future. I (the guy making the website) personally despise this card."
+    },
+    {
+      "card": {
+        "name": "Nadu, Winged Wisdom",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=661500",
+        "imageUrl": "https://cards.scryfall.io/large/front/9/4/94b67489-5eb0-4406-9bf3-27e50dc632eb.jpg?1731574759"
+      },
+      "banType": "library",
+      "explanation": "Nadu in the library hasn't been fully investigated, but for now it's only banned as spouse."
+    },
+    {
+      "card": {
         "name": "Biorhythm",
         "cardUrl": "https://scryfall.com/card/9ed/231/biorhythm",
         "imageUrl": "https://cards.scryfall.io/large/front/1/7/17d1a10f-ce21-4914-9984-c7c559161230.jpg?1593017425"
@@ -56,7 +92,7 @@
       },
       "banType": "everywhere",
     },
-    {
+    /*{ //Unbanned in EDH on 2025-04-22
       "card": {
         "name": "Gifts Ungiven",
         "imageUrl": "https://cards.scryfall.io/normal/front/c/c/cc950b6c-0346-4939-b36b-9f10a75f7a32.jpg?1673147306",
@@ -64,7 +100,7 @@
       },
       "banType": "everywhere",
       "explanation": "Gifts Ungiven is very comparable to Intuition, and Intuition hasn't been a problem card in EDH."
-    },
+    },*/
     {
       "card": {
         "name": "Rofellos, Llanowar Emissary",
@@ -107,14 +143,14 @@
       },
       "banType": "everywhere"
     },
-    {
+    /*{ // Unbanned in EDH on 2025-04-22
       "card": {
         "name": "Sway of the Stars",
         "cardUrl": "https://scryfall.com/card/bok/54/sway-of-the-stars",
         "imageUrl": "https://cards.scryfall.io/large/front/5/e/5eb58d9e-d181-4167-8b80-64b238183bdb.jpg?1562877344",
       },
       "banType": "everywhere"
-    },
+    },*/
     {
       "card": {
         "name": "Sundering Titan",
@@ -153,12 +189,21 @@
   const bans = [
     {
       "card": {
+        "name": "Braids, Cabal Minion",
+        "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=526244",
+        "imageUrl": "https://cards.scryfall.io/large/front/2/7/27691efa-052d-4afe-b9ef-159858ca660f.jpg?1745319961"
+      },
+      "banType": "spouse",
+      "explanation": "Braids is banned because it's very difficult to deal with when it comes out on the first turn, and thus puts a lot of importance on seating order."
+    },
+    {
+      "card": {
         "name": "Thassa's Oracle",
         "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=476324",
         "imageUrl": "https://cards.scryfall.io/large/front/7/2/726e8b29-13e9-4138-b6a9-d2a0d8188d1c.jpg?1680582212"
       },
       "banType": "library",
-      "rationale": "Thassa's Oracle had very efficient two-card-combos with Demonic Consultation and Tainted Pact that were completely commander-agnostic, gameplan-agnostic, and non-committal. This was exacerbated by the fact that Thoracle was in the two best colors, and had the effect of devaluing commander participation in combos. Additionally, Laboratory Maniac still exists, so more creative/commander-centric uses of Thassa's Oracle can largely continue to exist."
+      "explanation": "Thassa's Oracle had very efficient two-card-combos with Demonic Consultation and Tainted Pact that were completely commander-agnostic, gameplan-agnostic, and non-committal. This was exacerbated by the fact that Thoracle was in the two best colors, and had the effect of devaluing commander participation in combos. Additionally, Laboratory Maniac still exists, so more creative/commander-centric uses of Thassa's Oracle can largely continue to exist."
     },
     {
       "card": {
@@ -167,7 +212,7 @@
         "imageUrl": "https://cards.scryfall.io/large/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1650599818"
       },
       "banType": "library",
-      "rationale": "Underworld Breach, like Thassa's Oracle, gave many decks a \"free\" win condition for being in certain color identities, and made it possible to run pure \"goodstuff\" decks whose commanders were just value engines with no combo participation. This was the meta, and resulted in overall less diverse and commander-centric gameplay, despite Breach itself being a very interesting and stax-vulnerable card. Unlike Thoracle, there's a chance that Breach comes back off the ban list at some point."
+      "explanation": "Underworld Breach, like Thassa's Oracle, gave many decks a \"free\" win condition for being in certain color identities, and made it possible to run pure \"goodstuff\" decks whose commanders were just value engines with no combo participation. This was the meta, and resulted in overall less diverse and commander-centric gameplay, despite Breach itself being a very interesting and stax-vulnerable card. Unlike Thoracle, there's a chance that Breach comes back off the ban list at some point."
     },
     {
     "card": {
@@ -176,7 +221,7 @@
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460981&printed=false"
     },
     "banType": "spouse",
-    "rationale": "This ban may get reversed, but having Labjace in the command zone seems too powerful. This ban (like Narset and Ashiok) was made in the same rules change that legalized planeswalkers, so none of them have been tested in practice."
+    "explanation": "This ban may get reversed, but having Labjace in the command zone seems too powerful. This ban (like Narset and Ashiok) was made in the same rules change that legalized planeswalkers, so none of them have been tested in practice."
   },
   {
     "card": {
@@ -185,7 +230,7 @@
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=461155&printed=false"
     },
     "banType": "spouse",
-    "rationale": "Crippling and asymmetrical stax piece in ideal colors in the uncommon slot would homogeneize commander choices, and would appear so often that it would essentially remove toolbox decks as an archetype."
+    "explanation": "Crippling and asymmetrical stax piece in ideal colors in the uncommon slot would homogeneize commander choices, and would appear so often that it would essentially remove toolbox decks as an archetype."
   },
   {
     "card": {
@@ -194,7 +239,7 @@
       "cardUrl": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=625258&printed=false"
     },
     "banType": "spouse",
-    "rationale": "Like Ashiok, crippling, cheap, and completely non-committal. Would homogeneize deckbuilding, and would be a boring \"obligatory\" Uncommon slot in many decks. You'd need to account for your opponents' Narsets whenever making a deck, which is a hallmark sign of a card that would be bad for meta diversity."
+    "explanation": "Like Ashiok, crippling, cheap, and completely non-committal. Would homogeneize deckbuilding, and would be a boring \"obligatory\" Uncommon slot in many decks. You'd need to account for your opponents' Narsets whenever making a deck, which is a hallmark sign of a card that would be bad for meta diversity."
   },
   ];
   const generalBans = bans.filter((ban) => {
@@ -239,7 +284,7 @@
     </List>
     {#if commanderUnbans.length > 0}
     <br />
-    <p>These cards are unbanned from the command zone specifically, and may still be banned in the library.</p>
+    <p>These cards are unbanned from the command zone specifically, but are still be banned in the library.</p>
     <List class="inline">
       {#each commanderUnbans as unban}
         <Li><CardWithExplanation card={unban.card} explanation={unban.explanation} /></Li>
@@ -248,7 +293,7 @@
     {/if}
     {#if libraryUnbans.length > 0}
     <br />
-    <p>These cards are unbanned from use in the library, and may still be banned in the command zone.</p>
+    <p>These cards are unbanned from use in the library, but are still be banned in the command zone.</p>
     <List class="inline">
       {#each libraryUnbans as unban}
         <Li><CardWithExplanation card={unban.card} explanation={unban.explanation} /></Li>
