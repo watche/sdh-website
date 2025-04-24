@@ -30,7 +30,7 @@
     <div>And, of course, no banned commanders.</div>
     <br />
     <p>
-      Abilities that make it possible to have more than one commander in EDH are ignored:
+      Abilities that make it possible to have more than one commander in EDH are ignored. Exempli Gratia:
       <List class="inline">
         <Li>Partner</Li>
         <Li>
@@ -48,6 +48,7 @@
             <p slot="clarification">Companion doesn't give you access to an extra commander, but it has the "throuple" problem that "Partner With" does. <br /><br />It also has the "confusing new zone" problem that Stickers and Attractions have.</p>
           </Clarification>*
         </Li>
+        <Li>Doctor's Companion</Li>
       </List>
       <em>However:</em> Commanders made legal by these abilities in EDH are still eligible in SDH. This means that you are allowed to run Background enchantments as commander, despite not being legal commanders without the "Choose a Background" mechanic.
     </p>

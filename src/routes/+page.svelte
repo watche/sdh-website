@@ -20,7 +20,7 @@
   <!-- TODO: Div with similar `background-color`s to make the loading less jarring. -->
   <img src={TwoCommandersImg} class="mt-2" style="aspect-ratio: 600 / 486" width="600" height="486" alt="SDH allows you to run two commanders" />
   <section>
-    <p class="mb-3">An idea so good that Wizards themselves have <Clarification>had<span slot="clarification">Partner</span></Clarification> <Clarification>it<span slot="clarification">Partner With</span></Clarification> <Clarification>several<span slot="clarification">Companion</span></Clarification> <Clarification>times<svelte:fragment slot="clarification">Choose a Background</svelte:fragment></Clarification>! But nobody really wants to play "every commander has partner" because it just feels too busted. It feels like No Banlist where it's a can of worms most players would rather keep closed.</p>
+    <p class="mb-3">An idea so good that Wizards themselves <Clarification>have <span slot="clarification">Doctor's Companion</span></Clarification> <Clarification>had<span slot="clarification">Partner</span></Clarification> <Clarification>it<span slot="clarification">Partner With</span></Clarification> <Clarification>several<span slot="clarification">Companion</span></Clarification> <Clarification>times<svelte:fragment slot="clarification">Choose a Background</svelte:fragment></Clarification>! But nobody really wants to play "every commander has partner" because it just feels too busted. It feels like No Banlist where it's a can of worms most players would rather keep closed.</p>
     <p>SDH keeps the worms at bay with two simple rules:</p>
     <List class="inline">
       <Li>Decks are limited to three colors.</Li>
